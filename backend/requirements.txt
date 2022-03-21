@@ -1,0 +1,9 @@
+fastapi
+netmiko
+netdev
+ntc-templates
+uvicorn
+python-dotenv
+python-multipart
+python-jose[cryptography]
+passlib[bcrypt]

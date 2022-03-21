@@ -1,0 +1,1165 @@
+11/Feb/2022 - 11:05:01 - 181.94.47.228:5536 - GET /diagram HTTPS
+  all_down - 5.06 s
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+    192.168.1.104:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.104:22\n\n',)
+
+11/Feb/2022 - 11:17:03 - 181.94.47.228:5898 - GET /diagram HTTPS
+  all_down - 5.03 s
+    192.168.1.104:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.104:22\n\n',)
+
+11/Feb/2022 - 11:17:17 - 181.94.47.228:5913 - GET /diagram HTTPS
+  no_devices_in_db - 5.91 ms
+    No devices present in database. Please, add devices and try again
+
+11/Feb/2022 - 11:25:10 - 181.94.47.228:6203 - GET /diagram HTTPS
+  no_devices_in_db - 22.34 ms
+    No devices present in database. Please, add devices and try again
+
+11/Feb/2022 - 11:29:47 - 181.94.47.228:6360 - GET /diagram HTTPS
+  no_devices_in_db - 10.39 ms
+    No devices present in database. Please, add devices and try again
+
+11/Feb/2022 - 11:42:54 - 181.94.47.228:6930 - GET /diagram HTTPS
+  no_devices_in_db - 5.81 ms
+    No devices present in database. Please, add devices and try again
+
+11/Feb/2022 - 11:46:18 - 181.94.47.228:7042 - GET /diagram HTTPS
+  no_devices_in_db - 4.75 ms
+    No devices present in database. Please, add devices and try again
+
+11/Feb/2022 - 12:13:24 - 181.94.47.228:13104 - GET /diagram HTTPS
+  no_devices_in_db - 8.22 ms
+    No devices present in database. Please, add devices and try again
+
+11/Feb/2022 - 13:12:22 - 181.94.47.228:1061 - GET /diagram HTTPS
+  all_down - 20.04 s
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+11/Feb/2022 - 17:07:53 - 181.94.47.228:29551 - GET /diagram HTTPS
+  all_down - 20.05 s
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+11/Feb/2022 - 17:47:10 - 181.94.47.228:29789 - GET /diagram HTTPS
+  all_down - 20.03 s
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+12/Feb/2022 - 17:16:38 - 181.94.47.228:1440 - GET /diagram HTTPS
+  all_down - 20.1 s
+    192.168.1.104:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.104:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+12/Feb/2022 - 17:42:25 - 181.94.47.228:1659 - GET /diagram HTTPS
+  all_down - 20.04 s
+    192.168.1.104:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.104:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+12/Feb/2022 - 17:52:05 - 181.94.47.228:1763 - GET /diagram HTTPS
+  all_down - 20.09 s
+    192.168.1.104:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.104:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+12/Feb/2022 - 18:33:19 - 181.94.47.228:18337 - GET /diagram HTTPS
+  no_devices_in_db - 6.66 ms
+    No devices present in database. Please, add devices and try again
+
+12/Feb/2022 - 18:33:26 - 181.94.47.228:18340 - GET /diagram HTTPS
+  no_devices_in_db - 5.04 ms
+    No devices present in database. Please, add devices and try again
+
+12/Feb/2022 - 18:36:32 - 181.94.47.228:18385 - GET /diagram HTTPS
+  no_devices_in_db - 5.66 ms
+    No devices present in database. Please, add devices and try again
+
+12/Feb/2022 - 18:45:04 - 181.94.47.228:18499 - GET /diagram HTTPS
+  no_devices_in_db - 6.12 ms
+    No devices present in database. Please, add devices and try again
+
+12/Feb/2022 - 18:45:49 - 181.94.47.228:18505 - GET /diagram HTTPS
+  no_devices_in_db - 5.33 ms
+    No devices present in database. Please, add devices and try again
+
+12/Feb/2022 - 18:46:22 - 181.94.47.228:18511 - GET /diagram HTTPS
+  no_devices_in_db - 4.78 ms
+    No devices present in database. Please, add devices and try again
+
+12/Feb/2022 - 18:52:52 - 181.94.47.228:1061 - GET /diagram HTTPS
+  no_devices_in_db - 7.35 ms
+    No devices present in database. Please, add devices and try again
+
+12/Feb/2022 - 18:54:47 - 181.94.47.228:1051 - GET /diagram HTTPS
+  no_devices_in_db - 5.88 ms
+    No devices present in database. Please, add devices and try again
+
+12/Feb/2022 - 18:54:52 - 181.94.47.228:1051 - GET /diagram HTTPS
+  no_devices_in_db - 4.73 ms
+    No devices present in database. Please, add devices and try again
+
+12/Feb/2022 - 18:55:46 - 181.94.47.228:1063 - GET /diagram HTTPS
+  no_devices_in_db - 4.04 ms
+    No devices present in database. Please, add devices and try again
+
+12/Feb/2022 - 18:56:44 - 181.94.47.228:1073 - GET /diagram HTTPS
+  no_devices_in_db - 5.93 ms
+    No devices present in database. Please, add devices and try again
+
+12/Feb/2022 - 18:57:40 - 181.94.47.228:1090 - GET /diagram HTTPS
+  no_devices_in_db - 5.71 ms
+    No devices present in database. Please, add devices and try again
+
+12/Feb/2022 - 19:03:38 - 181.94.47.228:1154 - GET /diagram HTTPS
+  no_devices_in_db - 5.28 ms
+    No devices present in database. Please, add devices and try again
+
+12/Feb/2022 - 19:03:48 - 181.94.47.228:1155 - GET /diagram HTTPS
+  no_devices_in_db - 4.75 ms
+    No devices present in database. Please, add devices and try again
+
+12/Feb/2022 - 19:05:53 - 181.94.47.228:1186 - GET /diagram HTTPS
+  no_devices_in_db - 4.46 ms
+    No devices present in database. Please, add devices and try again
+
+12/Feb/2022 - 19:05:56 - 181.94.47.228:1186 - GET /diagram HTTPS
+  no_devices_in_db - 7.86 ms
+    No devices present in database. Please, add devices and try again
+
+12/Feb/2022 - 19:11:56 - 181.94.47.228:1292 - GET /diagram HTTPS
+  no_devices_in_db - 4.46 ms
+    No devices present in database. Please, add devices and try again
+
+12/Feb/2022 - 19:19:55 - 181.94.47.228:1651 - GET /diagram HTTPS
+  no_devices_in_db - 7.61 ms
+    No devices present in database. Please, add devices and try again
+
+12/Feb/2022 - 19:19:59 - 181.94.47.228:1652 - GET /diagram HTTPS
+  no_devices_in_db - 4.66 ms
+    No devices present in database. Please, add devices and try again
+
+12/Feb/2022 - 19:21:02 - 181.94.47.228:1669 - GET /diagram HTTPS
+  no_devices_in_db - 5.39 ms
+    No devices present in database. Please, add devices and try again
+
+12/Feb/2022 - 19:21:17 - 181.94.47.228:1673 - GET /diagram HTTPS
+  no_devices_in_db - 5.46 ms
+    No devices present in database. Please, add devices and try again
+
+12/Feb/2022 - 19:21:33 - 181.94.47.228:1696 - GET /diagram HTTPS
+  no_devices_in_db - 7.41 ms
+    No devices present in database. Please, add devices and try again
+
+12/Feb/2022 - 19:21:35 - 181.94.47.228:1696 - GET /diagram HTTPS
+  no_devices_in_db - 4.51 ms
+    No devices present in database. Please, add devices and try again
+
+12/Feb/2022 - 19:21:35 - 181.94.47.228:1696 - GET /diagram HTTPS
+  no_devices_in_db - 4.2 ms
+    No devices present in database. Please, add devices and try again
+
+12/Feb/2022 - 19:21:36 - 181.94.47.228:1696 - GET /diagram HTTPS
+  no_devices_in_db - 5.39 ms
+    No devices present in database. Please, add devices and try again
+
+12/Feb/2022 - 19:21:37 - 181.94.47.228:1696 - GET /diagram HTTPS
+  no_devices_in_db - 5.16 ms
+    No devices present in database. Please, add devices and try again
+
+12/Feb/2022 - 19:21:38 - 181.94.47.228:1698 - GET /diagram HTTPS
+  no_devices_in_db - 4.73 ms
+    No devices present in database. Please, add devices and try again
+
+12/Feb/2022 - 19:21:38 - 181.94.47.228:1698 - GET /diagram HTTPS
+  no_devices_in_db - 4.96 ms
+    No devices present in database. Please, add devices and try again
+
+12/Feb/2022 - 19:21:39 - 181.94.47.228:1698 - GET /diagram HTTPS
+  no_devices_in_db - 3.8 ms
+    No devices present in database. Please, add devices and try again
+
+12/Feb/2022 - 19:21:40 - 181.94.47.228:1698 - GET /diagram HTTPS
+  no_devices_in_db - 4.92 ms
+    No devices present in database. Please, add devices and try again
+
+12/Feb/2022 - 19:21:40 - 181.94.47.228:1696 - GET /diagram HTTPS
+  no_devices_in_db - 10.09 ms
+    No devices present in database. Please, add devices and try again
+
+12/Feb/2022 - 19:21:41 - 181.94.47.228:1696 - GET /diagram HTTPS
+  no_devices_in_db - 4.8 ms
+    No devices present in database. Please, add devices and try again
+
+12/Feb/2022 - 19:21:42 - 181.94.47.228:1696 - GET /diagram HTTPS
+  no_devices_in_db - 4.72 ms
+    No devices present in database. Please, add devices and try again
+
+12/Feb/2022 - 19:21:42 - 181.94.47.228:1696 - GET /diagram HTTPS
+  no_devices_in_db - 6.52 ms
+    No devices present in database. Please, add devices and try again
+
+12/Feb/2022 - 19:22:16 - 181.94.47.228:1715 - GET /diagram HTTPS
+  no_devices_in_db - 5.07 ms
+    No devices present in database. Please, add devices and try again
+
+12/Feb/2022 - 19:27:21 - 181.94.47.228:1787 - GET /diagram HTTPS
+  no_devices_in_db - 5.88 ms
+    No devices present in database. Please, add devices and try again
+
+12/Feb/2022 - 19:27:32 - 181.94.47.228:1792 - GET /diagram HTTPS
+  no_devices_in_db - 4.13 ms
+    No devices present in database. Please, add devices and try again
+
+12/Feb/2022 - 20:19:06 - 181.94.47.228:1066 - GET /diagram HTTPS
+  all_down - 5.08 s
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+12/Feb/2022 - 21:33:14 - 181.94.47.228:1088 - GET /diagram HTTPS
+  all_down - 5.1 s
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+12/Feb/2022 - 21:41:27 - 181.94.47.228:1240 - GET /diagram HTTPS
+  all_down - 5.04 s
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+12/Feb/2022 - 21:47:32 - 181.94.47.228:1275 - GET /diagram HTTPS
+  all_down - 5.04 s
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+12/Feb/2022 - 21:47:55 - 181.94.47.228:1287 - GET /diagram HTTPS
+  all_down - 5.05 s
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+12/Feb/2022 - 21:48:15 - 181.94.47.228:1299 - GET /diagram HTTPS
+  all_down - 5.05 s
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+12/Feb/2022 - 21:49:09 - 181.94.47.228:1317 - GET /diagram HTTPS
+  all_down - 5.05 s
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+12/Feb/2022 - 21:49:35 - 181.94.47.228:1326 - GET /diagram HTTPS
+  all_down - 5.05 s
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+12/Feb/2022 - 21:50:53 - 181.94.47.228:1355 - GET /diagram HTTPS
+  all_down - 5.1 s
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+12/Feb/2022 - 21:51:36 - 181.94.47.228:1365 - GET /diagram HTTPS
+  all_down - 5.04 s
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+12/Feb/2022 - 22:58:08 - 186.12.108.97:36595 - GET /diagram HTTPS
+  all_down - 5.02 s
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+12/Feb/2022 - 23:17:01 - 186.12.108.97:36591 - GET /diagram HTTPS
+  no_devices_in_db - 5.09 ms
+    No devices present in database. Please, add devices and try again
+
+13/Feb/2022 - 19:16:13 - 181.94.47.228:27173 - GET /diagram HTTPS
+  no_devices_in_db - 41.9 ms
+    No devices present in database. Please, add devices and try again
+
+13/Feb/2022 - 19:18:32 - 181.94.47.228:27196 - GET /diagram HTTPS
+  all_down - 5.09 s
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+13/Feb/2022 - 19:18:57 - 181.94.47.228:27211 - GET /diagram HTTPS
+  all_down - 5.05 s
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+13/Feb/2022 - 19:21:49 - 181.94.47.228:27365 - GET /diagram HTTPS
+  all_down - 5.05 s
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+13/Feb/2022 - 19:22:23 - 181.94.47.228:27376 - GET /diagram HTTPS
+  all_down - 5.05 s
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+13/Feb/2022 - 19:22:58 - 181.94.47.228:27390 - GET /diagram HTTPS
+  all_down - 5.03 s
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+13/Feb/2022 - 19:24:24 - 181.94.47.228:27407 - GET /diagram HTTPS
+  all_down - 5.04 s
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+13/Feb/2022 - 19:25:34 - 181.94.47.228:27421 - GET /diagram HTTPS
+  all_down - 5.06 s
+    1.1.1.1:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 1.1.1.1:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+13/Feb/2022 - 19:26:48 - 181.94.47.228:27433 - GET /diagram HTTPS
+  all_down - 5.04 s
+    3.3.3.3:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 3.3.3.3:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+    2.2.2.2:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 2.2.2.2:22\n\n',)
+
+    1.1.1.1:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 1.1.1.1:22\n\n',)
+
+13/Feb/2022 - 19:28:08 - 181.94.47.228:27462 - GET /diagram HTTPS
+  all_down - 5.06 s
+    1.1.1.1:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 1.1.1.1:22\n\n',)
+
+    2.2.2.2:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 2.2.2.2:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+    3.3.3.3:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 3.3.3.3:22\n\n',)
+
+13/Feb/2022 - 19:30:11 - 181.94.47.228:27500 - GET /diagram HTTPS
+  all_down - 5.06 s
+    1.1.1.1:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 1.1.1.1:22\n\n',)
+
+    2.2.2.2:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 2.2.2.2:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+    3.3.3.3:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 3.3.3.3:22\n\n',)
+
+13/Feb/2022 - 19:32:05 - 181.94.47.228:27523 - GET /diagram HTTPS
+  all_down - 5.04 s
+    2.2.2.2:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 2.2.2.2:22\n\n',)
+
+    3.3.3.3:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 3.3.3.3:22\n\n',)
+
+    1.1.1.1:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 1.1.1.1:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+13/Feb/2022 - 19:32:31 - 181.94.47.228:27533 - GET /diagram HTTPS
+  all_down - 5.05 s
+    3.3.3.3:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 3.3.3.3:22\n\n',)
+
+    1.1.1.1:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 1.1.1.1:22\n\n',)
+
+    2.2.2.2:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 2.2.2.2:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+13/Feb/2022 - 19:33:31 - 181.94.47.228:27560 - GET /diagram HTTPS
+  all_down - 5.07 s
+    3.3.3.3:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 3.3.3.3:22\n\n',)
+
+    1.1.1.1:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 1.1.1.1:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+    2.2.2.2:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 2.2.2.2:22\n\n',)
+
+13/Feb/2022 - 19:34:39 - 181.94.47.228:27582 - GET /diagram HTTPS
+  all_down - 5.08 s
+    2.2.2.2:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 2.2.2.2:22\n\n',)
+
+    1.1.1.1:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 1.1.1.1:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+    3.3.3.3:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 3.3.3.3:22\n\n',)
+
+13/Feb/2022 - 19:37:02 - 181.94.47.228:27610 - GET /diagram HTTPS
+  all_down - 5.06 s
+    3.3.3.3:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 3.3.3.3:22\n\n',)
+
+    2.2.2.2:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 2.2.2.2:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+    1.1.1.1:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 1.1.1.1:22\n\n',)
+
+13/Feb/2022 - 19:39:20 - 181.94.47.228:27648 - GET /diagram HTTPS
+  all_down - 5.06 s
+    1.1.1.1:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 1.1.1.1:22\n\n',)
+
+    2.2.2.2:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 2.2.2.2:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+    3.3.3.3:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 3.3.3.3:22\n\n',)
+
+13/Feb/2022 - 19:39:54 - 181.94.47.228:27664 - GET /diagram HTTPS
+  all_down - 5.1 s
+    2.2.2.2:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 2.2.2.2:22\n\n',)
+
+    3.3.3.3:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 3.3.3.3:22\n\n',)
+
+    1.1.1.1:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 1.1.1.1:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+13/Feb/2022 - 19:40:46 - 181.94.47.228:27693 - GET /diagram HTTPS
+  all_down - 5.06 s
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+    2.2.2.2:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 2.2.2.2:22\n\n',)
+
+    3.3.3.3:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 3.3.3.3:22\n\n',)
+
+    1.1.1.1:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 1.1.1.1:22\n\n',)
+
+13/Feb/2022 - 19:41:24 - 181.94.47.228:27705 - GET /diagram HTTPS
+  all_down - 5.09 s
+    2.2.2.2:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 2.2.2.2:22\n\n',)
+
+    3.3.3.3:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 3.3.3.3:22\n\n',)
+
+    1.1.1.1:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 1.1.1.1:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+13/Feb/2022 - 19:42:39 - 181.94.47.228:27723 - GET /diagram HTTPS
+  all_down - 5.05 s
+    3.3.3.3:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 3.3.3.3:22\n\n',)
+
+    2.2.2.2:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 2.2.2.2:22\n\n',)
+
+    1.1.1.1:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 1.1.1.1:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+13/Feb/2022 - 19:43:05 - 181.94.47.228:27736 - GET /diagram HTTPS
+  all_down - 5.07 s
+    1.1.1.1:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 1.1.1.1:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+    3.3.3.3:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 3.3.3.3:22\n\n',)
+
+    2.2.2.2:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 2.2.2.2:22\n\n',)
+
+13/Feb/2022 - 19:44:53 - 181.94.47.228:27777 - GET /diagram HTTPS
+  all_down - 5.13 s
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+    3.3.3.3:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 3.3.3.3:22\n\n',)
+
+    1.1.1.1:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 1.1.1.1:22\n\n',)
+
+    2.2.2.2:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 2.2.2.2:22\n\n',)
+
+13/Feb/2022 - 19:46:55 - 181.94.47.228:27807 - GET /diagram HTTPS
+  all_down - 5.06 s
+    3.3.3.3:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 3.3.3.3:22\n\n',)
+
+    2.2.2.2:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 2.2.2.2:22\n\n',)
+
+    1.1.1.1:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 1.1.1.1:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+13/Feb/2022 - 19:49:33 - 181.94.47.228:27842 - GET /diagram HTTPS
+  all_down - 5.07 s
+    1.1.1.1:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 1.1.1.1:22\n\n',)
+
+    2.2.2.2:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 2.2.2.2:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+    3.3.3.3:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 3.3.3.3:22\n\n',)
+
+13/Feb/2022 - 19:52:25 - 181.94.47.228:1300 - GET /diagram HTTPS
+  all_down - 5.14 s
+    3.3.3.3:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 3.3.3.3:22\n\n',)
+
+    1.1.1.1:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 1.1.1.1:22\n\n',)
+
+    2.2.2.2:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 2.2.2.2:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+13/Feb/2022 - 19:54:20 - 181.94.47.228:1370 - GET /diagram HTTPS
+  all_down - 5.09 s
+    2.2.2.2:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 2.2.2.2:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+    1.1.1.1:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 1.1.1.1:22\n\n',)
+
+    3.3.3.3:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 3.3.3.3:22\n\n',)
+
+13/Feb/2022 - 19:54:50 - 181.94.47.228:1384 - GET /diagram HTTPS
+  all_down - 5.07 s
+    1.1.1.1:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 1.1.1.1:22\n\n',)
+
+    2.2.2.2:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 2.2.2.2:22\n\n',)
+
+    3.3.3.3:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 3.3.3.3:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+13/Feb/2022 - 19:55:45 - 181.94.47.228:1413 - GET /diagram HTTPS
+  all_down - 5.12 s
+    2.2.2.2:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 2.2.2.2:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+    1.1.1.1:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 1.1.1.1:22\n\n',)
+
+    3.3.3.3:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 3.3.3.3:22\n\n',)
+
+13/Feb/2022 - 20:04:00 - 181.94.47.228:11966 - GET /diagram HTTPS
+  all_down - 5.04 s
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+    2.2.2.2:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 2.2.2.2:22\n\n',)
+
+    3.3.3.3:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 3.3.3.3:22\n\n',)
+
+    1.1.1.1:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 1.1.1.1:22\n\n',)
+
+13/Feb/2022 - 20:05:09 - 181.94.47.228:11986 - GET /diagram HTTPS
+  all_down - 5.04 s
+    3.3.3.3:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 3.3.3.3:22\n\n',)
+
+    2.2.2.2:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 2.2.2.2:22\n\n',)
+
+    1.1.1.1:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 1.1.1.1:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+13/Feb/2022 - 20:06:21 - 181.94.47.228:12056 - GET /diagram HTTPS
+  all_down - 5.05 s
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+    1.1.1.1:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 1.1.1.1:22\n\n',)
+
+    2.2.2.2:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 2.2.2.2:22\n\n',)
+
+    3.3.3.3:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 3.3.3.3:22\n\n',)
+
+13/Feb/2022 - 20:07:24 - 181.94.47.228:12086 - GET /diagram HTTPS
+  all_down - 5.13 s
+    1.1.1.1:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 1.1.1.1:22\n\n',)
+
+    3.3.3.3:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 3.3.3.3:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+    2.2.2.2:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 2.2.2.2:22\n\n',)
+
+13/Feb/2022 - 20:09:10 - 181.94.47.228:12122 - GET /diagram HTTPS
+  all_down - 5.09 s
+    2.2.2.2:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 2.2.2.2:22\n\n',)
+
+    3.3.3.3:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 3.3.3.3:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+    1.1.1.1:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 1.1.1.1:22\n\n',)
+
+13/Feb/2022 - 20:10:11 - 181.94.47.228:12141 - GET /diagram HTTPS
+  all_down - 5.05 s
+    2.2.2.2:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 2.2.2.2:22\n\n',)
+
+    1.1.1.1:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 1.1.1.1:22\n\n',)
+
+    3.3.3.3:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 3.3.3.3:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+13/Feb/2022 - 20:11:00 - 181.94.47.228:12161 - GET /diagram HTTPS
+  all_down - 5.06 s
+    2.2.2.2:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 2.2.2.2:22\n\n',)
+
+    3.3.3.3:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 3.3.3.3:22\n\n',)
+
+    1.1.1.1:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 1.1.1.1:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+13/Feb/2022 - 20:12:10 - 181.94.47.228:12181 - GET /diagram HTTPS
+  all_down - 5.08 s
+    2.2.2.2:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 2.2.2.2:22\n\n',)
+
+    3.3.3.3:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 3.3.3.3:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+    1.1.1.1:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 1.1.1.1:22\n\n',)
+
+13/Feb/2022 - 20:14:55 - 181.94.47.228:12199 - GET /diagram HTTPS
+  all_down - 5.06 s
+    2.2.2.2:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 2.2.2.2:22\n\n',)
+
+    1.1.1.1:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 1.1.1.1:22\n\n',)
+
+    3.3.3.3:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 3.3.3.3:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+13/Feb/2022 - 20:16:22 - 181.94.47.228:12221 - GET /diagram HTTPS
+  all_down - 5.04 s
+    2.2.2.2:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 2.2.2.2:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+    3.3.3.3:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 3.3.3.3:22\n\n',)
+
+    1.1.1.1:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 1.1.1.1:22\n\n',)
+
+13/Feb/2022 - 20:20:47 - 181.94.47.228:12278 - GET /diagram HTTPS
+  no_devices_in_db - 5.67 ms
+    No devices present in database. Please, add devices and try again
+
+13/Feb/2022 - 20:21:55 - 181.94.47.228:12300 - GET /diagram HTTPS
+  all_down - 5.05 s
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+    192.168.1.104:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.104:22\n\n',)
+
+13/Feb/2022 - 20:22:49 - 181.94.47.228:12383 - GET /diagram HTTPS
+  all_down - 5.04 s
+    192.168.1.104:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.104:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+13/Feb/2022 - 20:22:59 - 181.94.47.228:12383 - GET /diagram HTTPS
+  no_devices_in_db - 10.33 ms
+    No devices present in database. Please, add devices and try again
+
+13/Feb/2022 - 20:43:37 - 181.94.47.228:13025 - GET /diagram HTTPS
+  at_least_one_down - 8.32 s
+    Hubo 1 error
+      192.168.1.56:22 - cisco_ios
+        ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.56:22\n\n',)
+
+13/Feb/2022 - 20:47:23 - 181.94.47.228:13117 - GET /diagram HTTPS
+  at_least_one_down - 7.59 s
+    Hubo 1 error
+      192.168.1.56:22 - cisco_ios
+        ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.56:22\n\n',)
+
+13/Feb/2022 - 20:48:19 - 181.94.47.228:13135 - GET /diagram HTTPS
+  at_least_one_down - 11.4 s
+    Hubo 2 errores
+      172.16.17.18:22 - juniper_junos
+        ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: juniper_junos 172.16.17.18:22\n\n',)
+
+      192.168.1.56:22 - cisco_ios
+        ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.56:22\n\n',)
+
+13/Feb/2022 - 20:49:47 - 181.94.47.228:13148 - GET /diagram HTTPS
+  at_least_one_down - 7.84 s
+    Hubo 2 errores
+      192.168.1.56:22 - cisco_ios
+        ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.56:22\n\n',)
+
+      172.16.17.18:22 - juniper_junos
+        ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: juniper_junos 172.16.17.18:22\n\n',)
+
+13/Feb/2022 - 20:52:44 - 181.94.47.228:13191 - GET /diagram HTTPS
+  at_least_one_down - 9.64 s
+    Hubo 2 errores
+      172.16.17.18:22 - juniper_junos
+        ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: juniper_junos 172.16.17.18:22\n\n',)
+
+      192.168.1.56:22 - cisco_ios
+        ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.56:22\n\n',)
+
+13/Feb/2022 - 21:34:55 - 181.94.47.228:8600 - GET /diagram HTTPS
+  at_least_one_down - 11.39 s
+    Hubo 2 errores
+      172.16.17.18:22 - juniper_junos
+        ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: juniper_junos 172.16.17.18:22\n\n',)
+
+      192.168.1.56:22 - cisco_ios
+        ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.56:22\n\n',)
+
+13/Feb/2022 - 21:38:35 - 181.94.47.228:39292 - GET /diagram HTTPS
+  at_least_one_down - 7.1 s
+    Hubo 2 errores
+      172.16.17.18:22 - juniper_junos
+        ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: juniper_junos 172.16.17.18:22\n\n',)
+
+      192.168.1.56:22 - cisco_ios
+        ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.56:22\n\n',)
+
+13/Feb/2022 - 21:46:40 - 181.94.47.228:39324 - GET /diagram HTTPS
+  at_least_one_down - 6.3 s
+    Hubo 2 errores
+      172.16.17.18:22 - juniper_junos
+        ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: juniper_junos 172.16.17.18:22\n\n',)
+
+      192.168.1.56:22 - cisco_ios
+        ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.56:22\n\n',)
+
+13/Feb/2022 - 21:49:22 - 181.94.47.228:39354 - GET /diagram HTTPS
+  at_least_one_down - 6.29 s
+    Hubo 2 errores
+      192.168.1.56:22 - cisco_ios
+        ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.56:22\n\n',)
+
+      172.16.17.18:22 - juniper_junos
+        ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: juniper_junos 172.16.17.18:22\n\n',)
+
+14/Feb/2022 - 00:39:41 - 181.94.47.228:57593 - GET /diagram HTTPS
+  at_least_one_down - 5.6 s
+    Hubo 2 errores
+      192.168.1.56:22 - cisco_ios
+        ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.56:22\n\n',)
+
+      172.16.17.18:22 - juniper_junos
+        ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: juniper_junos 172.16.17.18:22\n\n',)
+
+14/Feb/2022 - 16:35:05 - 181.94.47.228:60033 - GET /diagram HTTPS
+  at_least_one_down - 5.88 s
+    Hubo 2 errores
+      192.168.1.56:22 - cisco_ios
+        ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.56:22\n\n',)
+
+      172.16.17.18:22 - juniper_junos
+        ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: juniper_junos 172.16.17.18:22\n\n',)
+
+14/Feb/2022 - 21:18:14 - 181.94.47.228:55063 - GET /diagram HTTPS
+  at_least_one_down - 5.55 s
+    Hubo 2 errores
+      192.168.1.56:22 - cisco_ios
+        ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.56:22\n\n',)
+
+      172.16.17.18:22 - juniper_junos
+        ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: juniper_junos 172.16.17.18:22\n\n',)
+
+19/Feb/2022 - 23:13:23 - 181.93.1.4:1085 - GET /diagram HTTPS
+  all_down - 20.04 s
+    192.168.1.104:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.104:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+19/Feb/2022 - 23:15:27 - 181.93.1.4:1191 - GET /diagram HTTPS
+  all_down - 20.02 s
+    192.168.1.104:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.104:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+19/Feb/2022 - 23:17:26 - 181.93.1.4:1213 - GET /diagram HTTPS
+  all_down - 20.03 s
+    192.168.1.104:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.104:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+19/Feb/2022 - 23:20:13 - 181.93.1.4:1314 - GET /diagram HTTPS
+  all_down - 20.03 s
+    192.168.1.104:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.104:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+19/Feb/2022 - 23:34:00 - 181.93.1.4:1093 - GET /diagram HTTPS
+  all_down - 20.06 s
+    192.168.1.104:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.104:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+19/Feb/2022 - 23:34:49 - 181.93.1.4:1102 - GET /diagram HTTPS
+  all_down - 20.04 s
+    192.168.1.104:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.104:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+19/Feb/2022 - 23:35:30 - 181.93.1.4:1107 - GET /diagram HTTPS
+  all_down - 20.04 s
+    192.168.1.104:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.104:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+19/Feb/2022 - 23:36:06 - 181.93.1.4:1119 - GET /diagram HTTPS
+  all_down - 20.04 s
+    192.168.1.104:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.104:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+19/Feb/2022 - 23:36:40 - 181.93.1.4:1130 - GET /diagram HTTPS
+  all_down - 20.02 s
+    192.168.1.104:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.104:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+19/Feb/2022 - 23:37:19 - 181.93.1.4:1139 - GET /diagram HTTPS
+  all_down - 20.02 s
+    192.168.1.104:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.104:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+19/Feb/2022 - 23:38:12 - 181.93.1.4:1146 - GET /diagram HTTPS
+  all_down - 20.04 s
+    192.168.1.104:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.104:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+19/Feb/2022 - 23:38:59 - 181.93.1.4:1167 - GET /diagram HTTPS
+  all_down - 20.03 s
+    192.168.1.104:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.104:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+19/Feb/2022 - 23:39:23 - 181.93.1.4:1167 - GET /diagram HTTPS
+  all_down - 20.03 s
+    192.168.1.104:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.104:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+19/Feb/2022 - 23:39:55 - 181.93.1.4:1203 - GET /diagram HTTPS
+  all_down - 20.03 s
+    192.168.1.104:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.104:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+19/Feb/2022 - 23:40:15 - 181.93.1.4:1222 - GET /diagram HTTPS
+  all_down - 20.03 s
+    192.168.1.104:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.104:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+19/Feb/2022 - 23:40:37 - 181.93.1.4:1222 - GET /diagram HTTPS
+  all_down - 20.03 s
+    192.168.1.104:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.104:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+19/Feb/2022 - 23:43:11 - 181.93.1.4:1335 - GET /diagram HTTPS
+  all_down - 20.03 s
+    192.168.1.104:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.104:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+19/Feb/2022 - 23:46:23 - 181.93.1.4:1370 - GET /diagram HTTPS
+  all_down - 20.07 s
+    192.168.1.104:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.104:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+19/Feb/2022 - 23:48:34 - 181.93.1.4:1399 - GET /diagram HTTPS
+  all_down - 20.02 s
+    192.168.1.104:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.104:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+19/Feb/2022 - 23:49:52 - 181.93.1.4:52391 - GET /diagram HTTPS
+  all_down - 20.02 s
+    192.168.1.104:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.104:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+19/Feb/2022 - 23:50:38 - 186.12.76.19:26744 - GET /diagram HTTPS
+  all_down - 20.03 s
+    192.168.1.104:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.104:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+20/Feb/2022 - 01:29:11 - 181.93.1.4:1175 - GET /diagram HTTPS
+  all_down - 20.04 s
+    192.168.1.104:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.104:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+20/Feb/2022 - 01:31:09 - 181.93.1.4:39548 - GET /diagram HTTPS
+  all_down - 20.01 s
+    192.168.1.104:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.104:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+20/Feb/2022 - 01:31:36 - 181.93.1.4:39556 - GET /diagram HTTPS
+  all_down - 20.02 s
+    192.168.1.104:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.104:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+20/Feb/2022 - 01:32:38 - 181.93.1.4:1198 - GET /diagram HTTPS
+  all_down - 20.03 s
+    192.168.1.104:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.104:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+20/Feb/2022 - 01:35:36 - 186.12.76.19:1303 - GET /diagram HTTPS
+  all_down - 20.01 s
+    192.168.1.104:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.104:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+20/Feb/2022 - 01:57:57 - 181.93.1.4:1239 - GET /diagram HTTPS
+  all_down - 20.03 s
+    192.168.1.104:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.104:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+20/Feb/2022 - 02:07:11 - 181.93.1.4:3954 - GET /diagram HTTPS
+  all_down - 20.03 s
+    192.168.1.104:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.104:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+20/Feb/2022 - 02:36:38 - 181.93.1.4:16213 - GET /diagram HTTPS
+  all_down - 20.05 s
+    192.168.1.104:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.104:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+20/Feb/2022 - 02:54:31 - 181.93.1.4:16345 - GET /diagram HTTPS
+  all_down - 20.04 s
+    192.168.1.104:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.104:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+20/Feb/2022 - 06:13:24 - 181.93.1.4:1113 - GET /diagram HTTPS
+  all_down - 20.03 s
+    192.168.1.104:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.104:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+20/Feb/2022 - 06:18:44 - 181.93.1.4:1167 - GET /diagram HTTPS
+  all_down - 20.04 s
+    192.168.1.104:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.104:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+20/Feb/2022 - 06:25:31 - 181.93.1.4:1270 - GET /diagram HTTPS
+  all_down - 20.02 s
+    192.168.1.104:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.104:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+20/Feb/2022 - 21:58:30 - 181.93.1.4:1950 - GET /diagram HTTPS
+  all_down - 20.03 s
+    192.168.1.104:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.104:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+
+14/Mar/2022 - 04:26:46 - 181.94.190.177:30161 - GET /diagram HTTPS
+  no_devices_in_db - 5.44 ms
+    No devices present in database. Please, add devices and try again
+
+14/Mar/2022 - 04:26:58 - 181.94.190.177:30168 - GET /diagram HTTPS
+  no_devices_in_db - 7.46 ms
+    No devices present in database. Please, add devices and try again
+

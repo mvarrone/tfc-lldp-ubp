@@ -1,0 +1,10 @@
+Equipos fisicos - casa
+
+C2950     (Switch L2)
+C1841     (Router)
+C2621XM-B (Router)
+                            seconds
+code_Sequential.py         = 18.17 / 18.14
+code_ThreadPoolExecutor.py = 7.77 / 7.78
+code_Multithreading.py     = 7.81 / 7.86
+code_ThreadPool.py         = 7.78 / 7.8

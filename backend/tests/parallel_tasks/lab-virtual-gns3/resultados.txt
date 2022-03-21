@@ -1,0 +1,17 @@
+Usando 5 equipos
+(SW1, R1, R2, R3 y SW2)
+                            seconds
+code_Sequential.py         = 26.34
+code_ThreadPoolExecutor.py = 9.85
+code_Multithreading.py     = 12.54 / 9.98 / 8.27 / 13.83 / 8.31 / 9.89
+
+---
+
+Usando 7 equipos
+(SW1, R1, R2, R3 y SW2)
+(SW3 y Sw4)
+                            seconds
+code_Sequential.py         = 64.16 / 62.24
+code_ThreadPoolExecutor.py = 18.12 / 19.76 / 18.61 / 16.56 / 16.34 // ERROR // 16.43 / 17.8
+code_Multithreading.py     = 16.03 / 21.41 / 16.21 / 17.94 / 15.81 // 16.05 // 15.35 / 16.53
+code_ThreadPool.py         = 17.56 / 16.77 / 18.59 / 18.87 / 17.26 / 20.66 / 15.9 / 14.55 / 15.5 / 15.79

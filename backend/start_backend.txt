@@ -1,0 +1,26 @@
+OPTION 1:
+
+import uvicorn
+
+if __name__ == "__main__":
+    uvicorn.run("app:app",
+                host="0.0.0.0",
+                port=5000,
+                reload=True,
+                workers=4,
+                ssl_keyfile="./ssl_keys/cert.key",
+                ssl_certfile="./ssl_keys/cert.pem"
+                )
+
+Note: This code goes inside app.py and is executed using:
+
+python .\app.py in /backend directory. (There, app.py script and ssl_keys folder exist)
+
+#-------------------------
+
+OPTION 2:
+
+uvicorn app:app --host 0.0.0.0 --port 5000 --reload --workers 4 --ssl-keyfile=./ssl_keys/cert.key --ssl-certfile=./ssl_keys/cert.pem
+
+Note: This line has to be executed via command line in /backend directory. 
+There, app.py script and ssl_keys folder exist
