@@ -560,8 +560,7 @@ def get_diagram_example(dict_fastapi):
     check_db_table_device_types(dict_fastapi)
     check_db_for_logs(dict_fastapi)
 
-    # Datos de prueba
-    data = {
+    example_data = {
         "nodes": [
             {
                 "id": 1,
@@ -580,7 +579,8 @@ def get_diagram_example(dict_fastapi):
             },
             {
                 "id": 4,
-                "label": "R4"
+                "label": "R4",
+                "title": "Arista"
             },
             {
                 "id": 5,
@@ -589,43 +589,53 @@ def get_diagram_example(dict_fastapi):
             },
             {
                 "id": 6,
-                "label": "R6"
+                "label": "R6",
+                "title": "Huawei"
             },
             {
                 "id": 7,
-                "label": "R7"
+                "label": "R7",
+                "title": "Cisco"
             },
             {
                 "id": 8,
-                "label": "R8"
+                "label": "R8",
+                "title": "Broadcom"
             },
             {
                 "id": 9,
-                "label": "R9"
+                "label": "R9",
+                "title": "HP"
             },
             {
                 "id": 10,
-                "label": "R10"
+                "label": "R10",
+                "title": "Juniper"
             },
             {
                 "id": 11,
-                "label": "R11"
+                "label": "R11",
+                "title": "Cisco"
             },
             {
                 "id": 12,
-                "label": "R12"
+                "label": "R12",
+                "title": "Cisco"
             },
             {
                 "id": 13,
-                "label": "R13"
+                "label": "R13",
+                "title": "Huawei"
             },
             {
                 "id": 14,
-                "label": "R14"
+                "label": "R14",
+                "title": "Juniper"
             },
             {
                 "id": 15,
-                "label": "R15"
+                "label": "R15",
+                "title": "Aruba"
             }
         ],
         "edges": [
@@ -641,11 +651,13 @@ def get_diagram_example(dict_fastapi):
             },
             {
                 "from": 1,
-                "to": 3
+                "to": 3,
+                "title": "R1:g2/1 <-> R3:xe-3/0/4.0"
             },
             {
                 "from": 1,
-                "to": 3
+                "to": 3,
+                "title": "R1:g3/1 <-> R3:xe-0/0/2.0"
             },
             {
                 "from": 2,
@@ -697,4 +709,4 @@ def get_diagram_example(dict_fastapi):
             }
         ]
     }
-    return data
+    return example_data
