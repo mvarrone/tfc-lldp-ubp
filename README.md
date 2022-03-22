@@ -8,9 +8,9 @@ This is achieved by connecting to multiple devices through SSH (provided by Netm
 
 * Backend: Python3, FastAPI
 
-* Login: Authentication implementing JWTokens from FastAPI Security
-
 * db: sqlite3
+
+* Login: Authentication implementing JWTokens from FastAPI Security
 
 * DDNS: duckdns.org
 
