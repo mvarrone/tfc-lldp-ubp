@@ -25,5 +25,6 @@ Note: "Switch1" and "Cloud1" not represented in web app due to they are not mana
 Live Demo: https://www.lldp.duckdns.org
 
 FastAPI Documentation (OpenAPI): https://www.lldp.duckdns.org:5000/documentation
+
 FastAPI Documentation (ReDoc):   https://www.lldp.duckdns.org:5000/redocumentation
 
