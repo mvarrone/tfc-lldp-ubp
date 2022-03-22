@@ -241,7 +241,7 @@ async def root(request: Request):
         'host': request.client.host,
         'port': request.client.port
     }
-    welcome_function(dict_fastapi)
+    return welcome_function(dict_fastapi)
 
 
 @ app.get("/diagram", tags=["Diagram"])
@@ -429,7 +429,7 @@ async def about(request: Request, current_user: User = Depends(get_current_activ
         'host': request.client.host,
         'port': request.client.port
     }
-    about_function(dict_fastapi)
+    return about_function(dict_fastapi)
 
 
 class ModifyDeviceValues(BaseModel):
@@ -477,7 +477,7 @@ async def dashboard(request: Request, current_user: User = Depends(get_current_a
         'port': request.client.port,
         'username': usuario
     }
-    dashboard_function(dict_fastapi)
+    return dashboard_function(dict_fastapi)
 
 
 @ app.get("/logout", tags=["Login"])
@@ -496,7 +496,7 @@ async def logout(request: Request, current_user: User = Depends(get_current_acti
     }
     # print("acaaaaaaaaa")
     # print(usuario)
-    logout_function(dict_fastapi)
+    return logout_function(dict_fastapi)
 
 
 if __name__ == "__main__":

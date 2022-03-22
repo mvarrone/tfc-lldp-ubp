@@ -22,7 +22,7 @@ def welcome_function(dict_fastapi):
     check_db_table_device_types(dict_fastapi)
     check_db_for_logs(dict_fastapi)
     check_db_for_users(dict_fastapi)
-    welcome(dict_fastapi)
+    return welcome(dict_fastapi)
 
 
 def bd_add_device(hostname, creds, dict_fastapi):
@@ -78,7 +78,7 @@ def about_function(dict_fastapi):
     check_db_table_device_types(dict_fastapi)
     check_db_for_logs(dict_fastapi)
     check_db_for_users(dict_fastapi)
-    about(dict_fastapi)
+    return about(dict_fastapi)
 
 
 def bd_modify_device_values(value, dict_fastapi):
@@ -102,7 +102,7 @@ def dashboard_function(dict_fastapi):
     check_db_table_device_types(dict_fastapi)
     check_db_for_logs(dict_fastapi)
     check_db_for_users(dict_fastapi)
-    dashboard(dict_fastapi)
+    return dashboard(dict_fastapi)
 
 
 def logout_function(dict_fastapi):
@@ -110,4 +110,4 @@ def logout_function(dict_fastapi):
     check_db_table_device_types(dict_fastapi)
     check_db_for_logs(dict_fastapi)
     check_db_for_users(dict_fastapi)
-    logout(dict_fastapi)
+    return logout(dict_fastapi)

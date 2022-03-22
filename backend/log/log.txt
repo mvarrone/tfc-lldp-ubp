@@ -9131,3 +9131,63 @@
 22/Mar/2022 - 10:06:20 - 181.94.46.193:4609 - GET /diagram HTTPS
 22/Mar/2022 - 10:06:54 - 181.94.46.193:4616 - GET /diagram HTTPS
 22/Mar/2022 - 10:08:29 - 181.94.46.193:4637 - GET /diagram HTTPS
+22/Mar/2022 - 10:11:43 - 181.94.46.193:4691 - GET /hostname_list HTTPS
+22/Mar/2022 - 10:11:44 - 181.94.46.193:4691 - GET /device_type_list HTTPS
+22/Mar/2022 - 10:11:44 - 181.94.46.193:4691 - GET /hostname_list HTTPS
+22/Mar/2022 - 10:11:45 - 181.94.46.193:4691 - GET /inventory_list HTTPS
+22/Mar/2022 - 10:11:46 - 181.94.46.193:4691 - GET /diagram HTTPS
+22/Mar/2022 - 10:12:01 - 181.94.46.193:4692 - GET /inventory_list HTTPS
+22/Mar/2022 - 10:12:08 - 181.94.46.193:4693 - GET /diagram HTTPS
+22/Mar/2022 - 10:12:09 - 181.94.46.193:4693 - GET /logs HTTPS
+22/Mar/2022 - 10:12:10 - 181.94.46.193:4693 - GET /about HTTPS
+22/Mar/2022 - 10:12:11 - 181.94.46.193:4693 - GET /logout username=mvarrone HTTPS
+22/Mar/2022 - 10:12:11 - 181.94.46.193:4693 - GET / HTTPS
+22/Mar/2022 - 10:16:03 - 181.94.46.193:4703 - GET /dashboard username=mvarrone HTTPS
+22/Mar/2022 - 10:16:05 - 181.94.46.193:4703 - GET /inventory_list HTTPS
+22/Mar/2022 - 10:16:05 - 181.94.46.193:4703 - GET /diagram HTTPS
+22/Mar/2022 - 10:16:41 - 181.94.46.193:4709 - GET / HTTPS
+22/Mar/2022 - 10:17:23 - 181.94.46.193:4711 - GET /diagram HTTPS
+22/Mar/2022 - 10:17:38 - 181.94.46.193:4712 - GET /about HTTPS
+22/Mar/2022 - 10:18:37 - 181.94.46.193:4726 - GET /about HTTPS
+22/Mar/2022 - 10:19:23 - 181.94.46.193:4738 - GET /about HTTPS
+22/Mar/2022 - 10:19:36 - 181.94.46.193:4740 - GET /logs HTTPS
+22/Mar/2022 - 10:19:51 - 181.94.46.193:4741 - GET /dashboard username=mvarrone HTTPS
+22/Mar/2022 - 10:20:43 - 181.94.46.193:4756 - GET /dashboard username=mvarrone HTTPS
+22/Mar/2022 - 10:20:52 - 181.94.46.193:4759 - GET / HTTPS
+22/Mar/2022 - 10:21:27 - 181.94.46.193:4774 - GET / HTTPS
+22/Mar/2022 - 10:22:20 - 181.94.46.193:4785 - GET /logs HTTPS
+22/Mar/2022 - 10:22:23 - 181.94.46.193:4785 - GET /about HTTPS
+22/Mar/2022 - 10:23:32 - 181.94.46.193:4794 - GET /logs HTTPS
+22/Mar/2022 - 10:23:43 - 181.94.46.193:4795 - GET /logs HTTPS
+22/Mar/2022 - 10:24:11 - 181.94.46.193:4798 - GET /logout username=mvarrone HTTPS
+22/Mar/2022 - 10:24:46 - 181.94.46.193:17486 - GET /logout username=mvarrone HTTPS
+22/Mar/2022 - 10:25:34 - 181.94.46.193:17491 - GET /logout username=mvarrone HTTPS
+22/Mar/2022 - 10:25:52 - 181.94.46.193:17506 - GET /logout username=mvarrone HTTPS
+22/Mar/2022 - 10:25:54 - 181.94.46.193:17506 - GET /logout username=mvarrone HTTPS
+22/Mar/2022 - 10:25:56 - 181.94.46.193:17506 - GET /logout username=mvarrone HTTPS
+22/Mar/2022 - 10:26:00 - 181.94.46.193:17506 - GET /logout username=mvarrone HTTPS
+22/Mar/2022 - 10:26:13 - 181.94.46.193:17508 - GET /logout username=mvarrone HTTPS
+22/Mar/2022 - 10:26:38 - 181.94.46.193:17514 - GET /logout username=mvarrone HTTPS
+22/Mar/2022 - 10:27:57 - 181.94.46.193:62721 - GET / HTTPS
+22/Mar/2022 - 10:28:06 - 181.94.46.193:62722 - GET /dashboard username=mvarrone HTTPS
+22/Mar/2022 - 10:28:09 - 181.94.46.193:62722 - GET /inventory_list HTTPS
+22/Mar/2022 - 10:28:10 - 181.94.46.193:62722 - GET /diagram HTTPS
+22/Mar/2022 - 10:28:31 - 181.94.46.193:62723 - GET /logout username=mvarrone HTTPS
+22/Mar/2022 - 10:28:31 - 181.94.46.193:62723 - GET / HTTPS
+22/Mar/2022 - 10:29:37 - 181.94.46.193:17528 - GET /dashboard username=mvarrone HTTPS
+22/Mar/2022 - 10:29:47 - 181.94.46.193:17529 - GET /device_type_list HTTPS
+22/Mar/2022 - 10:30:07 - 181.94.46.193:17530 - GET /inventory_list HTTPS
+22/Mar/2022 - 10:43:00 - Se ha agregado el siguiente device_type: arista_eos
+22/Mar/2022 - 10:43:00 - Se ha agregado el siguiente device_type: aruba_aoscx
+22/Mar/2022 - 10:43:00 - Se ha agregado el siguiente device_type: broadcom_icos
+22/Mar/2022 - 10:43:00 - Se ha agregado el siguiente device_type: brocade_fastiron
+22/Mar/2022 - 10:43:00 - Se ha agregado el siguiente device_type: brocade_netiron
+22/Mar/2022 - 10:43:00 - Se ha agregado el siguiente device_type: cisco_ios
+22/Mar/2022 - 10:43:00 - Se ha agregado el siguiente device_type: cisco_nxos
+22/Mar/2022 - 10:43:00 - Se ha agregado el siguiente device_type: cisco_s300
+22/Mar/2022 - 10:43:00 - Se ha agregado el siguiente device_type: cisco_xr
+22/Mar/2022 - 10:43:00 - Se ha agregado el siguiente device_type: hp_comware
+22/Mar/2022 - 10:43:00 - Se ha agregado el siguiente device_type: hp_procurve
+22/Mar/2022 - 10:43:00 - Se ha agregado el siguiente device_type: huawei_vrp
+22/Mar/2022 - 10:43:00 - Se ha agregado el siguiente device_type: juniper_junos
+22/Mar/2022 - 10:47:04 - 181.94.46.193:1051 - GET / HTTPS
