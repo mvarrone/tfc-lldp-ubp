@@ -14,6 +14,7 @@
             v-bind:class="['form-control', states.device_type]"
             id="exampleFormControlSelect1"
             v-model="info.device_type"
+            @change="changeOnList($event)"
           >
             <option disabled value="">Select a device type</option>
             <option v-for="value in device_type_list" v-bind:key="value.id">
@@ -24,9 +25,7 @@
         </div>
       </div>
       <div class="form-group row mx-sm-3">
-        <label for="hostname" class="col-sm-4 col-form-label">
-          hostname
-        </label>
+        <label for="hostname" class="col-sm-4 col-form-label"> hostname </label>
         <div class="col-md-4 mb-2">
           <input
             type="text"
@@ -57,9 +56,7 @@
         </div>
       </div>
       <div class="form-group row mx-sm-3">
-        <label for="username" class="col-sm-4 col-form-label">
-          username
-        </label>
+        <label for="username" class="col-sm-4 col-form-label"> username </label>
         <div class="col-md-4 mb-2">
           <input
             type="text"
@@ -72,9 +69,7 @@
         </div>
       </div>
       <div class="form-group row mx-sm-3">
-        <label for="password" class="col-sm-4 col-form-label">
-          password
-        </label>
+        <label for="password" class="col-sm-4 col-form-label"> password </label>
         <div class="col-md-4 mb-2">
           <input
             type="password"
@@ -141,6 +136,7 @@ export default {
   },
   data() {
     return {
+      elementSelected: [],
       states: {
         device_type: "",
         hostname: "",
@@ -181,10 +177,10 @@ export default {
     };
     axios
       .get(this.url + this.port + this.endpoint_device_type_list, { headers })
-      .then(response => {
+      .then((response) => {
         this.device_type_list = response.data;
       })
-      .catch(error => {
+      .catch((error) => {
         // console.log("AddDevice.vue: Sección axios.catch()");
         // console.log("error = ");
         // console.log(error);
@@ -204,6 +200,17 @@ export default {
       });
   },
   methods: {
+    makeToast() {
+      this.$bvToast.toast("Device added successfully", {
+        title: "Action OK",
+        autoHideDelay: 2500,
+      });
+    },
+    changeOnList(event) {
+      this.elementSelected = event.target.value;
+      // console.log(this.elementSelected);
+      this.states.device_type = "";
+    },
     validate_add_device_button() {
       this.lista = [];
       this.contador = 0;
@@ -242,10 +249,19 @@ export default {
       } else {
         this.states.password = "";
       }
-      if (!this.info.secret) {
-        this.contador = this.contador + 1;
-        this.lista = this.lista + this.contador + ") secret is required\n";
-        this.states.secret = "is-invalid";
+      if (
+        this.info.device_type == "cisco_ios" ||
+        this.info.device_type == "cisco_nxos" ||
+        this.info.device_type == "cisco_s300" ||
+        this.info.device_type == "cisco_xr"
+      ) {
+        if (!this.info.secret) {
+          this.contador = this.contador + 1;
+          this.lista = this.lista + this.contador + ") secret is required\n";
+          this.states.secret = "is-invalid";
+        } else {
+          this.states.secret = "";
+        }
       } else {
         this.states.secret = "";
       }
@@ -297,7 +313,7 @@ export default {
             secret: this.info.secret,
             conn_timeout: this.info.conn_timeout,
           },
-          { headers },
+          { headers }
         )
         .then(() => {
           // console.log("Sección axios.then()");
@@ -311,8 +327,9 @@ export default {
           this.info.secret = "";
           this.info.conn_timeout = "5";
           // alert("Device added successfully");
+          this.makeToast();
         })
-        .catch(error => {
+        .catch((error) => {
           // console.log("Sección axios.catch()");
           // console.log("error = ");
           // console.log(error);

@@ -9191,3 +9191,518 @@
 22/Mar/2022 - 10:43:00 - Se ha agregado el siguiente device_type: huawei_vrp
 22/Mar/2022 - 10:43:00 - Se ha agregado el siguiente device_type: juniper_junos
 22/Mar/2022 - 10:47:04 - 181.94.46.193:1051 - GET / HTTPS
+22/Mar/2022 - 11:04:28 - 181.94.46.193:1193 - GET / HTTPS
+22/Mar/2022 - 11:04:35 - 181.94.46.193:1198 - GET / HTTPS
+22/Mar/2022 - 11:07:59 - 181.94.46.193:1204 - GET / HTTPS
+22/Mar/2022 - 11:13:39 - 181.94.46.193:1235 - GET / HTTPS
+22/Mar/2022 - 11:14:09 - 181.94.46.193:1243 - GET / HTTPS
+22/Mar/2022 - 11:14:17 - 181.94.46.193:1244 - GET /dashboard username=mvarrone HTTPS
+22/Mar/2022 - 11:14:17 - 181.94.46.193:1244 - GET /diagram HTTPS
+22/Mar/2022 - 11:14:25 - 181.94.46.193:1245 - GET /logout username=mvarrone HTTPS
+22/Mar/2022 - 11:14:25 - 181.94.46.193:1245 - GET / HTTPS
+22/Mar/2022 - 11:18:14 - 181.94.46.193:1267 - GET /dashboard username=mvarrone HTTPS
+22/Mar/2022 - 11:18:17 - 181.94.46.193:1267 - GET /device_type_list HTTPS
+22/Mar/2022 - 11:18:18 - 181.94.46.193:1267 - GET /hostname_list HTTPS
+22/Mar/2022 - 11:18:18 - 181.94.46.193:1267 - GET /hostname_list HTTPS
+22/Mar/2022 - 11:18:19 - 181.94.46.193:1267 - GET /inventory_list HTTPS
+22/Mar/2022 - 11:18:20 - 181.94.46.193:1267 - GET /diagram HTTPS
+22/Mar/2022 - 11:18:24 - 181.94.46.193:1267 - GET /logs HTTPS
+22/Mar/2022 - 11:18:25 - 181.94.46.193:1267 - GET /about HTTPS
+22/Mar/2022 - 11:18:31 - 181.94.46.193:1268 - GET /logout username=mvarrone HTTPS
+22/Mar/2022 - 11:18:31 - 181.94.46.193:1268 - GET / HTTPS
+22/Mar/2022 - 11:19:43 - 181.94.46.193:1272 - GET / HTTPS
+22/Mar/2022 - 11:20:01 - 181.94.46.193:1273 - GET /dashboard username=mvarrone HTTPS
+22/Mar/2022 - 11:20:08 - 181.94.46.193:1274 - GET /dashboard username=mvarrone HTTPS
+22/Mar/2022 - 11:20:10 - 181.94.46.193:1274 - GET /dashboard username=mvarrone HTTPS
+22/Mar/2022 - 11:20:13 - 181.94.46.193:1274 - GET /dashboard username=mvarrone HTTPS
+22/Mar/2022 - 11:22:23 - 181.94.46.193:1292 - GET / HTTPS
+22/Mar/2022 - 11:26:54 - 181.94.46.193:1098 - GET / HTTPS
+22/Mar/2022 - 11:31:54 - 181.94.46.193:1115 - GET / HTTPS
+22/Mar/2022 - 11:32:18 - 181.94.46.193:1124 - GET /dashboard username=mvarrone HTTPS
+22/Mar/2022 - 11:32:19 - 181.94.46.193:1124 - GET /diagram HTTPS
+22/Mar/2022 - 11:32:20 - 181.94.46.193:1124 - GET /logout username=mvarrone HTTPS
+22/Mar/2022 - 11:32:20 - 181.94.46.193:1124 - GET / HTTPS
+22/Mar/2022 - 11:32:55 - 181.94.46.193:1128 - GET /dashboard username=mvarrone HTTPS
+22/Mar/2022 - 11:32:56 - 181.94.46.193:1128 - GET /inventory_list HTTPS
+22/Mar/2022 - 11:32:57 - 181.94.46.193:1128 - GET /logout username=mvarrone HTTPS
+22/Mar/2022 - 11:32:57 - 181.94.46.193:1128 - GET / HTTPS
+22/Mar/2022 - 11:33:31 - 181.94.46.193:1143 - GET /dashboard username=mvarrone HTTPS
+22/Mar/2022 - 11:33:52 - 181.94.46.193:1156 - GET /diagram HTTPS
+22/Mar/2022 - 11:33:59 - 181.94.46.193:1159 - GET /logout username=mvarrone HTTPS
+22/Mar/2022 - 11:33:59 - 181.94.46.193:1159 - GET / HTTPS
+22/Mar/2022 - 12:27:25 - 181.94.46.193:1073 - GET / HTTPS
+22/Mar/2022 - 12:45:24 - 181.94.46.193:1048 - GET /logs HTTPS
+22/Mar/2022 - 12:55:42 - 181.94.46.193:33274 - GET /logs HTTPS
+22/Mar/2022 - 12:55:44 - 181.94.46.193:33274 - GET /inventory_list HTTPS
+22/Mar/2022 - 12:55:47 - 181.94.46.193:33274 - GET /diagram HTTPS
+22/Mar/2022 - 13:03:00 - 181.94.46.193:1033 - GET /logs HTTPS
+22/Mar/2022 - 13:45:42 - 181.94.46.193:1028 - GET /logs HTTPS
+22/Mar/2022 - 14:26:21 - 181.94.46.193:18809 - GET /logs HTTPS
+22/Mar/2022 - 14:27:06 - 181.94.46.193:28000 - GET /logs HTTPS
+22/Mar/2022 - 14:27:08 - 181.94.46.193:28000 - GET /inventory_list HTTPS
+22/Mar/2022 - 14:27:10 - 181.94.46.193:28000 - GET /diagram HTTPS
+22/Mar/2022 - 14:32:13 - 181.94.46.193:1031 - GET /logs HTTPS
+22/Mar/2022 - 14:32:16 - 181.94.46.193:1031 - GET /inventory_list HTTPS
+22/Mar/2022 - 14:42:03 - 181.94.46.193:27420 - GET /logs HTTPS
+22/Mar/2022 - 14:43:07 - 181.94.46.193:11747 - GET /logs HTTPS
+22/Mar/2022 - 15:31:37 - 181.94.46.193:3489 - GET /logs HTTPS
+22/Mar/2022 - 15:34:26 - 181.94.46.193:1128 - GET / HTTPS
+22/Mar/2022 - 15:39:36 - 181.94.46.193:1133 - GET / HTTPS
+22/Mar/2022 - 16:38:03 - 181.94.46.193:13523 - GET /logs HTTPS
+22/Mar/2022 - 16:40:19 - 181.94.46.193:14018 - GET /diagram HTTPS
+22/Mar/2022 - 16:40:30 - 181.94.46.193:1033 - GET /diagram HTTPS
+22/Mar/2022 - 17:56:16 - 181.94.46.193:31066 - GET / HTTPS
+22/Mar/2022 - 17:59:20 - 181.94.46.193:22167 - GET / HTTPS
+22/Mar/2022 - 17:59:30 - 181.94.46.193:22168 - GET / HTTPS
+22/Mar/2022 - 17:59:33 - 181.94.46.193:22168 - GET / HTTPS
+22/Mar/2022 - 17:59:45 - 181.94.46.193:22169 - GET / HTTPS
+22/Mar/2022 - 17:59:49 - 181.94.46.193:22169 - GET / HTTPS
+22/Mar/2022 - 18:00:04 - 181.94.46.193:22170 - GET / HTTPS
+22/Mar/2022 - 18:00:07 - 181.94.46.193:22170 - GET / HTTPS
+22/Mar/2022 - 18:01:42 - 181.94.46.193:3701 - GET /logs HTTPS
+22/Mar/2022 - 18:01:50 - 181.94.46.193:3702 - GET /inventory_list HTTPS
+22/Mar/2022 - 18:01:56 - 181.94.46.193:3703 - GET /diagram HTTPS
+22/Mar/2022 - 18:02:24 - 181.94.46.193:3704 - GET /diagram HTTPS
+22/Mar/2022 - 18:02:31 - 181.94.46.193:3704 - GET /diagram HTTPS
+22/Mar/2022 - 18:02:43 - 181.94.46.193:1045 - GET /inventory_list HTTPS
+22/Mar/2022 - 18:06:34 - 181.94.46.193:1146 - GET / HTTPS
+22/Mar/2022 - 18:06:39 - 181.94.46.193:1146 - GET /dashboard username=mvarrone HTTPS
+22/Mar/2022 - 18:06:41 - 181.94.46.193:1146 - GET /diagram HTTPS
+22/Mar/2022 - 18:06:41 - 181.94.46.193:1146 - GET /inventory_list HTTPS
+22/Mar/2022 - 18:06:42 - 181.94.46.193:1146 - GET /diagram HTTPS
+22/Mar/2022 - 18:06:45 - 181.94.46.193:1146 - GET /logout username=mvarrone HTTPS
+22/Mar/2022 - 18:06:45 - 181.94.46.193:1146 - GET / HTTPS
+22/Mar/2022 - 19:07:23 - 181.94.46.193:1067 - GET / HTTPS
+22/Mar/2022 - 19:24:01 - 181.94.46.193:1159 - GET / HTTPS
+22/Mar/2022 - 19:26:08 - 181.94.46.193:1031 - GET /logs HTTPS
+23/Mar/2022 - 11:15:04 - 181.94.46.193:23529 - GET /logs HTTPS
+23/Mar/2022 - 11:18:45 - 181.94.46.193:1110 - GET /logs HTTPS
+23/Mar/2022 - 11:35:06 - 181.94.46.193:9269 - GET /inventory_list HTTPS
+23/Mar/2022 - 11:35:22 - 181.94.46.193:9271 - GET /inventory_list HTTPS
+23/Mar/2022 - 11:35:50 - 181.94.46.193:9282 - GET /inventory_list HTTPS
+23/Mar/2022 - 11:39:09 - 181.94.46.193:3946 - GET /logs HTTPS
+23/Mar/2022 - 11:39:30 - 181.94.46.193:3954 - GET /logs HTTPS
+23/Mar/2022 - 11:48:16 - 181.94.46.193:1040 - GET /logs HTTPS
+23/Mar/2022 - 11:48:27 - 181.94.46.193:14379 - GET /logs HTTPS
+23/Mar/2022 - 11:48:36 - 181.94.46.193:14379 - GET /logs HTTPS
+23/Mar/2022 - 11:49:41 - 181.94.46.193:12920 - GET /logs HTTPS
+23/Mar/2022 - 11:52:56 - 181.94.46.193:12956 - GET /logs HTTPS
+23/Mar/2022 - 11:53:37 - 181.94.46.193:23109 - GET /logs HTTPS
+23/Mar/2022 - 12:08:38 - 181.94.46.193:13957 - GET /logs HTTPS
+23/Mar/2022 - 15:18:47 - 162.142.125.211:38776 - GET / HTTPS
+23/Mar/2022 - 16:20:15 - 181.94.46.193:1056 - GET /logs HTTPS
+23/Mar/2022 - 17:41:01 - 181.94.46.193:1061 - GET /logs HTTPS
+23/Mar/2022 - 17:41:05 - 181.94.46.193:1061 - GET /inventory_list HTTPS
+23/Mar/2022 - 17:41:08 - 181.94.46.193:1061 - GET /diagram HTTPS
+23/Mar/2022 - 17:41:16 - 181.94.46.193:1061 - GET /logs HTTPS
+23/Mar/2022 - 17:41:19 - 181.94.46.193:1061 - GET /inventory_list HTTPS
+23/Mar/2022 - 17:41:46 - 181.94.46.193:1062 - GET /logs HTTPS
+23/Mar/2022 - 19:36:28 - 181.94.46.193:1075 - GET / HTTPS
+23/Mar/2022 - 19:36:34 - 181.94.46.193:1080 - GET /dashboard username=mvarrone HTTPS
+23/Mar/2022 - 19:36:36 - 181.94.46.193:1080 - GET /hostname_list HTTPS
+23/Mar/2022 - 19:37:11 - 181.94.46.193:1096 - GET /device_type_list HTTPS
+23/Mar/2022 - 19:37:29 - 181.94.46.193:1098 - POST /add_device/1.1.1.1 cisco_ios HTTPS
+23/Mar/2022 - 19:37:30 - 181.94.46.193:1098 - GET /inventory_list HTTPS
+23/Mar/2022 - 19:37:34 - 181.94.46.193:1098 - GET /hostname_list HTTPS
+23/Mar/2022 - 19:37:36 - 181.94.46.193:1098 - GET /device_values_to_modify/192.168.1.102 HTTPS
+23/Mar/2022 - 19:37:38 - 181.94.46.193:1100 - GET /device_values_to_modify/1.1.1.1 HTTPS
+23/Mar/2022 - 19:37:59 - 181.94.46.193:1107 - PUT /modify_device/1.1.1.1 HTTPS
+23/Mar/2022 - 19:37:59 - 181.94.46.193:1107 - GET /hostname_list HTTPS
+23/Mar/2022 - 19:40:10 - 181.94.46.193:1152 - GET /hostname_list HTTPS
+23/Mar/2022 - 19:40:10 - 181.94.46.193:1152 - GET /hostname_list HTTPS
+23/Mar/2022 - 19:40:11 - 181.94.46.193:1152 - GET /device_values_to_modify/1.1.1.1 HTTPS
+23/Mar/2022 - 19:40:26 - 181.94.46.193:1153 - PUT /modify_device/1.1.1.1 HTTPS
+23/Mar/2022 - 19:40:26 - 181.94.46.193:1153 - GET /hostname_list HTTPS
+23/Mar/2022 - 19:40:36 - 181.94.46.193:1154 - PUT /modify_device/1.1.1.1 - Se ha modificado hostname de 1.1.1.1 a  HTTPS
+23/Mar/2022 - 19:40:36 - 181.94.46.193:1154 - GET /hostname_list HTTPS
+23/Mar/2022 - 19:41:14 - 181.94.46.193:1157 - GET /device_type_list HTTPS
+23/Mar/2022 - 19:41:25 - 181.94.46.193:1158 - POST /add_device/1.1.1.1 cisco_ios HTTPS
+23/Mar/2022 - 19:41:27 - 181.94.46.193:1159 - GET /hostname_list HTTPS
+23/Mar/2022 - 19:41:29 - 181.94.46.193:1159 - GET /device_values_to_modify/1.1.1.1 HTTPS
+23/Mar/2022 - 19:41:37 - 181.94.46.193:1160 - PUT /modify_device/1.1.1.1 HTTPS
+23/Mar/2022 - 19:41:37 - 181.94.46.193:1160 - GET /hostname_list HTTPS
+23/Mar/2022 - 19:42:42 - 181.94.46.193:1174 - GET /hostname_list HTTPS
+23/Mar/2022 - 19:42:42 - 181.94.46.193:1174 - GET /hostname_list HTTPS
+23/Mar/2022 - 19:42:43 - 181.94.46.193:1174 - GET /device_values_to_modify/1.1.1.1 HTTPS
+23/Mar/2022 - 19:43:04 - 181.94.46.193:1183 - GET /hostname_list HTTPS
+23/Mar/2022 - 19:43:04 - 181.94.46.193:1183 - GET /hostname_list HTTPS
+23/Mar/2022 - 19:43:05 - 181.94.46.193:1183 - GET /device_values_to_modify/1.1.1.1 HTTPS
+23/Mar/2022 - 19:43:53 - 181.94.46.193:27615 - PUT /modify_device/1.1.1.1 HTTPS
+23/Mar/2022 - 19:43:53 - 181.94.46.193:27615 - GET /hostname_list HTTPS
+23/Mar/2022 - 19:44:33 - 181.94.46.193:27631 - GET /device_values_to_modify/192.168.1.101 HTTPS
+23/Mar/2022 - 19:44:33 - 181.94.46.193:27631 - GET /device_values_to_modify/1.1.1.1 HTTPS
+23/Mar/2022 - 19:44:37 - 181.94.46.193:27631 - PUT /modify_device/1.1.1.1 HTTPS
+23/Mar/2022 - 19:44:37 - 181.94.46.193:27631 - GET /hostname_list HTTPS
+23/Mar/2022 - 19:46:47 - 181.94.46.193:4374 - GET /device_values_to_modify/192.168.1.100 HTTPS
+23/Mar/2022 - 19:46:48 - 181.94.46.193:4374 - GET /device_values_to_modify/1.1.1.1 HTTPS
+23/Mar/2022 - 19:46:51 - 181.94.46.193:4374 - PUT /modify_device/1.1.1.1 HTTPS
+23/Mar/2022 - 19:46:51 - 181.94.46.193:4374 - GET /hostname_list HTTPS
+23/Mar/2022 - 19:53:43 - 181.94.46.193:4507 - GET /hostname_list HTTPS
+23/Mar/2022 - 19:53:43 - 181.94.46.193:4507 - GET /hostname_list HTTPS
+23/Mar/2022 - 19:53:44 - 181.94.46.193:4507 - GET /device_values_to_modify/1.1.1.1 HTTPS
+23/Mar/2022 - 19:53:50 - 181.94.46.193:4510 - PUT /modify_device/1.1.1.1 HTTPS
+23/Mar/2022 - 19:53:51 - 181.94.46.193:4510 - GET /hostname_list HTTPS
+23/Mar/2022 - 19:56:41 - 181.94.46.193:4551 - GET /device_values_to_modify/192.168.1.101 HTTPS
+23/Mar/2022 - 19:56:41 - 181.94.46.193:4551 - GET /device_values_to_modify/1.1.1.1 HTTPS
+23/Mar/2022 - 19:56:47 - 181.94.46.193:4552 - PUT /modify_device/1.1.1.1 HTTPS
+23/Mar/2022 - 19:56:47 - 181.94.46.193:4552 - GET /hostname_list HTTPS
+23/Mar/2022 - 19:59:14 - 181.94.46.193:25136 - GET /dashboard username=mvarrone HTTPS
+23/Mar/2022 - 19:59:15 - 181.94.46.193:25136 - GET /device_type_list HTTPS
+23/Mar/2022 - 19:59:40 - 181.94.46.193:25141 - GET /dashboard username=mvarrone HTTPS
+23/Mar/2022 - 19:59:40 - 181.94.46.193:25141 - GET /device_type_list HTTPS
+23/Mar/2022 - 20:03:48 - 181.94.46.193:25187 - GET /inventory_list HTTPS
+23/Mar/2022 - 20:03:49 - 181.94.46.193:25187 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:04:07 - 181.94.46.193:25188 - GET /device_type_list HTTPS
+23/Mar/2022 - 20:06:21 - 181.94.46.193:25194 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:06:22 - 181.94.46.193:25194 - GET /device_type_list HTTPS
+23/Mar/2022 - 20:07:13 - 181.94.46.193:25199 - GET / HTTPS
+23/Mar/2022 - 20:07:22 - 181.94.46.193:25200 - GET /dashboard username=mvarrone HTTPS
+23/Mar/2022 - 20:07:24 - 181.94.46.193:25200 - GET /device_type_list HTTPS
+23/Mar/2022 - 20:08:23 - 181.94.46.193:1025 - GET /inventory_list HTTPS
+23/Mar/2022 - 20:08:26 - 181.94.46.193:1025 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:08:32 - 181.94.46.193:1027 - DELETE /delete_device/1.1.1.1 HTTPS
+23/Mar/2022 - 20:08:32 - 181.94.46.193:1027 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:08:33 - 181.94.46.193:1027 - GET /inventory_list HTTPS
+23/Mar/2022 - 20:08:35 - 181.94.46.193:1027 - GET /device_type_list HTTPS
+23/Mar/2022 - 20:08:41 - 181.94.46.193:1036 - GET /inventory_list HTTPS
+23/Mar/2022 - 20:08:42 - 181.94.46.193:1036 - GET /device_type_list HTTPS
+23/Mar/2022 - 20:09:50 - 181.94.46.193:1046 - GET /device_type_list HTTPS
+23/Mar/2022 - 20:10:03 - 181.94.46.193:1047 - GET /inventory_list HTTPS
+23/Mar/2022 - 20:10:04 - 181.94.46.193:1047 - GET /device_type_list HTTPS
+23/Mar/2022 - 20:10:10 - 181.94.46.193:1051 - GET /inventory_list HTTPS
+23/Mar/2022 - 20:10:19 - 181.94.46.193:1052 - POST /add_device/3.3.3.3 juniper_junos HTTPS
+23/Mar/2022 - 20:12:16 - 181.94.46.193:1058 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:12:16 - 181.94.46.193:1058 - GET /device_type_list HTTPS
+23/Mar/2022 - 20:12:25 - 181.94.46.193:1059 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:12:27 - 181.94.46.193:1059 - GET /device_type_list HTTPS
+23/Mar/2022 - 20:12:28 - 181.94.46.193:1059 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:12:31 - 181.94.46.193:1059 - GET /device_values_to_modify/3.3.3.3 HTTPS
+23/Mar/2022 - 20:12:39 - 181.94.46.193:1060 - PUT /modify_device/3.3.3.3 HTTPS
+23/Mar/2022 - 20:12:39 - 181.94.46.193:1060 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:14:10 - 181.94.46.193:1071 - GET /device_type_list HTTPS
+23/Mar/2022 - 20:14:35 - 181.94.46.193:1073 - POST /add_device/4.4.4.4 cisco_ios HTTPS
+23/Mar/2022 - 20:16:59 - 181.94.46.193:1091 - GET /device_type_list HTTPS
+23/Mar/2022 - 20:17:00 - 181.94.46.193:1091 - GET /device_type_list HTTPS
+23/Mar/2022 - 20:17:04 - 181.94.46.193:1091 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:17:05 - 181.94.46.193:1091 - GET /device_type_list HTTPS
+23/Mar/2022 - 20:17:23 - 181.94.46.193:1093 - GET /dashboard username=mvarrone HTTPS
+23/Mar/2022 - 20:17:23 - 181.94.46.193:1093 - GET /device_type_list HTTPS
+23/Mar/2022 - 20:17:28 - 181.94.46.193:1093 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:17:30 - 181.94.46.193:1093 - GET /device_type_list HTTPS
+23/Mar/2022 - 20:17:41 - 181.94.46.193:1094 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:17:41 - 181.94.46.193:1094 - GET /device_type_list HTTPS
+23/Mar/2022 - 20:17:56 - 181.94.46.193:1095 - POST /add_device/5.5.5.5 cisco_ios HTTPS
+23/Mar/2022 - 20:17:58 - 181.94.46.193:1095 - GET /inventory_list HTTPS
+23/Mar/2022 - 20:18:20 - 181.94.46.193:1096 - GET /device_type_list HTTPS
+23/Mar/2022 - 20:19:22 - 181.94.46.193:1108 - GET /device_type_list HTTPS
+23/Mar/2022 - 20:19:42 - 181.94.46.193:1111 - GET /device_type_list HTTPS
+23/Mar/2022 - 20:22:03 - 181.94.46.193:1204 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:22:04 - 181.94.46.193:1204 - GET /device_type_list HTTPS
+23/Mar/2022 - 20:22:28 - 181.94.46.193:1211 - GET /device_type_list HTTPS
+23/Mar/2022 - 20:22:39 - 181.94.46.193:1213 - GET /device_type_list HTTPS
+23/Mar/2022 - 20:22:41 - 181.94.46.193:1213 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:22:42 - 181.94.46.193:1213 - GET /device_type_list HTTPS
+23/Mar/2022 - 20:22:50 - 181.94.46.193:1215 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:22:51 - 181.94.46.193:1215 - GET /device_type_list HTTPS
+23/Mar/2022 - 20:23:01 - 181.94.46.193:1220 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:23:01 - 181.94.46.193:1220 - GET /device_type_list HTTPS
+23/Mar/2022 - 20:23:06 - 181.94.46.193:1220 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:23:07 - 181.94.46.193:1220 - GET /device_type_list HTTPS
+23/Mar/2022 - 20:23:43 - 181.94.46.193:1226 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:23:43 - 181.94.46.193:1226 - GET /device_type_list HTTPS
+23/Mar/2022 - 20:24:12 - 181.94.46.193:1228 - GET /device_type_list HTTPS
+23/Mar/2022 - 20:24:29 - 181.94.46.193:1230 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:24:30 - 181.94.46.193:1230 - GET /device_type_list HTTPS
+23/Mar/2022 - 20:26:04 - 181.94.46.193:1240 - GET /device_type_list HTTPS
+23/Mar/2022 - 20:26:04 - 181.94.46.193:1240 - GET /device_type_list HTTPS
+23/Mar/2022 - 20:26:04 - 181.94.46.193:1241 - GET /device_type_list HTTPS
+23/Mar/2022 - 20:27:00 - 181.94.46.193:1247 - GET /inventory_list HTTPS
+23/Mar/2022 - 20:27:21 - 181.94.46.193:1250 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:27:21 - 181.94.46.193:1250 - GET /device_type_list HTTPS
+23/Mar/2022 - 20:27:27 - 181.94.46.193:1251 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:27:27 - 181.94.46.193:1251 - GET /device_type_list HTTPS
+23/Mar/2022 - 20:27:43 - 181.94.46.193:1252 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:27:49 - 181.94.46.193:1253 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:27:52 - 181.94.46.193:1253 - GET /inventory_list HTTPS
+23/Mar/2022 - 20:27:52 - 181.94.46.193:1253 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:28:29 - 181.94.46.193:1264 - GET /device_type_list HTTPS
+23/Mar/2022 - 20:28:53 - 181.94.46.193:1274 - GET /device_type_list HTTPS
+23/Mar/2022 - 20:29:20 - 181.94.46.193:1279 - GET /device_type_list HTTPS
+23/Mar/2022 - 20:29:40 - 181.94.46.193:1282 - GET /device_type_list HTTPS
+23/Mar/2022 - 20:30:08 - 181.94.46.193:1288 - GET /device_type_list HTTPS
+23/Mar/2022 - 20:30:42 - 181.94.46.193:1293 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:30:43 - 181.94.46.193:1293 - GET /device_type_list HTTPS
+23/Mar/2022 - 20:31:41 - 181.94.46.193:1301 - GET /device_type_list HTTPS
+23/Mar/2022 - 20:31:49 - 181.94.46.193:1304 - GET /device_type_list HTTPS
+23/Mar/2022 - 20:31:58 - 181.94.46.193:1305 - GET /dashboard username=mvarrone HTTPS
+23/Mar/2022 - 20:31:58 - 181.94.46.193:1305 - GET /device_type_list HTTPS
+23/Mar/2022 - 20:33:11 - 181.94.46.193:1311 - GET /device_type_list HTTPS
+23/Mar/2022 - 20:33:19 - 181.94.46.193:1315 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:33:24 - 181.94.46.193:1317 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:33:26 - 181.94.46.193:1317 - GET /device_type_list HTTPS
+23/Mar/2022 - 20:35:12 - 181.94.46.193:1329 - GET /device_type_list HTTPS
+23/Mar/2022 - 20:35:12 - 181.94.46.193:1330 - GET /dashboard username=mvarrone HTTPS
+23/Mar/2022 - 20:35:21 - 181.94.46.193:1334 - GET /device_type_list HTTPS
+23/Mar/2022 - 20:35:42 - 181.94.46.193:1336 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:35:44 - 181.94.46.193:1336 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:35:47 - 181.94.46.193:1338 - GET /inventory_list HTTPS
+23/Mar/2022 - 20:35:48 - 181.94.46.193:1338 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:35:51 - 181.94.46.193:1338 - GET /device_type_list HTTPS
+23/Mar/2022 - 20:36:00 - 181.94.46.193:1339 - GET /dashboard username=mvarrone HTTPS
+23/Mar/2022 - 20:36:12 - 181.94.46.193:1027 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:36:14 - 181.94.46.193:1027 - GET /device_type_list HTTPS
+23/Mar/2022 - 20:36:25 - 181.94.46.193:1029 - POST /add_device/1.1.1.1 cisco_ios HTTPS
+23/Mar/2022 - 20:36:26 - 181.94.46.193:1029 - GET /inventory_list HTTPS
+23/Mar/2022 - 20:36:28 - 181.94.46.193:1032 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:36:31 - 181.94.46.193:1032 - GET /device_values_to_modify/1.1.1.1 HTTPS
+23/Mar/2022 - 20:39:53 - 181.94.46.193:1055 - GET / HTTPS
+23/Mar/2022 - 20:40:10 - 181.94.46.193:1060 - GET /dashboard username=mvarrone HTTPS
+23/Mar/2022 - 20:40:12 - 181.94.46.193:1060 - GET /inventory_list HTTPS
+23/Mar/2022 - 20:40:13 - 181.94.46.193:1062 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:40:15 - 181.94.46.193:1062 - GET /device_values_to_modify/1.1.1.1 HTTPS
+23/Mar/2022 - 20:40:19 - 181.94.46.193:1062 - PUT /modify_device/1.1.1.1 HTTPS
+23/Mar/2022 - 20:40:20 - 181.94.46.193:1062 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:46:24 - 181.94.46.193:29739 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:46:27 - 181.94.46.193:29739 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:46:28 - 181.94.46.193:29739 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:46:30 - 181.94.46.193:29739 - GET /device_values_to_modify/1.1.1.1 HTTPS
+23/Mar/2022 - 20:47:05 - 181.94.46.193:29742 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:47:05 - 181.94.46.193:29742 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:47:08 - 181.94.46.193:29742 - GET /device_values_to_modify/192.168.1.101 HTTPS
+23/Mar/2022 - 20:48:29 - 181.94.46.193:29802 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:48:29 - 181.94.46.193:29802 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:48:51 - 181.94.46.193:29804 - GET /device_values_to_modify/1.1.1.1 HTTPS
+23/Mar/2022 - 20:48:52 - 181.94.46.193:29804 - PUT /modify_device/1.1.1.1 HTTPS
+23/Mar/2022 - 20:48:53 - 181.94.46.193:29804 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:51:38 - 181.94.46.193:29809 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:51:38 - 181.94.46.193:29809 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:51:40 - 181.94.46.193:29809 - GET /device_values_to_modify/192.168.1.102 HTTPS
+23/Mar/2022 - 20:51:41 - 181.94.46.193:29809 - GET /device_values_to_modify/1.1.1.1 HTTPS
+23/Mar/2022 - 20:53:08 - 181.94.46.193:29816 - GET /dashboard username=mvarrone HTTPS
+23/Mar/2022 - 20:53:17 - 181.94.46.193:29819 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:53:19 - 181.94.46.193:29819 - GET /device_values_to_modify/1.1.1.1 HTTPS
+23/Mar/2022 - 20:53:23 - 181.94.46.193:29819 - PUT /modify_device/1.1.1.1 HTTPS
+23/Mar/2022 - 20:53:23 - 181.94.46.193:29819 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:54:08 - 181.94.46.193:29826 - GET /dashboard username=mvarrone HTTPS
+23/Mar/2022 - 20:54:20 - 181.94.46.193:29835 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:54:21 - 181.94.46.193:29835 - GET /device_values_to_modify/1.1.1.1 HTTPS
+23/Mar/2022 - 20:54:23 - 181.94.46.193:29835 - PUT /modify_device/1.1.1.1 HTTPS
+23/Mar/2022 - 20:54:23 - 181.94.46.193:29835 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:55:10 - 181.94.46.193:29859 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:55:13 - 181.94.46.193:29859 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:55:14 - 181.94.46.193:29859 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:55:17 - 181.94.46.193:29859 - GET /device_values_to_modify/1.1.1.1 HTTPS
+23/Mar/2022 - 20:55:19 - 181.94.46.193:29859 - PUT /modify_device/1.1.1.1 HTTPS
+23/Mar/2022 - 20:55:19 - 181.94.46.193:29859 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:59:11 - 181.94.46.193:29983 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:59:13 - 181.94.46.193:29983 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:59:20 - 181.94.46.193:29988 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:59:21 - 181.94.46.193:29988 - GET /hostname_list HTTPS
+23/Mar/2022 - 20:59:22 - 181.94.46.193:29988 - GET /device_values_to_modify/1.1.1.1 HTTPS
+23/Mar/2022 - 20:59:25 - 181.94.46.193:29988 - PUT /modify_device/1.1.1.1 HTTPS
+23/Mar/2022 - 20:59:25 - 181.94.46.193:29988 - GET /device_values_to_modify/1.1.1.1 HTTPS
+23/Mar/2022 - 20:59:38 - 181.94.46.193:29998 - PUT /modify_device/1.1.1.1 HTTPS
+23/Mar/2022 - 20:59:38 - 181.94.46.193:29998 - GET /device_values_to_modify/1.1.1.1 HTTPS
+23/Mar/2022 - 21:00:10 - 181.94.46.193:30004 - GET /dashboard username=mvarrone HTTPS
+23/Mar/2022 - 21:00:11 - 181.94.46.193:30004 - GET /hostname_list HTTPS
+23/Mar/2022 - 21:00:36 - 181.94.46.193:30010 - GET /hostname_list HTTPS
+23/Mar/2022 - 21:00:39 - 181.94.46.193:30010 - GET /device_values_to_modify/1.1.1.1 HTTPS
+23/Mar/2022 - 21:00:43 - 181.94.46.193:30010 - PUT /modify_device/1.1.1.1 HTTPS
+23/Mar/2022 - 21:00:43 - 181.94.46.193:30010 - GET /device_values_to_modify/1.1.1.1 HTTPS
+23/Mar/2022 - 21:00:46 - 181.94.46.193:30010 - GET /device_values_to_modify/192.168.1.100 HTTPS
+23/Mar/2022 - 21:00:47 - 181.94.46.193:30010 - PUT /modify_device/192.168.1.100 HTTPS
+23/Mar/2022 - 21:00:47 - 181.94.46.193:30010 - GET /device_values_to_modify/192.168.1.100 HTTPS
+23/Mar/2022 - 21:01:01 - 181.94.46.193:30012 - GET /device_values_to_modify/1.1.1.1 HTTPS
+23/Mar/2022 - 21:01:11 - 181.94.46.193:30013 - PUT /modify_device/1.1.1.1 HTTPS
+23/Mar/2022 - 21:01:11 - 181.94.46.193:30013 - GET /device_values_to_modify/1.1.1.1 HTTPS
+23/Mar/2022 - 21:01:19 - 181.94.46.193:30014 - PUT /modify_device/1.1.1.1 HTTPS
+23/Mar/2022 - 21:01:20 - 181.94.46.193:30014 - GET /device_values_to_modify/1.1.1.1 HTTPS
+23/Mar/2022 - 21:01:25 - 181.94.46.193:30015 - PUT /modify_device/1.1.1.1 HTTPS
+23/Mar/2022 - 21:01:25 - 181.94.46.193:30015 - GET /device_values_to_modify/1.1.1.1 HTTPS
+23/Mar/2022 - 21:01:39 - 181.94.46.193:30016 - PUT /modify_device/1.1.1.1 HTTPS
+23/Mar/2022 - 21:01:39 - 181.94.46.193:30016 - GET /device_values_to_modify/1.1.1.1 HTTPS
+23/Mar/2022 - 21:01:49 - 181.94.46.193:30018 - GET /hostname_list HTTPS
+23/Mar/2022 - 21:01:49 - 181.94.46.193:30018 - GET /hostname_list HTTPS
+23/Mar/2022 - 21:02:15 - 181.94.46.193:30019 - GET /hostname_list HTTPS
+23/Mar/2022 - 21:02:15 - 181.94.46.193:30019 - GET /hostname_list HTTPS
+23/Mar/2022 - 21:02:18 - 181.94.46.193:30019 - GET /device_values_to_modify/1.1.1.1 HTTPS
+23/Mar/2022 - 21:02:19 - 181.94.46.193:30019 - PUT /modify_device/1.1.1.1 HTTPS
+23/Mar/2022 - 21:02:19 - 181.94.46.193:30019 - GET /device_values_to_modify/1.1.1.1 HTTPS
+23/Mar/2022 - 21:03:22 - 181.94.46.193:30039 - GET /hostname_list HTTPS
+23/Mar/2022 - 21:03:22 - 181.94.46.193:30039 - GET /hostname_list HTTPS
+23/Mar/2022 - 21:03:27 - 181.94.46.193:30043 - GET /device_values_to_modify/192.168.1.101 HTTPS
+23/Mar/2022 - 21:03:30 - 181.94.46.193:30043 - PUT /modify_device/192.168.1.101 HTTPS
+23/Mar/2022 - 21:03:30 - 181.94.46.193:30043 - GET /device_values_to_modify/192.168.1.101 HTTPS
+23/Mar/2022 - 21:07:49 - 181.94.46.193:30077 - GET /hostname_list HTTPS
+23/Mar/2022 - 21:07:49 - 181.94.46.193:30077 - GET /hostname_list HTTPS
+23/Mar/2022 - 21:07:50 - 181.94.46.193:30077 - GET /device_values_to_modify/192.168.1.102 HTTPS
+23/Mar/2022 - 21:12:30 - 181.94.46.193:30123 - GET / HTTPS
+23/Mar/2022 - 21:12:35 - 181.94.46.193:30123 - GET /dashboard username=mvarrone HTTPS
+23/Mar/2022 - 21:12:38 - 181.94.46.193:30123 - GET /hostname_list HTTPS
+23/Mar/2022 - 21:13:34 - 181.94.46.193:30132 - GET /hostname_list HTTPS
+23/Mar/2022 - 21:13:34 - 181.94.46.193:30132 - GET /hostname_list HTTPS
+23/Mar/2022 - 21:13:40 - 181.94.46.193:30137 - GET /hostname_list HTTPS
+23/Mar/2022 - 21:13:43 - 181.94.46.193:30137 - GET /hostname_list HTTPS
+23/Mar/2022 - 21:13:43 - 181.94.46.193:30137 - GET /hostname_list HTTPS
+23/Mar/2022 - 21:13:45 - 181.94.46.193:30137 - GET /device_values_to_modify/1.1.1.1 HTTPS
+23/Mar/2022 - 21:13:47 - 181.94.46.193:30137 - PUT /modify_device/1.1.1.1 HTTPS
+23/Mar/2022 - 21:13:47 - 181.94.46.193:30137 - GET /device_values_to_modify/1.1.1.1 HTTPS
+23/Mar/2022 - 21:13:54 - 181.94.46.193:30140 - GET /hostname_list HTTPS
+23/Mar/2022 - 21:16:23 - 181.94.46.193:30193 - GET /hostname_list HTTPS
+23/Mar/2022 - 21:16:24 - 181.94.46.193:30193 - GET /hostname_list HTTPS
+23/Mar/2022 - 21:16:26 - 181.94.46.193:30193 - GET /device_values_to_modify/192.168.1.102 HTTPS
+23/Mar/2022 - 21:16:28 - 181.94.46.193:30193 - PUT /modify_device/192.168.1.102 HTTPS
+23/Mar/2022 - 21:16:28 - 181.94.46.193:30193 - GET /device_values_to_modify/192.168.1.102 HTTPS
+23/Mar/2022 - 21:16:29 - 181.94.46.193:30193 - GET /device_values_to_modify/1.1.1.1 HTTPS
+23/Mar/2022 - 21:16:30 - 181.94.46.193:30193 - PUT /modify_device/1.1.1.1 HTTPS
+23/Mar/2022 - 21:16:30 - 181.94.46.193:30193 - GET /device_values_to_modify/1.1.1.1 HTTPS
+23/Mar/2022 - 21:16:34 - 181.94.46.193:30193 - PUT /modify_device/1.1.1.1 HTTPS
+23/Mar/2022 - 21:16:34 - 181.94.46.193:30193 - GET /device_values_to_modify/1.1.1.1 HTTPS
+23/Mar/2022 - 21:16:35 - 181.94.46.193:30193 - GET /inventory_list HTTPS
+23/Mar/2022 - 21:16:36 - 181.94.46.193:30193 - GET /hostname_list HTTPS
+23/Mar/2022 - 21:16:38 - 181.94.46.193:30193 - GET /hostname_list HTTPS
+23/Mar/2022 - 21:16:40 - 181.94.46.193:30193 - GET /device_type_list HTTPS
+23/Mar/2022 - 21:17:11 - 181.94.46.193:30195 - GET /inventory_list HTTPS
+23/Mar/2022 - 21:17:13 - 181.94.46.193:30195 - GET /hostname_list HTTPS
+23/Mar/2022 - 21:17:15 - 181.94.46.193:30195 - DELETE /delete_device/1.1.1.1 HTTPS
+23/Mar/2022 - 21:17:15 - 181.94.46.193:30195 - GET /hostname_list HTTPS
+23/Mar/2022 - 21:17:16 - 181.94.46.193:30195 - GET /inventory_list HTTPS
+23/Mar/2022 - 21:17:19 - 181.94.46.193:30195 - GET /diagram HTTPS
+23/Mar/2022 - 21:18:17 - 181.94.46.193:30221 - GET /diagram HTTPS
+23/Mar/2022 - 21:40:31 - 181.94.46.193:5867 - GET /device_type_list HTTPS
+23/Mar/2022 - 21:41:12 - 167.248.133.45:44782 - GET / HTTPS
+23/Mar/2022 - 21:41:12 - 167.248.133.45:41164 - GET / HTTPS
+23/Mar/2022 - 21:42:33 - 181.94.46.193:5878 - GET /device_type_list HTTPS
+23/Mar/2022 - 21:42:33 - 181.94.46.193:5878 - GET /device_type_list HTTPS
+23/Mar/2022 - 21:42:47 - 181.94.46.193:5880 - GET / HTTPS
+23/Mar/2022 - 21:43:23 - 181.94.46.193:5886 - GET /dashboard username=mvarrone HTTPS
+23/Mar/2022 - 21:43:25 - 181.94.46.193:5886 - GET /device_type_list HTTPS
+23/Mar/2022 - 21:43:34 - 181.94.46.193:5887 - POST /add_device/1.1.1.1 brocade_netiron HTTPS
+23/Mar/2022 - 21:43:54 - 181.94.46.193:5888 - GET /device_type_list HTTPS
+23/Mar/2022 - 21:44:26 - 181.94.46.193:30232 - GET /device_type_list HTTPS
+23/Mar/2022 - 21:44:34 - 181.94.46.193:30234 - GET /device_type_list HTTPS
+23/Mar/2022 - 21:44:45 - 181.94.46.193:30236 - POST /add_device/2.2.2.2 broadcom_icos HTTPS
+23/Mar/2022 - 21:46:15 - 181.94.46.193:31891 - GET /inventory_list HTTPS
+23/Mar/2022 - 21:46:16 - 181.94.46.193:31891 - GET /hostname_list HTTPS
+23/Mar/2022 - 21:46:32 - 181.94.46.193:31892 - DELETE /delete_device/1.1.1.1 HTTPS
+23/Mar/2022 - 21:46:33 - 181.94.46.193:31892 - GET /hostname_list HTTPS
+23/Mar/2022 - 21:46:35 - 181.94.46.193:31892 - DELETE /delete_device/2.2.2.2 HTTPS
+23/Mar/2022 - 21:46:35 - 181.94.46.193:31892 - GET /hostname_list HTTPS
+23/Mar/2022 - 21:46:36 - 181.94.46.193:31892 - GET /inventory_list HTTPS
+23/Mar/2022 - 21:46:37 - 181.94.46.193:31892 - GET /device_type_list HTTPS
+23/Mar/2022 - 21:46:45 - 181.94.46.193:31893 - POST /add_device/1.1.1.1 broadcom_icos HTTPS
+23/Mar/2022 - 21:46:53 - 181.94.46.193:31899 - GET /device_type_list HTTPS
+23/Mar/2022 - 21:47:02 - 181.94.46.193:31900 - POST /add_device/2.2.2.2 brocade_netiron HTTPS
+23/Mar/2022 - 21:47:20 - 181.94.46.193:31903 - GET /device_type_list HTTPS
+23/Mar/2022 - 21:47:31 - 181.94.46.193:31906 - GET /device_type_list HTTPS
+23/Mar/2022 - 21:47:38 - 181.94.46.193:31907 - GET /inventory_list HTTPS
+23/Mar/2022 - 21:47:40 - 181.94.46.193:31907 - GET /device_type_list HTTPS
+23/Mar/2022 - 21:47:49 - 181.94.46.193:31909 - POST /add_device/3.3.3.3 brocade_netiron HTTPS
+23/Mar/2022 - 21:53:43 - 181.94.46.193:32022 - GET /device_type_list HTTPS
+23/Mar/2022 - 21:53:51 - 181.94.46.193:32023 - GET /hostname_list HTTPS
+23/Mar/2022 - 21:53:51 - 181.94.46.193:32023 - GET /device_type_list HTTPS
+23/Mar/2022 - 21:53:52 - 181.94.46.193:32023 - GET /dashboard username=mvarrone HTTPS
+23/Mar/2022 - 21:53:54 - 181.94.46.193:32023 - GET /device_type_list HTTPS
+23/Mar/2022 - 21:53:56 - 181.94.46.193:32023 - GET /hostname_list HTTPS
+23/Mar/2022 - 21:53:56 - 181.94.46.193:32023 - GET /hostname_list HTTPS
+23/Mar/2022 - 21:53:58 - 181.94.46.193:32023 - GET /inventory_list HTTPS
+23/Mar/2022 - 21:54:00 - 181.94.46.193:32023 - GET /diagram HTTPS
+23/Mar/2022 - 21:54:01 - 181.94.46.193:32023 - GET /logs HTTPS
+23/Mar/2022 - 21:54:03 - 181.94.46.193:32023 - GET /about HTTPS
+23/Mar/2022 - 21:54:05 - 181.94.46.193:32023 - GET /device_type_list HTTPS
+23/Mar/2022 - 21:54:11 - 181.94.46.193:32028 - GET /inventory_list HTTPS
+23/Mar/2022 - 21:54:16 - 181.94.46.193:32028 - POST /add_device/1.1.1.1 broadcom_icos HTTPS
+23/Mar/2022 - 21:54:45 - 181.94.46.193:32036 - GET /device_type_list HTTPS
+23/Mar/2022 - 21:54:49 - 181.94.46.193:32036 - GET /hostname_list HTTPS
+23/Mar/2022 - 21:54:49 - 181.94.46.193:32036 - GET /device_type_list HTTPS
+23/Mar/2022 - 21:55:00 - 181.94.46.193:32038 - POST /add_device/2.2.2.2 broadcom_icos HTTPS
+23/Mar/2022 - 21:55:12 - 181.94.46.193:32039 - GET /device_type_list HTTPS
+23/Mar/2022 - 21:55:15 - 181.94.46.193:32039 - GET /hostname_list HTTPS
+23/Mar/2022 - 21:55:16 - 181.94.46.193:32039 - GET /device_type_list HTTPS
+23/Mar/2022 - 21:55:22 - 181.94.46.193:32041 - POST /add_device/3.3.3.3 broadcom_icos HTTPS
+23/Mar/2022 - 21:55:26 - 181.94.46.193:32041 - GET /inventory_list HTTPS
+23/Mar/2022 - 22:03:44 - 181.94.46.193:31168 - GET /device_type_list HTTPS
+23/Mar/2022 - 22:12:37 - 181.94.46.193:31237 - GET /device_type_list HTTPS
+23/Mar/2022 - 22:12:37 - 181.94.46.193:31238 - GET /dashboard username=mvarrone HTTPS
+23/Mar/2022 - 22:12:48 - 181.94.46.193:31242 - GET /inventory_list HTTPS
+23/Mar/2022 - 22:12:55 - 181.94.46.193:31243 - POST /add_device/4.4.4.4 cisco_ios HTTPS
+23/Mar/2022 - 22:13:40 - 181.94.46.193:31244 - GET / HTTPS
+23/Mar/2022 - 22:13:46 - 181.94.46.193:31247 - GET /dashboard username=mvarrone HTTPS
+23/Mar/2022 - 22:13:57 - 181.94.46.193:31248 - GET /device_type_list HTTPS
+23/Mar/2022 - 22:14:04 - 181.94.46.193:31249 - POST /add_device/7.7.7.7 brocade_netiron HTTPS
+23/Mar/2022 - 22:14:12 - 181.94.46.193:31250 - GET /hostname_list HTTPS
+23/Mar/2022 - 22:15:32 - 181.94.46.193:31261 - GET /hostname_list HTTPS
+23/Mar/2022 - 22:15:43 - 181.94.46.193:31267 - GET /hostname_list HTTPS
+23/Mar/2022 - 22:15:49 - 181.94.46.193:31269 - GET /hostname_list HTTPS
+23/Mar/2022 - 22:16:04 - 181.94.46.193:31271 - GET /device_type_list HTTPS
+23/Mar/2022 - 22:16:04 - 181.94.46.193:31271 - GET /hostname_list HTTPS
+23/Mar/2022 - 22:16:06 - 181.94.46.193:31271 - GET /device_values_to_modify/7.7.7.7 HTTPS
+23/Mar/2022 - 22:16:19 - 181.94.46.193:31272 - PUT /modify_device/7.7.7.7 HTTPS
+23/Mar/2022 - 22:16:19 - 181.94.46.193:31272 - GET /device_values_to_modify/7.7.7.7 HTTPS
+23/Mar/2022 - 22:16:23 - 181.94.46.193:31272 - GET /hostname_list HTTPS
+23/Mar/2022 - 22:16:53 - 181.94.46.193:31277 - GET /hostname_list HTTPS
+23/Mar/2022 - 22:17:00 - 181.94.46.193:31279 - GET /hostname_list HTTPS
+23/Mar/2022 - 22:17:02 - 181.94.46.193:31279 - GET /hostname_list HTTPS
+23/Mar/2022 - 22:17:05 - 181.94.46.193:31279 - GET /inventory_list HTTPS
+23/Mar/2022 - 22:17:05 - 181.94.46.193:31279 - GET /hostname_list HTTPS
+23/Mar/2022 - 22:17:08 - 181.94.46.193:31279 - GET /inventory_list HTTPS
+23/Mar/2022 - 22:17:11 - 181.94.46.193:31279 - GET /hostname_list HTTPS
+23/Mar/2022 - 22:17:13 - 181.94.46.193:31279 - DELETE /delete_device/7.7.7.7 HTTPS
+23/Mar/2022 - 22:17:14 - 181.94.46.193:31279 - GET /hostname_list HTTPS
+23/Mar/2022 - 22:17:17 - 181.94.46.193:31279 - DELETE /delete_device/4.4.4.4 HTTPS
+23/Mar/2022 - 22:17:17 - 181.94.46.193:31279 - GET /hostname_list HTTPS
+23/Mar/2022 - 22:17:20 - 181.94.46.193:31279 - DELETE /delete_device/2.2.2.2 HTTPS
+23/Mar/2022 - 22:17:20 - 181.94.46.193:31279 - GET /hostname_list HTTPS
+23/Mar/2022 - 22:17:22 - 181.94.46.193:31279 - DELETE /delete_device/1.1.1.1 HTTPS
+23/Mar/2022 - 22:17:22 - 181.94.46.193:31279 - GET /hostname_list HTTPS
+23/Mar/2022 - 22:17:24 - 181.94.46.193:31279 - DELETE /delete_device/3.3.3.3 HTTPS
+23/Mar/2022 - 22:17:24 - 181.94.46.193:31279 - GET /hostname_list HTTPS
+23/Mar/2022 - 22:17:25 - 181.94.46.193:31279 - GET /hostname_list HTTPS
+23/Mar/2022 - 22:17:25 - 181.94.46.193:31279 - GET /hostname_list HTTPS
+23/Mar/2022 - 22:17:28 - 181.94.46.193:31279 - GET /inventory_list HTTPS
+23/Mar/2022 - 22:19:30 - 181.94.46.193:31285 - GET /hostname_list HTTPS
+23/Mar/2022 - 22:19:30 - 181.94.46.193:31285 - GET /inventory_list HTTPS
+23/Mar/2022 - 22:19:31 - 181.94.46.193:31285 - GET /device_type_list HTTPS
+23/Mar/2022 - 22:19:32 - 181.94.46.193:31285 - GET /hostname_list HTTPS
+23/Mar/2022 - 22:19:33 - 181.94.46.193:31285 - GET /inventory_list HTTPS
+23/Mar/2022 - 22:19:35 - 181.94.46.193:31285 - GET /diagram HTTPS
+23/Mar/2022 - 22:19:38 - 181.94.46.193:31285 - GET /logs HTTPS
+23/Mar/2022 - 22:19:41 - 181.94.46.193:31285 - GET /about HTTPS
+23/Mar/2022 - 22:20:24 - 181.94.46.193:31286 - GET /dashboard username=mvarrone HTTPS
+23/Mar/2022 - 22:20:25 - 181.94.46.193:31286 - GET /device_type_list HTTPS
+23/Mar/2022 - 22:30:31 - 181.94.46.193:1056 - GET / HTTPS
+23/Mar/2022 - 22:30:41 - 181.94.46.193:1056 - GET /dashboard username=mvarrone HTTPS
+23/Mar/2022 - 22:30:42 - 181.94.46.193:1056 - GET /device_type_list HTTPS
+23/Mar/2022 - 22:30:51 - 181.94.46.193:1057 - POST /add_device/1.1.1.1 brocade_netiron HTTPS
+23/Mar/2022 - 22:30:55 - 181.94.46.193:1057 - GET /hostname_list HTTPS
+23/Mar/2022 - 22:30:56 - 181.94.46.193:1057 - GET /device_values_to_modify/1.1.1.1 HTTPS
+23/Mar/2022 - 22:31:02 - 181.94.46.193:1058 - PUT /modify_device/1.1.1.1 HTTPS
+23/Mar/2022 - 22:31:02 - 181.94.46.193:1058 - GET /device_values_to_modify/1.1.1.1 HTTPS
+23/Mar/2022 - 22:31:09 - 181.94.46.193:1059 - GET /hostname_list HTTPS
+23/Mar/2022 - 22:31:11 - 181.94.46.193:1059 - DELETE /delete_device/1.1.1.1 HTTPS
+23/Mar/2022 - 22:31:11 - 181.94.46.193:1059 - GET /hostname_list HTTPS
+23/Mar/2022 - 22:31:19 - 181.94.46.193:1061 - GET /inventory_list HTTPS
+23/Mar/2022 - 22:31:20 - 181.94.46.193:1061 - GET /diagram HTTPS
+23/Mar/2022 - 22:31:21 - 181.94.46.193:1061 - GET /logs HTTPS
+23/Mar/2022 - 22:31:22 - 181.94.46.193:1061 - GET /about HTTPS
+23/Mar/2022 - 22:31:26 - 181.94.46.193:1061 - GET /hostname_list HTTPS
+23/Mar/2022 - 22:31:28 - 181.94.46.193:1061 - GET /device_type_list HTTPS
+23/Mar/2022 - 22:31:34 - 181.94.46.193:1063 - POST /add_device/1.1.1.1 aruba_aoscx HTTPS
+23/Mar/2022 - 22:31:39 - 181.94.46.193:1063 - GET /hostname_list HTTPS
+23/Mar/2022 - 22:31:40 - 181.94.46.193:1063 - GET /device_values_to_modify/1.1.1.1 HTTPS
+23/Mar/2022 - 22:31:45 - 181.94.46.193:1063 - PUT /modify_device/1.1.1.1 HTTPS
+23/Mar/2022 - 22:31:45 - 181.94.46.193:1063 - GET /device_values_to_modify/1.1.1.1 HTTPS
+23/Mar/2022 - 22:31:52 - 181.94.46.193:1066 - PUT /modify_device/1.1.1.1 HTTPS
+23/Mar/2022 - 22:31:52 - 181.94.46.193:1066 - GET /device_values_to_modify/1.1.1.1 HTTPS
+23/Mar/2022 - 22:31:52 - 181.94.46.193:1066 - PUT /modify_device/1.1.1.1 HTTPS
+23/Mar/2022 - 22:31:52 - 181.94.46.193:1066 - GET /device_values_to_modify/1.1.1.1 HTTPS
+23/Mar/2022 - 22:31:55 - 181.94.46.193:1066 - PUT /modify_device/1.1.1.1 HTTPS
+23/Mar/2022 - 22:31:55 - 181.94.46.193:1066 - GET /device_values_to_modify/1.1.1.1 HTTPS
+23/Mar/2022 - 22:31:56 - 181.94.46.193:1066 - GET /hostname_list HTTPS
+23/Mar/2022 - 22:32:00 - 181.94.46.193:1066 - DELETE /delete_device/1.1.1.1 HTTPS
+23/Mar/2022 - 22:32:00 - 181.94.46.193:1066 - GET /hostname_list HTTPS
+23/Mar/2022 - 22:32:01 - 181.94.46.193:1066 - GET /inventory_list HTTPS
+23/Mar/2022 - 22:32:03 - 181.94.46.193:1066 - GET /diagram HTTPS
+23/Mar/2022 - 22:32:04 - 181.94.46.193:1066 - GET /about HTTPS
+23/Mar/2022 - 22:32:05 - 181.94.46.193:1066 - GET /logout username=mvarrone HTTPS
+23/Mar/2022 - 22:32:05 - 181.94.46.193:1066 - GET / HTTPS

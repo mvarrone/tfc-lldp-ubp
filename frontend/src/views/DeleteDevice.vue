@@ -13,7 +13,7 @@
             v-bind:class="['form-control', states.hostname_list_selected]"
             id="exampleFormControlSelect1"
             v-model="info.hostname"
-            @change="changeCountry($event)"
+            @change="changeOnList($event)"
           >
             <option disabled value="">Select a hostname</option>
             <option v-for="value in hostname_list" v-bind:key="value.id">
@@ -100,7 +100,13 @@ export default {
       });
   },
   methods: {
-    changeCountry(event) {
+    makeToast() {
+      this.$bvToast.toast("Device deleted successfully", {
+        title: "Action OK",
+        autoHideDelay: 2500,
+      });
+    },
+    changeOnList(event) {
       this.elementSelected = event.target.value;
       // console.log(this.elementSelected);
       this.states.hostname_list_selected = "";
@@ -190,6 +196,7 @@ export default {
         .get(this.url + this.port + this.endpoint_hostname_list, { headers })
         .then((response) => {
           this.hostname_list = response.data;
+          this.makeToast();
         })
         .catch((error) => {
           // console.log("Delete.vue: Sección axios.catch()");

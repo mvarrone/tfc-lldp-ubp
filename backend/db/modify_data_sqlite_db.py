@@ -6,19 +6,25 @@ from log.log_function import write_to_log, write_to_log_modify
 
 
 def get_credentials(hostname_selected):
+    """Get password and secret values for a certain hostname
+
+    c.execute() return 3 values: hostname, password and secret
+
+    hostname = c.execute(...)[0][0] (Not used, that is why the _ symbol)
+
+    password = c.execute(...)[0][1]
+
+    secret = c.execute(...)[0][2]
+    """
     load_dotenv()
     path = os.getenv('DB_PATH_DEVICES')
     conn = sqlite3.connect(path)
 
     c = conn.cursor()
 
-    info = c.execute(
+    _, password, secret = c.execute(
         "SELECT host, password, secret FROM credentials where HOST = ?",
-        (hostname_selected,)).fetchall()
-
-    # hostname = info[0][0]
-    password = info[0][1]
-    secret = info[0][2]
+        (hostname_selected,)).fetchall()[0]
 
     conn.close()
 
@@ -27,11 +33,8 @@ def get_credentials(hostname_selected):
 
 def modify_data_db(hostname_selected, device, dict_fastapi):
     print("\nEjecutando desde modify_data_db\n")
-    # print(device)
 
-    values = get_credentials(hostname_selected)
-    password = values[0]
-    secret = values[1]
+    password, secret = get_credentials(hostname_selected)
 
     if len(device["password"]) == 0:
         device["password"] = password

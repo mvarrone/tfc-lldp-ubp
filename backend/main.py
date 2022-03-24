@@ -42,6 +42,7 @@ fake_users_db, qusers = get_users_from_db()  # users from db
 class Token(BaseModel):
     access_token: str
     token_type: str
+    # exp_arg: str = None
 
 
 class TokenData(BaseModel):
@@ -138,9 +139,9 @@ def create_access_token(data: dict, expires_delta: timedelta | None = None):
         expire = datetime.utcnow() + expires_delta
     else:
         expire = datetime.utcnow() + timedelta(minutes=15)
+    exp_arg = expire - timedelta(minutes=60*3)  # -180 min == -3 hs
     to_encode.update({"exp": expire})
-    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)
-    return encoded_jwt
+    return jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM), exp_arg
 
 
 async def get_current_user(token: str = Depends(oauth2_scheme)):
@@ -202,7 +203,6 @@ async def get_current_active_user(current_user: User = Depends(get_current_user)
 
 @ app.post("/token", response_model=Token, tags=["Login"])
 async def login_for_access_token(form_data: OAuth2PasswordRequestForm = Depends()):
-    # print("\nDentro de /token")
     user = authenticate_user(
         fake_users_db, form_data.username, form_data.password)
     if not user:
@@ -212,10 +212,14 @@ async def login_for_access_token(form_data: OAuth2PasswordRequestForm = Depends(
             headers={"WWW-Authenticate": "Bearer"},
         )
     access_token_expires = timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)
-    access_token = create_access_token(
+    access_token, exp_arg = create_access_token(
         data={"sub": user.username}, expires_delta=access_token_expires
     )
-    return {"access_token": access_token, "token_type": "bearer"}
+    return {
+        "access_token": access_token,
+        "token_type": "bearer",
+        # "exp_arg": str(exp_arg)
+    }
 
 
 @ app.get("/users/me/", response_model=User, tags=["Login"])
@@ -447,6 +451,11 @@ async def get_device_values_to_modify(hostname: str, request: Request, current_u
     """
     Used when click on an item from selectable list on Modify Tab -->
     File: ModifyDevice.vue, Section: method: switchSelect(event)
+
+    Also, update_info_after_modify_button_clicked uses this endpoint.
+    update_info_after_modify_button_clicked is only executed when there are no
+    errors when Modify Button is clicked -->
+    File: ModifyDevice.vue, Section: method: update_info_after_modify_button_clicked()
     """
     dict_fastapi = {
         'method': request.method,
@@ -494,8 +503,6 @@ async def logout(request: Request, current_user: User = Depends(get_current_acti
         'port': request.client.port,
         'username': usuario
     }
-    # print("acaaaaaaaaa")
-    # print(usuario)
     return logout_function(dict_fastapi)
 
 

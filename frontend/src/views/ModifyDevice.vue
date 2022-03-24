@@ -208,10 +208,11 @@ export default {
       });
   },
   methods: {
-    changeCountry(event) {
-      this.elementSelected = event.target.value;
-      // console.log(this.elementSelected);
-      this.states.hostname_list_selected = "";
+    makeToast() {
+      this.$bvToast.toast("Device modified successfully", {
+        title: "Action OK",
+        autoHideDelay: 2500,
+      });
     },
     validate_modify_device_button() {
       // alert("aaaaaaaaaaaaa");
@@ -313,13 +314,32 @@ export default {
         Authorization: "Bearer " + token,
       };
       axios
-        .get(this.url + this.port + this.endpoint_hostname_list, { headers })
-        .then((response) => {
-          this.hostname_list = response.data;
-          // console.log(response.data);
+        .get(
+          this.url +
+            this.port +
+            this.endpoint_device_values_to_modify +
+            "/" +
+            this.info.hostname_selected,
+          { headers },
+          {
+            hostname: this.info.hostname_selected,
+          }
+        )
+        .then((result) => {
+          // console.log("Sección axios.then()");
+          // console.log("result = ");
+          // console.log(result);
+          // console.log("result.data = ");
+          // console.log(result.data);
+          this.info.device_type = result.data.device_type;
+          this.info.hostname = result.data.host;
+          this.info.port = result.data.port;
+          this.info.username = result.data.username;
+          this.info.conn_timeout = result.data.conn_timeout;
+          this.makeToast();
         })
         .catch((error) => {
-          // console.log("ModifyDevice.vue: Sección axios.catch()");
+          // console.log("Sección axios.catch()");
           // console.log("error = ");
           // console.log(error);
           if (error.response.data.detail == "Signature has expired.") {
