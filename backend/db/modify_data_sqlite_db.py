@@ -32,8 +32,6 @@ def get_credentials(hostname_selected):
 
 
 def modify_data_db(hostname_selected, device, dict_fastapi):
-    print("\nEjecutando desde modify_data_db\n")
-
     password, secret = get_credentials(hostname_selected)
 
     if len(device["password"]) == 0:
@@ -48,7 +46,8 @@ def modify_data_db(hostname_selected, device, dict_fastapi):
 
     c = conn.cursor()
 
-    c.execute("""
+    c.execute(
+        """
     UPDATE credentials
     SET device_type = :device_type,
         host = :host,
@@ -58,17 +57,17 @@ def modify_data_db(hostname_selected, device, dict_fastapi):
         secret = :secret,
         conn_timeout = :conn_timeout
     WHERE host = ?""",
-              (
-                  device["device_type"],
-                  device["hostname"],
-                  device["port"],
-                  device["username"],
-                  device["password"],
-                  device["secret"],
-                  device["conn_timeout"],
-                  hostname_selected
-              )
-              )
+        (
+            device["device_type"],
+            device["hostname"],
+            device["port"],
+            device["username"],
+            device["password"],
+            device["secret"],
+            device["conn_timeout"],
+            hostname_selected
+        )
+    )
 
     conn.commit()
 
@@ -94,8 +93,12 @@ def mod_dev_val(value, dict_fastapi):
     new_value = c.execute(
         "SELECT device_type, host, port, username, conn_timeout FROM credentials;").fetchall()
 
-    headers = ["device_type", "host", "port",
-               "username", "conn_timeout"]
+    conn.close()
+
+    headers = [
+        "device_type", "host", "port",
+        "username", "conn_timeout"
+    ]
     resultado = []
     for idx, elem in enumerate(new_value):
         resultado.append(dict(zip(headers, list(elem))))
@@ -103,8 +106,8 @@ def mod_dev_val(value, dict_fastapi):
     for idx, elem in enumerate(resultado):
         if elem["host"] == value["hostname"]:
             valor_encontrado = resultado[idx]
-
-    conn.close()
+        # else:
+        #     valor_encontrado = resultado
 
     write_to_log(dict_fastapi)
 

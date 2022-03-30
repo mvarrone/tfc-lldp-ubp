@@ -3,7 +3,7 @@
     <Header />
     <br />
     <h1>Delete device</h1>
-    <br />
+    <!-- <br /> -->
     <form v-on:submit.prevent="validate_delete_device_button">
       <div class="form-group row mx-sm-3">
         <label for="exampleFormControlSelect1" class="col-sm-4 col-form-label">
@@ -25,7 +25,7 @@
           </div>
         </div>
       </div>
-      <br />
+      <!-- <br /> -->
       <input
         class="btn btn-primary"
         type="submit"

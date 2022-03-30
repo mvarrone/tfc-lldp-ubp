@@ -1,7 +1,7 @@
 
 
 def api_tags():
-    tags_metadata = [
+    return [
         {
             "name": "Login",
             "description": "Endpoints related to login users"
@@ -27,4 +27,3 @@ def api_tags():
             "name": "About",
         },
     ]
-    return tags_metadata

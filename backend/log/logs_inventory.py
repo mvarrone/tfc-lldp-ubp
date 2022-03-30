@@ -8,9 +8,7 @@ from log.log_function import write_to_log
 
 def show_log(dict_fastapi):
     write_to_log(dict_fastapi)
-    # print("\nConseguir datos de log")
 
-    # path = "D:\\Documentos\\Mati\\tfc\\backend\\db\\logs.db"
     load_dotenv()
     path = os.getenv('DB_PATH_LOGS')
     conn = sqlite3.connect(path)
@@ -19,35 +17,26 @@ def show_log(dict_fastapi):
 
     new_value = c.execute(
         "SELECT * FROM information;").fetchall()
-    # print(new_value)
 
-    headers = ["date", "hour", "ip",
-               "method", "path", "scheme",
-               "error_type", "error_descr"]
+    conn.close()
+
+    headers = [
+        "date", "hour", "ip",
+        "method", "path", "scheme",
+        "error_type", "error_descr"
+    ]
 
     variable = []
     for _, elem in enumerate(new_value):
         variable.append(dict(zip(headers, list(elem))))
 
-    # print("\n--- variable ---\n")
-    # print(variable)
-    # print("\n")
-    # print(type(variable))
-    # print("\n")
-    # print(len(variable))
-
-    # conn.close()
     # return variable
-
-    variable_upside_down = [x for x in variable[::-1]]
-
-    conn.close()
-    return variable_upside_down
+    return variable[::-1]
 
 
 # def show_log_example(dict_fastapi):
 #     write_to_log(dict_fastapi)
-#     variable = [
+#     return [
 #         {
 #             "date": "10/Feb/2022",
 #             "hour": "21:00:21",
@@ -69,4 +58,3 @@ def show_log(dict_fastapi):
 #             "error_descr": "Este es el contenido del mensaje 2"
 #         }
 #     ]
-#     return variable

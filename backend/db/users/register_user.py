@@ -31,6 +31,9 @@ def get_usernames_registered_in_db():
 
 
 def add_user_to_db(new_user):
+    if len(new_user) == 0:
+        return "\nError: Se deben definir valores para el nuevo usuario\n"
+
     lista_usuarios = get_usernames_registered_in_db()
     if new_user["username"] in lista_usuarios:
         return "\nEl usuario " + new_user["username"] + " ya se encuentra registrado en users.db\n"
@@ -61,13 +64,15 @@ def create_hash(password):
     return CryptContext(schemes=["bcrypt"], deprecated="auto").hash(password)
 
 
-new_user = {
-    "username": "mvarrone",
-    "full_name": "Matias Varrone",
-    "email": "mativarrone2@gmail.com",
-    "hashed_password": create_hash("ubp1234"),
-    "disabled": "False",
-}
+new_user = {}
+
+# new_user = {
+#     "username": "mvarrone",
+#     "full_name": "Matias Varrone",
+#     "email": "mativarrone2@gmail.com",
+#     "hashed_password": create_hash("ubp1234"),
+#     "disabled": "False",
+# }
 
 # new_user = {
 #     "username": "dtrump",

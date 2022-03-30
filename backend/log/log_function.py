@@ -13,13 +13,22 @@ def get_time():
     return date.strftime(fecha + " - " + hora)
 
 
-def write_to_log(dict_fastapi):
+def write_to_log_just_root(dict_fastapi):
     localtime = get_time()
 
     with open('log/log.txt', 'a') as f:
         f.write(str(localtime) + " - " + str(dict_fastapi["host"]) + ":" + str(dict_fastapi["port"]) + " - " +
                 str(dict_fastapi["method"]) + " " + str(dict_fastapi["path"]) + " " +
                 str(dict_fastapi["scheme"]).upper() + "\n")
+
+
+def write_to_log(dict_fastapi):
+    localtime = get_time()
+
+    with open('log/log.txt', 'a') as f:
+        f.write(str(localtime) + " - " + str(dict_fastapi["host"]) + ":" + str(dict_fastapi["port"]) + " - " +
+                str(dict_fastapi["method"]) + " " + str(dict_fastapi["path"]) + " " +
+                str(dict_fastapi["scheme"]).upper() + " username=" + str(dict_fastapi["username"]) + "\n")
 
 
 def write_to_log_special_add(dict_fastapi, device_type):
@@ -29,7 +38,7 @@ def write_to_log_special_add(dict_fastapi, device_type):
         f.write(str(localtime) + " - " + str(dict_fastapi["host"]) + ":" + str(dict_fastapi["port"]) + " - " +
                 str(dict_fastapi["method"]) + " " + str(dict_fastapi["path"]) + " " +
                 str(device_type) + " " +
-                str(dict_fastapi["scheme"]).upper() + "\n")
+                str(dict_fastapi["scheme"]).upper() + " username=" + str(dict_fastapi["username"]) + "\n")
 
 
 def write_to_log_modify(dict_fastapi, msg=None):
@@ -38,11 +47,13 @@ def write_to_log_modify(dict_fastapi, msg=None):
     if msg:
         text = str(localtime) + " - " + str(dict_fastapi["host"]) + ":" + str(dict_fastapi["port"]) + " - " + \
             str(dict_fastapi["method"]) + " " + str(dict_fastapi["path"]) + " - " + msg + " " + \
-            str(dict_fastapi["scheme"]).upper() + "\n"
+            str(dict_fastapi["scheme"]).upper() + \
+            " username=" + str(dict_fastapi["username"]) + "\n"
     else:
         text = str(localtime) + " - " + str(dict_fastapi["host"]) + ":" + str(dict_fastapi["port"]) + " - " + \
             str(dict_fastapi["method"]) + " " + str(dict_fastapi["path"]) + " " + \
-            str(dict_fastapi["scheme"]).upper() + "\n"
+            str(dict_fastapi["scheme"]).upper() + \
+            " username=" + str(dict_fastapi["username"]) + "\n"
 
     with open('log/log.txt', 'a') as f:
         f.write(text)
@@ -54,7 +65,7 @@ def write_to_log_special_delete(dict_fastapi):
     with open('log/log.txt', 'a') as f:
         f.write(str(localtime) + " - " + str(dict_fastapi["host"]) + ":" + str(dict_fastapi["port"]) + " - " +
                 str(dict_fastapi["method"]) + " " + str(dict_fastapi["path"]) + " " +
-                str(dict_fastapi["scheme"]).upper() + "\n")
+                str(dict_fastapi["scheme"]).upper() + " username=" + str(dict_fastapi["username"]) + "\n")
 
 
 def write_to_log_special_db(dict_fastapi, path):
@@ -166,8 +177,8 @@ def write_to_log_section_dashboard(dict_fastapi):
 
     with open('log/log.txt', 'a') as f:
         f.write(str(localtime) + " - " + str(dict_fastapi["host"]) + ":" + str(dict_fastapi["port"]) + " - " +
-                str(dict_fastapi["method"]) + " " + str(dict_fastapi["path"]) + " " + "username=" + str(dict_fastapi["username"]) + " " +
-                str(dict_fastapi["scheme"]).upper() + "\n")
+                str(dict_fastapi["method"]) + " " + str(dict_fastapi["path"]) + " " +
+                str(dict_fastapi["scheme"]).upper() + " username=" + str(dict_fastapi["username"]) + "\n")
 
 
 def write_to_log_section_logout(dict_fastapi):
@@ -175,8 +186,8 @@ def write_to_log_section_logout(dict_fastapi):
 
     with open('log/log.txt', 'a') as f:
         f.write(str(localtime) + " - " + str(dict_fastapi["host"]) + ":" + str(dict_fastapi["port"]) + " - " +
-                str(dict_fastapi["method"]) + " " + str(dict_fastapi["path"]) + " " + "username=" + str(dict_fastapi["username"]) + " " +
-                str(dict_fastapi["scheme"]).upper() + "\n")
+                str(dict_fastapi["method"]) + " " + str(dict_fastapi["path"]) + " " +
+                str(dict_fastapi["scheme"]).upper() + " username=" + str(dict_fastapi["username"]) + "\n")
 
 
 def write_to_log_special_users_db(username):

@@ -40,11 +40,12 @@ def add_device_types_db(device_type_to_be_added):
 
     c = conn.cursor()
 
-    c.execute("INSERT INTO info VALUES (:device_type)",
-              {
-                  'device_type': device_type_to_be_added,
-              }
-              )
+    c.execute(
+        "INSERT INTO info VALUES (:device_type)",
+        {
+            'device_type': device_type_to_be_added,
+        }
+    )
 
     conn.commit()
 

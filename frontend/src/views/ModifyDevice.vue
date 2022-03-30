@@ -3,7 +3,7 @@
     <Header />
     <br />
     <h1>Modify device</h1>
-    <br />
+    <!-- <br /> -->
     <form v-on:submit.prevent="validate_modify_device_button">
       <div class="form-group row mx-sm-3">
         <label for="exampleFormControlSelect1" class="col-sm-4 col-form-label">
@@ -15,7 +15,9 @@
             v-model="info.hostname_selected"
             @change="switchSelect($event)"
           >
-            <option disabled value="">Select a hostname</option>
+            <option disabled value="">
+              {{ this.disabled_value_msg }}
+            </option>
             <option v-for="value in hostname_list" v-bind:key="value.id">
               {{ value.host }}
             </option>
@@ -25,7 +27,7 @@
           </div>
         </div>
       </div>
-      <br />
+      <!-- <br /> -->
       <div class="form-group row mx-sm-3">
         <label for="hostname" class="col-sm-4 col-form-label"> hostname </label>
         <div class="col-md-4 mb-2">
@@ -124,7 +126,7 @@
           />
         </div>
       </div>
-      <br />
+      <!-- <br /> -->
       <input
         class="btn btn-primary"
         type="submit"
@@ -145,7 +147,7 @@ export default {
   },
   data() {
     return {
-      elementSelected: [],
+      disabled_value_msg: "Select a hostname",
       states: {
         hostname_list_selected: "",
       },
@@ -208,12 +210,6 @@ export default {
       });
   },
   methods: {
-    makeToast() {
-      this.$bvToast.toast("Device modified successfully", {
-        title: "Action OK",
-        autoHideDelay: 2500,
-      });
-    },
     validate_modify_device_button() {
       // alert("aaaaaaaaaaaaa");
       this.lista = [];
@@ -273,6 +269,7 @@ export default {
           // console.log("Sección axios.then()");
           // console.log("result = ");
           // console.log(result);
+
           this.info.hostname = "";
           this.info.device_type = "";
           this.info.port = "22";
@@ -280,63 +277,8 @@ export default {
           this.info.password = "";
           this.info.secret = "";
           this.info.conn_timeout = "5";
-          this.update_info_after_modify_button_clicked();
-        })
-        .catch((error) => {
-          // console.log("Sección axios.catch()");
-          // console.log("error = ");
-          // console.log(error);
-          if (error.response.data.detail == "Signature has expired.") {
-            // console.log("Token expirado");
-            // alert("Token has expired");
-            this.tokenAvailable = false;
-            this.$router.push("/");
-          }
-          if (error.response.data.detail == "Not enough segments") {
-            // console.log("Not enough segments");
-            // alert("Not enough segments");
-            this.tokenPresent = false;
-            this.tokenAvailable = true;
-            this.$router.push("/");
-          }
-        });
-    },
-    update_info_after_modify_button_clicked() {
-      // console.log("que");
-      // let endpoint = "/hostname_list";
-      // console.log("Ejecución desde update_info_after_modify_button_clicked()");
-      let token = localStorage.getItem("token");
-      if (token) {
-        this.tokenPresent = true;
-        this.tokenAvailable = true;
-      }
-      const headers = {
-        Authorization: "Bearer " + token,
-      };
-      axios
-        .get(
-          this.url +
-            this.port +
-            this.endpoint_device_values_to_modify +
-            "/" +
-            this.info.hostname_selected,
-          { headers },
-          {
-            hostname: this.info.hostname_selected,
-          }
-        )
-        .then((result) => {
-          // console.log("Sección axios.then()");
-          // console.log("result = ");
-          // console.log(result);
-          // console.log("result.data = ");
-          // console.log(result.data);
-          this.info.device_type = result.data.device_type;
-          this.info.hostname = result.data.host;
-          this.info.port = result.data.port;
-          this.info.username = result.data.username;
-          this.info.conn_timeout = result.data.conn_timeout;
-          this.makeToast();
+
+          this.$router.push("inventory");
         })
         .catch((error) => {
           // console.log("Sección axios.catch()");

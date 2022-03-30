@@ -3,11 +3,10 @@
     <Header />
     <br />
     <h1>Add device</h1>
-    <br />
+    <!-- <br /> -->
     <form v-on:submit.prevent="validate_add_device_button">
       <div class="form-group row mx-sm-3">
         <label for="exampleFormControlSelect1" class="col-sm-4 col-form-label">
-          device_type
         </label>
         <div class="col-md-4 mb-2">
           <select
@@ -115,7 +114,7 @@
           <!-- <div class="invalid-feedback">conn_timeout required</div> -->
         </div>
       </div>
-      <br />
+      <!-- <br /> -->
       <input
         class="btn btn-primary"
         type="submit"

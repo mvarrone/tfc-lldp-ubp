@@ -159,8 +159,7 @@ def get_diagram(dict_fastapi):
         return {"error": "all_down"}
 
     if contador_errores > 0:
-        print("\nNo se pudo conectar a " +
-              str(contador_errores) + " equipos")
+        print("\nNo se pudo conectar a " + str(contador_errores) + " equipos")
         variable_error = True
         # write_to_log_error_diagram_at_least_one(dict_fastapi, info_error)
 
@@ -560,7 +559,7 @@ def get_diagram_example(dict_fastapi):
     check_db_table_device_types(dict_fastapi)
     check_db_for_logs(dict_fastapi)
 
-    example_data = {
+    return {
         "nodes": [
             {
                 "id": 1,
@@ -709,4 +708,3 @@ def get_diagram_example(dict_fastapi):
             }
         ]
     }
-    return example_data

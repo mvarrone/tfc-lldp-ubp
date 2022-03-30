@@ -5,11 +5,14 @@ from dotenv import load_dotenv
 from log.log_function import write_to_log_special_db
 
 
-def create_db():
-    # path = "D:\\Documentos\\Mati\\tfc\\backend\\db\\devices.db"
+def db_connection(db_name):
     load_dotenv()
-    path = os.getenv('DB_PATH_DEVICES')
-    conn = sqlite3.connect(path)
+    path = os.getenv(db_name)
+    return sqlite3.connect(path)
+
+
+def create_db():
+    conn = db_connection('DB_PATH_DEVICES')
 
     c = conn.cursor()
 
@@ -43,10 +46,7 @@ def check_db(dict_fastapi):
 
 
 def create_db_table_device_types():
-    # path = "D:\\Documentos\\Mati\\tfc\\backend\\db\\device_types.db"
-    load_dotenv()
-    path = os.getenv('DB_PATH_DEVICE_TYPES')
-    conn = sqlite3.connect(path)
+    conn = db_connection('DB_PATH_DEVICE_TYPES')
 
     c = conn.cursor()
 
@@ -74,10 +74,7 @@ def check_db_table_device_types(dict_fastapi):
 
 
 def create_db_for_logs():
-    # path = "D:\\Documentos\\Mati\\tfc\\backend\\db\\logs.db"
-    load_dotenv()
-    path = os.getenv('DB_PATH_LOGS')
-    conn = sqlite3.connect(path)
+    conn = db_connection('DB_PATH_LOGS')
 
     c = conn.cursor()
 
@@ -111,10 +108,7 @@ def check_db_for_logs(dict_fastapi):
 
 
 def create_db_for_users():
-    # path = "D:\\Documentos\\Mati\\tfc\\backend\\db\\users\\users.db"
-    load_dotenv()
-    path = os.getenv('DB_PATH_USERS')
-    conn = sqlite3.connect(path)
+    conn = db_connection('DB_PATH_USERS')
 
     c = conn.cursor()
 
