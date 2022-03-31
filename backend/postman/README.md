@@ -1,6 +1,7 @@
-# How to import API documentation into Postman
 
-        1. Open Postman
+        # How to import API documentation into Postman
+
+          1. Open Postman
         2. Go to "APIs", select "New", inside "Advanced" section select "API" and then "Import" tab
         3. Under "Import local schema files", hit "Select files" Button
         4. Select openapi.json located inside postman directory
