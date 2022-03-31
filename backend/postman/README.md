@@ -14,4 +14,5 @@
    - Be sure this field is checked
 9. Click on Save Button (upper right located)
 10. Now, you can test every endpoint
+
     Example: {{baseUrl}}/logs
