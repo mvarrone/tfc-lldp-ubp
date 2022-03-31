@@ -8,10 +8,10 @@
 6. API docs is imported on Collections and APIs Tabs. Use what you like
 7. Go to FastAPIDocumentation > draft > FastAPIDocumentation > Variables
 8. Set baseUrl:
-- VARIABLE: baseUrl
-- INITIAL VALUE: /
-- CURRENT VALUE: https://www.lldp.duckdns.org:5000
-- Be sure this field is checked
+    - VARIABLE: baseUrl
+    - INITIAL VALUE: /
+    - CURRENT VALUE: https://www.lldp.duckdns.org:5000
+    - Be sure this field is checked
 9. Click on Save Button (upper right located)
 10. Now, you can test every endpoint
 
