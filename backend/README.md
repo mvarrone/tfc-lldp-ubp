@@ -2,10 +2,10 @@
 
       Create and activate a virtual environment
 
-      - pip install virtualenv
-      - cd tfc
-      - python -m venv venv
-      - .\venv\Scripts\activate
+            - pip install virtualenv
+            - cd tfc
+            - python -m venv venv
+            - .\venv\Scripts\activate
 
       Install dependencies
 
