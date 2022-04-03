@@ -30,6 +30,7 @@
 - cd C:\nginx-1.21.6\
 - start .\nginx.exe
 - tasklist /fi "imagename eq nginx.exe" -> It should list 2 processes named nginx.exe
+
   Example: tasklist /fi "imagename eq nginx.exe"
 
 Nombre de imagen PID Nombre de sesión Núm. de ses Uso de memor
@@ -48,6 +49,7 @@ nginx.exe 12948 Console 1 8.668 KB
 - cd C:\nginx-1.21.6\
 - .\nginx.exe -s stop
 - tasklist /fi "imagename eq nginx.exe" -> It should look like this:
+
   Example: tasklist /fi "imagename eq nginx.exe"
 
   INFORMACIÓN: no hay tareas ejecutándose que coincidan con los criterios especificados.
