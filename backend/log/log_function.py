@@ -196,3 +196,13 @@ def write_to_log_special_users_db(username):
     with open('log/log.txt', 'a') as f:
         f.write(str(localtime) + " - " + str(username) +
                 " has been added to db (users.db)\n")
+
+
+def write_to_log_history(id, full_date, dict_fastapi):
+    localtime = get_time()
+
+    with open('log/log.txt', 'a') as f:
+        f.write(str(localtime) + " - " + str(dict_fastapi["host"]) + ":" + str(dict_fastapi["port"]) + " - " +
+                str(dict_fastapi["method"]) + " " + str(dict_fastapi["path"]) + " " +
+                "Added to history database with id: " + str(id) + " date: " + str(full_date) + " " +
+                str(dict_fastapi["scheme"]).upper() + " username=" + str(dict_fastapi["username"]) + "\n")

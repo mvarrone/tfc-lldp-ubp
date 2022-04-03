@@ -6,6 +6,7 @@ import AddDevice from "../views/AddDevice.vue";
 import ModifyDevice from "../views/ModifyDevice.vue";
 import DeleteDevice from "../views/DeleteDevice.vue";
 import Inventory from "../views/Todo-Inventory.vue";
+import History from "../views/Todo-History.vue";
 import About from "../views/Todo-About.vue";
 import Logs from "../views/Todo-Logs.vue";
 import Dashboard from "../views/Todo-Dashboard.vue";
@@ -24,6 +25,7 @@ const routes = [
   { path: "/modify", name: "ModifyDevice", component: ModifyDevice },
   { path: "/delete", name: "DeleteDevice", component: DeleteDevice },
   { path: "/inventory", name: "Inventory", component: Inventory },
+  { path: "/history", name: "History", component: History },
   { path: "/about", name: "About", component: About },
   { path: "/logs", name: "Logs", component: Logs },
   { path: "/dashboard", name: "Dashboard", component: Dashboard },

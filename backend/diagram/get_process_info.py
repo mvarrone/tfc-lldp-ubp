@@ -5,11 +5,13 @@ from pprint import pprint
 from netmiko import ConnectHandler
 
 from db.db_functions import (check_db, check_db_for_logs,
-                             check_db_table_device_types)
+                             check_db_table_device_types, check_db_for_users, check_db_for_extras)
 from db.get_data_sqlite_db import datos_para_netmiko
 from log.log_function import (write_to_log, write_to_log_error_diagram,
                               write_to_log_error_diagram_at_least_one,
                               write_to_log_error_diagram_no_devices)
+
+from db.extras.add_data_to_history import get_latest_id_from_extras_db, add_history_to_db
 
 # from pruebas.test_2 import convert #usar test_4 ?
 
@@ -558,8 +560,11 @@ def get_diagram_example(dict_fastapi):
     write_to_log(dict_fastapi)
     check_db_table_device_types(dict_fastapi)
     check_db_for_logs(dict_fastapi)
+    check_db_for_users(dict_fastapi)
+    check_db_for_extras(dict_fastapi)
+    last_id = get_latest_id_from_extras_db()
 
-    return {
+    data = {
         "nodes": [
             {
                 "id": 1,
@@ -708,3 +713,5 @@ def get_diagram_example(dict_fastapi):
             }
         ]
     }
+    add_history_to_db(last_id, data, dict_fastapi)
+    return data

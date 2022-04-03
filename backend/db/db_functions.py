@@ -136,3 +136,34 @@ def check_db_for_users(dict_fastapi):
         print("\nBase de datos users.db creada en " + str(path) + "\n")
         write_to_log_special_db(dict_fastapi, path)
     return db_exists
+
+
+def create_db_for_extras():
+    conn = db_connection('DB_PATH_EXTRAS')
+
+    c = conn.cursor()
+
+    c.execute("""CREATE TABLE extrasinfo (
+        id INTEGER PRIMARY KEY,
+        date TEXT,
+        nodes TEXT,
+        edges TEXT
+        )""")
+
+    conn.commit()
+
+    conn.close()
+
+
+def check_db_for_extras(dict_fastapi):
+    # path = "D:\Documentos\Mati\tfc\backend\db\extras\extras.db"
+    load_dotenv()
+    path = os.getenv('DB_PATH_EXTRAS')
+    db_exists = os.path.isfile(path)
+    if not(db_exists):
+        print("\nNo se encontró la base de datos llamada extras.db")
+        create_db_for_extras()
+        print("\nBase de datos extras.db creada en " + str(path) + "\n")
+        write_to_log_special_db(dict_fastapi, path)
+
+    return db_exists

@@ -1337,3 +1337,14 @@
   no_devices_in_db - 7.46 ms
     No devices present in database. Please, add devices and try again
 
+03/Apr/2022 - 02:48:09 - 181.94.47.238:1168 - GET /diagram HTTPS
+  all_down - 20.05 s
+    192.168.1.101:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.101:22\n\n',)
+
+    192.168.1.102:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.102:22\n\n',)
+
+    192.168.1.100:22 - cisco_ios
+      ('TCP connection to device failed.\n\nCommon causes of this problem are:\n1. Incorrect hostname or IP address.\n2. Wrong TCP port.\n3. Intermediate firewall blocking access.\n\nDevice settings: cisco_ios 192.168.1.100:22\n\n',)
+

@@ -14,6 +14,7 @@
     "core-js": "^3.8.3",
     "font-awesome": "^4.7.0",
     "sass-loader": "^12.6.0",
+    "splitpanes": "^2.4.1",
     "vue": "^2.6.14",
     "vue-router": "3.2.0",
     "vue-visjs": "^0.6.0"

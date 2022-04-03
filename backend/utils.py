@@ -26,4 +26,7 @@ def api_tags():
         {
             "name": "About",
         },
+        {
+            "name": "History",
+        },
     ]

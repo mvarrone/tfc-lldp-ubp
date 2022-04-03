@@ -8,6 +8,7 @@
       <router-link to="/inventory">Inventory</router-link> |
       <router-link to="/diagram">Diagram</router-link> |
       <router-link to="/logs">Logs</router-link> |
+      <router-link to="/history">History</router-link> |
       <router-link to="/about">About</router-link> |
       <router-link to="/logout">Log out</router-link>
     </div>

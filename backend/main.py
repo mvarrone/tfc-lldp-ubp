@@ -13,13 +13,14 @@ from fastapi.security import OAuth2PasswordRequestForm
 from db.users.get_users_available import get_users_from_db
 # from my_code import get_diagram
 # from get_process_info import get_diagram
-# from diagram.get_process_info import get_diagram # REAL
+from diagram.get_process_info import get_diagram  # REAL
 from diagram.get_process_info import get_diagram_example  # PRUEBA
 from my_code import (about_function, bd_add_device, bd_delete_device,
                      bd_modify_device, bd_modify_device_values,
                      bd_show_device_type_list, bd_show_hostname_list,
                      bd_show_inventory, bd_show_logs, dashboard_function,
-                     logout_function, welcome_function)
+                     logout_function, welcome_function, bd_get_saved_diagrams,
+                     bd_get_diagram_info_by_id)
 from schemas import AddDevice, DeleteDevice, UpdateDevice
 from utils import api_tags
 from utils_auth import (Token, User, authenticate_user, create_access_token,
@@ -135,7 +136,9 @@ def diagram(request: Request, current_user: User = Depends(get_current_active_us
     """
     dict_fastapi = get_fastapi_info(request, current_user)
     # time.sleep(random.randint(1, 6))
+
     return get_diagram_example(dict_fastapi)
+
     # variable = get_diagram(dict_fastapi)
     # # print("\nDentro de @app.get("/diagram")")
     # # print(variable)
@@ -275,6 +278,26 @@ async def logout(request: Request, current_user: User = Depends(get_current_acti
     """
     dict_fastapi = get_fastapi_info(request, current_user)
     return logout_function(dict_fastapi)
+
+
+@ app.get("/get_diagram_name_list", tags=["History"])
+async def get_name_list(request: Request, current_user: User = Depends(get_current_active_user)):
+    """
+    Used when click on History tab -->
+    File: Todo-History.vue, Section: mounted()
+    """
+    dict_fastapi = get_fastapi_info(request, current_user)
+    return bd_get_saved_diagrams(dict_fastapi)
+
+
+@ app.get("/get_diagram_info_by_id/{id}", tags=["History"])
+async def get_diagram_info_id(id: int, request: Request, current_user: User = Depends(get_current_active_user)):
+    """
+    Used when click on any element on History Tab list -->
+    File: Todo-History.vue, Section: methods: clickRow(id)
+    """
+    dict_fastapi = get_fastapi_info(request, current_user)
+    return bd_get_diagram_info_by_id(id, dict_fastapi)
 
 
 if __name__ == "__main__":
