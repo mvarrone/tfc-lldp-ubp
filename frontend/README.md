@@ -56,7 +56,7 @@ nginx.exe 12948 Console 1 8.668 KB
 
 INFORMACIÓN: no hay tareas ejecutándose que coincidan con los criterios especificados.
 
-Complete with:
+      Complete with:
 
 - DDNS: For example, www.duckdns.org. Create and account using Google and configure on pc (me) or router
 - Let´s Encrypt: For create and renew digital certificates
