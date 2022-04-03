@@ -18,8 +18,6 @@ This is achieved by connecting to multiple devices through SSH (provided by Netm
 
 ![Captura de pantalla (863)](https://user-images.githubusercontent.com/70659542/159499409-9cf6481f-19cb-4994-819c-e666b998432a.png)
 
-      Example using GNS3 Emulator
-
 Note: "Switch1" and "Cloud1" not represented in web app due to they are not manageable devices
 
 Live Demo: https://www.lldp.duckdns.org

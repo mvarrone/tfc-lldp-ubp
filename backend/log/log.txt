@@ -13717,3 +13717,4 @@
 03/Apr/2022 - 02:58:16 - 181.94.47.238:1271 - GET /diagram HTTPS username=mvarrone
 03/Apr/2022 - 02:58:16 - 181.94.47.238:1271 - GET /diagram Added to history database with id: 5 date: 03-04-22_02:58:16 HTTPS username=mvarrone
 03/Apr/2022 - 02:58:18 - 181.94.47.238:1271 - GET /get_diagram_name_list HTTPS username=mvarrone
+03/Apr/2022 - 02:59:08 - 181.94.47.238:1301 - GET / HTTPS
