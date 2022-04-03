@@ -52,4 +52,4 @@ nginx.exe 12948 Console 1 8.668 KB
 
   Example: tasklist /fi "imagename eq nginx.exe"
 
-  INFORMACIÓN: no hay tareas ejecutándose que coincidan con los criterios especificados.
+INFORMACIÓN: no hay tareas ejecutándose que coincidan con los criterios especificados.
