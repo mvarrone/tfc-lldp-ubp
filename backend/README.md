@@ -2,18 +2,17 @@
 
       Create and activate a virtual environment
 
-            - pip install virtualenv
-            - cd tfc
-            - python -m venv venv
-            - .\venv\Scripts\activate
-
+- pip install virtualenv
+- cd tfc
+- python -m venv venv
+- .\venv\Scripts\activate
 
       Install dependencies
 
 - cd backend
 - pip install -r .\requirements.txt
 
-      Set environment variable for Netmiko
+      Set an environment variable for Netmiko
 
 - setx NET_TEXTFSM "D:\Documentos\Mati\tfc\venv\Lib\site-packages\ntc_templates\templates"
 - [System.Environment]::GetEnvironmentVariables() or [system.environment]::GetEnvironmentVariable('NET_TEXTFSM') for checking environment variable is created and well located
