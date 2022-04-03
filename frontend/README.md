@@ -10,9 +10,12 @@
 - yarn serve
 - Test using localhost:80 or ipv4address:80
 
-      For building the project
+      Stop development server
 
-- Ctrl + C to stop development server (If it was running)
+- Ctrl + C to stop development server
+
+      Building the project
+
 - yarn build
 - Wait for a minute approximately
 - cd backend
@@ -22,7 +25,6 @@
   - create a directory like this: nginx-x.xx.x/projects/tfc/ssl_keys. Inside this, put cert.key and cert.pem files
 - cd backend
 - py .\deploy_to_nginx.py
-
 - Inside nginx-x.xx.x/projects/tfc will be "dist" folder (recently built using yarn build)
 
       Run production server
@@ -53,3 +55,14 @@ nginx.exe 12948 Console 1 8.668 KB
   Example: tasklist /fi "imagename eq nginx.exe"
 
 INFORMACIÓN: no hay tareas ejecutándose que coincidan con los criterios especificados.
+
+Complete with:
+
+- DDNS: For example, www.duckdns.org. Create and account using Google and configure on pc (me) or router
+- Let´s Encrypt: For create and renew digital certificates
+- Backend: put cert.pem and cert.key on backend/ssl_keys and uncomment last 2 lines on backend/main.py (uvicorn.run)
+  ssl_keyfile="./ssl_keys/cert.key",
+  ssl_certfile="./ssl_keys/cert.pem"
+- Frontend: put cert.pem and cert.key on nginx-x.xx.x/projects/tfc/ssl_keys (READY)
+- nginx: Installation and configurations
+- Port Mapping/PAT: Open port 80 and 443 (Frontend) and 5000 (Backend) on router
