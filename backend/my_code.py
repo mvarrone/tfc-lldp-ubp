@@ -7,6 +7,7 @@ from db.delete_data_sqlite_db import delete_data_db, hostname_list_data_db
 from db.get_data_sqlite_db import inventory_data_db
 from db.modify_data_sqlite_db import mod_dev_val, modify_data_db
 from log.logs_inventory import show_log
+from log.log_function import write_to_log_on_startup, write_to_log_on_shutdown
 from various.about_situation import about
 from various.welcome_situation import welcome
 from various.dashboard_situation import dashboard
@@ -16,6 +17,13 @@ from db.get_diagrams_in_db import get_prev_diagrams, get_prev_diagram_info_in_db
 
 # def get_diagram(dict_fastapi):
 #     diagram(dict_fastapi)
+
+def startup_function():
+    return write_to_log_on_startup()
+
+
+def shutdown_function():
+    return write_to_log_on_shutdown()
 
 
 def welcome_function(dict_fastapi):

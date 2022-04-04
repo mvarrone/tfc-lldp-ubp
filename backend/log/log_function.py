@@ -206,3 +206,17 @@ def write_to_log_history(id, full_date, dict_fastapi):
                 str(dict_fastapi["method"]) + " " + str(dict_fastapi["path"]) + " " +
                 "Added to history database with id: " + str(id) + " date: " + str(full_date) + " " +
                 str(dict_fastapi["scheme"]).upper() + " username=" + str(dict_fastapi["username"]) + "\n")
+
+
+def write_to_log_on_startup():
+    localtime = get_time()
+
+    with open('log/log.txt', 'a') as f:
+        f.write(str(localtime) + " - Backend server started\n")
+
+
+def write_to_log_on_shutdown():
+    localtime = get_time()
+
+    with open('log/log.txt', 'a') as f:
+        f.write(str(localtime) + " - Backend server stopped\n")

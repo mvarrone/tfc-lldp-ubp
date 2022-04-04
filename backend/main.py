@@ -20,7 +20,7 @@ from my_code import (about_function, bd_add_device, bd_delete_device,
                      bd_show_device_type_list, bd_show_hostname_list,
                      bd_show_inventory, bd_show_logs, dashboard_function,
                      logout_function, welcome_function, bd_get_saved_diagrams,
-                     bd_get_diagram_info_by_id)
+                     bd_get_diagram_info_by_id, startup_function, shutdown_function)
 from schemas import AddDevice, DeleteDevice, UpdateDevice
 from utils import api_tags
 from utils_auth import (Token, User, authenticate_user, create_access_token,
@@ -76,6 +76,7 @@ app = FastAPI(
     # o sino 2) docs_url=None y redoc_url=None
 )
 
+
 origins = ["*"]
 
 app.add_middleware(
@@ -85,6 +86,16 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+
+@app.on_event("startup")
+async def startup_event():
+    return startup_function()
+
+
+@app.on_event("shutdown")
+def shutdown_event():
+    return shutdown_function()
 
 
 @ app.post("/token", response_model=Token, tags=["Login"])
