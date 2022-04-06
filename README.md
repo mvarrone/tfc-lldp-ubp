@@ -6,7 +6,7 @@ This is achieved by connecting to multiple devices through SSH (provided by Netm
 
 - Frontend: Vue.JS
 
-- Backend: Python3, FastAPI
+- Backend: Python3, FastAPI, venv
 
 - db: sqlite3
 
