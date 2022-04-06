@@ -73,7 +73,7 @@ def get_api_json():
 
 ### Authentication
 
-1. Configure access token as a global variable
+1. Configure access token as a global variable for automation tests
 
     - Inside /login POST Method
     
@@ -105,7 +105,7 @@ def get_api_json():
     a) On "tfc" collection, go to "Authorization" tab and select:
 
         Type: Bearer Token
-        
+
         Token: {{token_tfc}}
 
 3. Configure endpoints to inherit auth from parent collection
@@ -118,7 +118,7 @@ def get_api_json():
 
 4. Test every endpoint
 
-    - At this point, it should be possible to get successful responses for every endpoint
+    At this point, it should be possible to get successful responses for every endpoint
 
     Every endpoint will look for this "token_tfc" global variable and will include this one inside headers like:
 
@@ -126,7 +126,7 @@ def get_api_json():
         'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtdmFycm9uZSIsImV4cCI6MTY0OTIwODcyMn0.kN-uZtGBNb2Qvp6O-YgZW8jc8ZCoO2a3N7k8S7toSmQ'
         }
 
-    Note: This access example token is no longer valid when uploaded to GitHub.
+    Note: This example access token is no longer valid when uploaded to GitHub.
 
 """
 
