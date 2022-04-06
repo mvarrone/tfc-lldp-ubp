@@ -76,8 +76,8 @@ _IN PROGRESS_
       1. DDNS: For example, www.duckdns.org. Create and account using Google and configure on pc (me) or router
       2. Let´s Encrypt: For create and renew digital certificates
       3. Backend: put cert.pem and cert.key on backend/ssl_keys on backend/README.md instructions and uncomment last 2 lines on backend/main.py (uvicorn.run)
-      Those lines are:
-            ssl_keyfile="./ssl_keys/cert.key",
-            ssl_certfile="./ssl_keys/cert.pem"
+            Those lines are:
+                  ssl_keyfile="./ssl_keys/cert.key",
+                  ssl_certfile="./ssl_keys/cert.pem"
       4. nginx: Write instructions on installation and configuration. Attach nginx.conf file
       5. Port Mapping/PAT: Open port 80 and 443 (Frontend) and 5000 (Backend) on router
