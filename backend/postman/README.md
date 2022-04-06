@@ -51,12 +51,12 @@
     - On "tfc" collection, go to "Authorization" tab and select:
 
         Type: Bearer Token
-
         Token: {{token_tfc}}
 
 3. Configure endpoints to inherit auth from parent collection
 
     - For every endpoint:
+
         Go to "Authorization" tab and select "Inherit auth from parent" (in Type section)
     
     Under this, you will see "This request is using Bearer Token from collection tfc."
