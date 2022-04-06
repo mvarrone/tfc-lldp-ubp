@@ -74,38 +74,46 @@ def get_api_json():
 ### Authentication
 
 1. Configure access token as a global variable
+
     - In /login POST Method
     
     a) In "Authorization" tab, select:
+
         Type: No Auth
     
     b) In "Body" tab, select:
         form-data
         
         key    value
-        username mvarrone
-        password ubp1234
+        username my_username
+        password my_password
 
     c) Go to "Tests" tab and copy:
 
     pm.test("Status test", function () {
+
     pm.response.to.have.status(200);
+
     pm.globals.set("token_tfc", JSON.parse(responseBody).access_token);
     });
 
     This will create and set a global variable named "token_tfc" with access token value retrieved from response body AFTER this method is executed.
 
 2. Configure collection to get this global variable
-    -On "tfc" collection, go to "Authorization" tab and select:
+
+    - On "tfc" collection, go to "Authorization" tab and select:
+
       Type: Bearer Token
       Token: {{token_tfc}}
 
 3. Configure endpoints to inherit auth from parent collection
+
     - For every endpoint, go to "Authorization" tab and select "Inherit auth from parent" (in Type section)
     
     Under this, you will see "This request is using Bearer Token from collection tfc."
 
 4. Test every endpoint
+
     -At this point, it should be possible to get successful responses for every endpoint
     Every endpoint will look for this "token_tfc" global variable and will include this one inside headers like:
 
