@@ -33,15 +33,15 @@
 - start .\nginx.exe
 - tasklist /fi "imagename eq nginx.exe" -> It should list 2 processes named nginx.exe
 
-  Example: tasklist /fi "imagename eq nginx.exe"
+      Example: tasklist /fi "imagename eq nginx.exe"
 
-Nombre de imagen PID Nombre de sesión Núm. de ses Uso de memor
+      Nombre de imagen PID Nombre de sesión Núm. de ses Uso de memor
 
-========================= ======== ================ =========== ============
+      ========================= ======== ================ =========== ============
 
-nginx.exe 14748 Console 1 7.824 KB
+      nginx.exe 14748 Console 1 7.824 KB
 
-nginx.exe 12948 Console 1 8.668 KB
+      nginx.exe 12948 Console 1 8.668 KB
 
 - Test using www.lldp.duckdns.org (It should be working with SSL)
 - You should be able to check digital certificate and view lock icon before FQDN
@@ -52,21 +52,28 @@ nginx.exe 12948 Console 1 8.668 KB
 - .\nginx.exe -s stop
 - tasklist /fi "imagename eq nginx.exe" -> It should look like this:
 
-  Example: tasklist /fi "imagename eq nginx.exe"
+      Example: tasklist /fi "imagename eq nginx.exe"
 
-INFORMACIÓN: no hay tareas ejecutándose que coincidan con los criterios especificados.
+      INFORMACIÓN: no hay tareas ejecutándose que coincidan con los criterios especificados.
 
-      Complete README.md with
+            Tasks to be performed on this README.md
 
-- DDNS: For example, www.duckdns.org. Create and account using Google and configure on pc (me) or router
-- Let´s Encrypt: For create and renew digital certificates
-- Backend: put cert.pem and cert.key on backend/ssl_keys and uncomment last 2 lines on backend/main.py (uvicorn.run)
-  Those lines are:
-  ssl_keyfile="./ssl_keys/cert.key",
-  ssl_certfile="./ssl_keys/cert.pem"
-- Frontend: put cert.pem and cert.key on nginx-x.xx.x/projects/tfc/ssl_keys (READY)
-- nginx: Installation and configurations
-- Port Mapping/PAT: Open port 80 and 443 (Frontend) and 5000 (Backend) on router
-- Postman: (READY)
-  a) Write instructions on how to import API docs into Postman (READY) --> How to import API documentation into Postman
-  b) Write instructions on how to create and set a global variable for access token (READY) --> Authentication
+_READY_
+
+      1. Postman:
+
+      a) Write instructions on how to import API docs into Postman --> How to import API documentation into Postman
+      b) Write instructions on how to create and set a global variable for access token --> Authentication
+
+      2. Frontend: put cert.pem and cert.key on nginx-x.xx.x/projects/tfc/ssl_keys on frontend/README.md instructions
+
+_IN PROGRESS_
+
+      1. DDNS: For example, www.duckdns.org. Create and account using Google and configure on pc (me) or router
+      2. Let´s Encrypt: For create and renew digital certificates
+      3. Backend: put cert.pem and cert.key on backend/ssl_keys on backend/README.md instructions and uncomment last 2 lines on backend/main.py (uvicorn.run)
+      Those lines are:
+            ssl_keyfile="./ssl_keys/cert.key",
+            ssl_certfile="./ssl_keys/cert.pem"
+      4. nginx: Write instructions on installation and configuration. Attach nginx.conf file
+      5. Port Mapping/PAT: Open port 80 and 443 (Frontend) and 5000 (Backend) on router
