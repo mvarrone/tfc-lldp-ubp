@@ -33,7 +33,9 @@
 - start .\nginx.exe
 - tasklist /fi "imagename eq nginx.exe" -> It should list 2 processes named nginx.exe
 
-      Example: tasklist /fi "imagename eq nginx.exe"
+      Example:
+
+      tasklist /fi "imagename eq nginx.exe"
 
       Nombre de imagen PID Nombre de sesión Núm. de ses Uso de memor
 
@@ -52,7 +54,9 @@
 - .\nginx.exe -s stop
 - tasklist /fi "imagename eq nginx.exe" -> It should look like this:
 
-      Example: tasklist /fi "imagename eq nginx.exe"
+      Example:
+
+      tasklist /fi "imagename eq nginx.exe"
 
       INFORMACIÓN: no hay tareas ejecutándose que coincidan con los criterios especificados.
 
@@ -62,8 +66,8 @@ _READY_
 
       1. Postman:
 
-      a) Write instructions on how to import API docs into Postman --> How to import API documentation into Postman
-      b) Write instructions on how to create and set a global variable for access token --> Authentication
+            a) Write instructions on how to import API docs into Postman --> How to import API documentation into Postman
+            b) Write instructions on how to create and set a global variable for access token --> Authentication
 
       2. Frontend: put cert.pem and cert.key on nginx-x.xx.x/projects/tfc/ssl_keys on frontend/README.md instructions
 
