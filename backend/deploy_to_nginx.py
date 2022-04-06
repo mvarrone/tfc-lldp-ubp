@@ -102,14 +102,15 @@ def get_api_json():
 
 2. Configure collection to get this global variable
 
-    - On "tfc" collection, go to "Authorization" tab and select:
+    a) On "tfc" collection, go to "Authorization" tab and select:
 
         Type: Bearer Token
+        
         Token: {{token_tfc}}
 
 3. Configure endpoints to inherit auth from parent collection
 
-    - For every endpoint:
+    a) For every endpoint:
 
         Go to "Authorization" tab and select "Inherit auth from parent" (in Type section)
     
@@ -117,7 +118,7 @@ def get_api_json():
 
 4. Test every endpoint
 
-    -At this point, it should be possible to get successful responses for every endpoint
+    - At this point, it should be possible to get successful responses for every endpoint
 
     Every endpoint will look for this "token_tfc" global variable and will include this one inside headers like:
 
