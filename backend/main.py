@@ -47,7 +47,7 @@ API endpoints for LLDP project <https://www.lldp.duckdns.org>
 **Contact**
 
 
-* Author: Matías José Varrone
+* Author: Matias Jose Varrone
 
 * Email: mativarrone2@gmail.com
 
@@ -99,7 +99,7 @@ def shutdown_event():
 
 
 @ app.post("/token", response_model=Token, tags=["Login"])
-async def login_for_access_token(form_data: OAuth2PasswordRequestForm = Depends()):
+async def login_for_access_token(form_data: OAuth2PasswordRequestForm = Depends()) -> dict:
     user = authenticate_user(
         fake_users_db, form_data.username, form_data.password)
     if not user:
@@ -140,7 +140,7 @@ async def root(request: Request):
 
 
 @ app.get("/diagram", tags=["Diagram"])
-def diagram(request: Request, current_user: User = Depends(get_current_active_user)):
+def diagram(request: Request, current_user: User = Depends(get_current_active_user)) -> dict:
     """
     Used when click on Diagram tab -->
     File: components/NetworkDiagram.vue, Section: mounted()
@@ -173,7 +173,7 @@ async def get_device_type_list(request: Request, current_user: User = Depends(ge
 
 
 @ app.get("/logs", tags=["Logs"])
-async def get_logs(request: Request, current_user: User = Depends(get_current_active_user)):
+async def get_logs(request: Request, current_user: User = Depends(get_current_active_user)) -> list:
     """
     Used when click on Logs tab -->
     File: Logs.vue, Section: mounted()
@@ -234,7 +234,7 @@ async def get_hostname_list(request: Request, current_user: User = Depends(get_c
 
 
 @ app.get("/inventory_list", tags=["Lists"])
-async def get_inventory_list(request: Request, current_user: User = Depends(get_current_active_user)):
+async def get_inventory_list(request: Request, current_user: User = Depends(get_current_active_user)) -> list:
     """
     Used when click on Inventory Tab -->
     File: Inventory.vue, Section: mounted()
