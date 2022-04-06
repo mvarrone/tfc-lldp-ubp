@@ -86,7 +86,6 @@ def get_api_json():
         form-data
         
         key    value
-
         username my_username
         password my_password
 
@@ -119,12 +118,12 @@ def get_api_json():
 4. Test every endpoint
 
     -At this point, it should be possible to get successful responses for every endpoint
-    
+
     Every endpoint will look for this "token_tfc" global variable and will include this one inside headers like:
 
-    headers = {
-    'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtdmFycm9uZSIsImV4cCI6MTY0OTIwODcyMn0.kN-uZtGBNb2Qvp6O-YgZW8jc8ZCoO2a3N7k8S7toSmQ'
-    }
+        headers = {
+        'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtdmFycm9uZSIsImV4cCI6MTY0OTIwODcyMn0.kN-uZtGBNb2Qvp6O-YgZW8jc8ZCoO2a3N7k8S7toSmQ'
+        }
 
     Note: This access example token is no longer valid when uploaded to GitHub.
 
