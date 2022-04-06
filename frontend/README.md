@@ -56,13 +56,17 @@ nginx.exe 12948 Console 1 8.668 KB
 
 INFORMACIÓN: no hay tareas ejecutándose que coincidan con los criterios especificados.
 
-      Complete with:
+      Complete README.md with
 
 - DDNS: For example, www.duckdns.org. Create and account using Google and configure on pc (me) or router
 - Let´s Encrypt: For create and renew digital certificates
 - Backend: put cert.pem and cert.key on backend/ssl_keys and uncomment last 2 lines on backend/main.py (uvicorn.run)
+  Those lines are:
   ssl_keyfile="./ssl_keys/cert.key",
   ssl_certfile="./ssl_keys/cert.pem"
 - Frontend: put cert.pem and cert.key on nginx-x.xx.x/projects/tfc/ssl_keys (READY)
 - nginx: Installation and configurations
 - Port Mapping/PAT: Open port 80 and 443 (Frontend) and 5000 (Backend) on router
+- Postman: (READY)
+  a) Write instructions on how to import API docs into Postman (READY) --> How to import API documentation into Postman
+  b) Write instructions on how to create and set a global variable for access token (READY) --> Authentication
