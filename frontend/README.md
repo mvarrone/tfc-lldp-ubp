@@ -60,7 +60,7 @@
 
       INFORMACIÓN: no hay tareas ejecutándose que coincidan con los criterios especificados.
 
-            Tasks to be performed on this README.md
+Tasks to be performed on this README.md
 
 _READY_
 
