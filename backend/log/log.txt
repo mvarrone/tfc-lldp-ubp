@@ -13811,3 +13811,19 @@
 05/Apr/2022 - 22:43:10 - Backend server started
 05/Apr/2022 - 22:43:31 - Backend server started
 05/Apr/2022 - 22:45:56 - Backend server started
+05/Apr/2022 - 23:02:53 - 181.94.47.238:21104 - GET / HTTPS
+05/Apr/2022 - 23:03:06 - 181.94.47.238:21105 - GET /dashboard HTTPS username=mvarrone
+05/Apr/2022 - 23:03:10 - 181.94.47.238:21105 - GET /device_type_list HTTPS username=mvarrone
+05/Apr/2022 - 23:03:11 - 181.94.47.238:21105 - GET /hostname_list HTTPS username=mvarrone
+05/Apr/2022 - 23:03:13 - 181.94.47.238:21105 - GET /device_type_list HTTPS username=mvarrone
+05/Apr/2022 - 23:03:19 - 181.94.47.238:21113 - GET /hostname_list HTTPS username=mvarrone
+05/Apr/2022 - 23:03:24 - 181.94.47.238:21124 - GET /hostname_list HTTPS username=mvarrone
+05/Apr/2022 - 23:03:29 - 181.94.47.238:21124 - GET /inventory_list HTTPS username=mvarrone
+05/Apr/2022 - 23:03:33 - 181.94.47.238:21124 - GET /diagram HTTPS username=mvarrone
+05/Apr/2022 - 23:03:33 - 181.94.47.238:21124 - GET /diagram Added to history database with id: 8 date: 05-04-22_23:03:33 HTTPS username=mvarrone
+05/Apr/2022 - 23:03:37 - 181.94.47.238:21124 - GET /logs HTTPS username=mvarrone
+05/Apr/2022 - 23:03:40 - 181.94.47.238:21124 - GET /get_diagram_name_list HTTPS username=mvarrone
+05/Apr/2022 - 23:03:44 - 181.94.47.238:21124 - GET /get_diagram_info_by_id/3 HTTPS username=mvarrone
+05/Apr/2022 - 23:03:56 - 181.94.47.238:21127 - GET /about HTTPS username=mvarrone
+05/Apr/2022 - 23:04:00 - 181.94.47.238:21127 - GET /logout HTTPS username=mvarrone
+05/Apr/2022 - 23:04:01 - 181.94.47.238:21127 - GET / HTTPS
