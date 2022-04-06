@@ -163,7 +163,7 @@ def diagram(request: Request, current_user: User = Depends(get_current_active_us
 
 
 @ app.get("/device_type_list", tags=["Lists"])
-async def get_device_type_list(request: Request, current_user: User = Depends(get_current_active_user)):
+async def get_device_type_list(request: Request, current_user: User = Depends(get_current_active_user)) -> list:
     """
     Used when click on Add Tab -->
     File: AddDevice.vue, Section: mounted()

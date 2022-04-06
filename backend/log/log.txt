@@ -13836,3 +13836,30 @@
 06/Apr/2022 - 05:45:46 - Backend server started
 06/Apr/2022 - 05:46:07 - Backend server started
 06/Apr/2022 - 05:46:55 - Backend server started
+06/Apr/2022 - 05:57:25 - 181.94.47.238:1048 - GET /diagram HTTPS username=mvarrone
+06/Apr/2022 - 05:57:26 - 181.94.47.238:1048 - GET /diagram Added to history database with id: 10 date: 06-04-22_05:57:25 HTTPS username=mvarrone
+06/Apr/2022 - 05:57:32 - 181.94.47.238:1049 - GET / HTTPS
+06/Apr/2022 - 05:57:36 - 181.94.47.238:1049 - GET /diagram HTTPS username=mvarrone
+06/Apr/2022 - 05:57:36 - 181.94.47.238:1049 - GET /diagram Added to history database with id: 11 date: 06-04-22_05:57:36 HTTPS username=mvarrone
+06/Apr/2022 - 05:57:57 - 181.94.47.238:1054 - GET /device_type_list HTTPS username=mvarrone
+06/Apr/2022 - 05:58:16 - Backend server started
+06/Apr/2022 - 05:58:17 - 181.94.47.238:1060 - GET /device_type_list HTTPS username=mvarrone
+06/Apr/2022 - 05:58:20 - 181.94.47.238:1060 - GET /device_type_list HTTPS username=mvarrone
+06/Apr/2022 - 05:59:30 - 181.94.47.238:1076 - GET /logs HTTPS username=mvarrone
+06/Apr/2022 - 06:00:00 - 181.94.47.238:1033 - GET /hostname_list HTTPS username=mvarrone
+06/Apr/2022 - 06:00:29 - 181.94.47.238:1051 - GET /inventory_list HTTPS username=mvarrone
+06/Apr/2022 - 06:00:39 - 181.94.47.238:1052 - GET /about HTTPS username=mvarrone
+06/Apr/2022 - 06:00:50 - 181.94.47.238:1053 - GET /device_values_to_modify/irure do veniam qui HTTPS username=mvarrone
+06/Apr/2022 - 06:01:03 - 181.94.47.238:1061 - GET /device_values_to_modify/192.168.1.100 HTTPS username=mvarrone
+06/Apr/2022 - 06:01:07 - 181.94.47.238:1061 - GET /device_values_to_modify/192.168.1.105 HTTPS username=mvarrone
+06/Apr/2022 - 06:01:14 - 181.94.47.238:1064 - GET /device_values_to_modify/192.168.1.102 HTTPS username=mvarrone
+06/Apr/2022 - 06:01:18 - 181.94.47.238:1064 - GET /device_values_to_modify/192.168.1.101 HTTPS username=mvarrone
+06/Apr/2022 - 06:01:31 - 181.94.47.238:1068 - GET /dashboard HTTPS username=mvarrone
+06/Apr/2022 - 06:01:41 - 181.94.47.238:1070 - GET /logout HTTPS username=mvarrone
+06/Apr/2022 - 06:01:48 - 181.94.47.238:1073 - GET /get_diagram_name_list HTTPS username=mvarrone
+06/Apr/2022 - 06:02:00 - 181.94.47.238:1075 - GET /get_diagram_info_by_id/4 HTTPS username=mvarrone
+06/Apr/2022 - 06:02:52 - 181.94.47.238:12569 - GET /get_diagram_info_by_id/4 HTTPS username=mvarrone
+06/Apr/2022 - 06:12:00 - 181.94.47.238:20486 - GET /diagram HTTPS username=mvarrone
+06/Apr/2022 - 06:12:01 - 181.94.47.238:20486 - GET /diagram Added to history database with id: 12 date: 06-04-22_06:12:00 HTTPS username=mvarrone
+06/Apr/2022 - 06:12:59 - 181.94.47.238:16341 - GET /diagram HTTPS username=mvarrone
+06/Apr/2022 - 06:12:59 - 181.94.47.238:16341 - GET /diagram Added to history database with id: 13 date: 06-04-22_06:12:59 HTTPS username=mvarrone
