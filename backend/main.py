@@ -120,8 +120,7 @@ async def login_for_access_token(form_data: OAuth2PasswordRequestForm = Depends(
     return {
         "access_token": access_token,
         "token_type": "bearer",
-        # "admin_permissions": fake_users_db[user.username]["admin_permissions"],
-        # "exp_arg": str(exp_arg)
+        "exp_arg": str(exp_arg)
     }
 
 

@@ -197,6 +197,8 @@ export default {
         // console.log("AddDevice.vue: Sección axios.catch()");
         // console.log("error = ");
         // console.log(error);
+        // console.log("error.response= ");
+        // console.log(error.response);
         if (error.response.data.detail == "Signature has expired.") {
           this.tokenAvailable = false;
           this.$router.push("/");
@@ -366,12 +368,19 @@ export default {
       const headers = {
         Authorization: "Bearer " + token,
       };
+
       axios
         .get(this.url + this.port + this.endpoint_permission_value, { headers })
         .then((response) => {
           this.admin_value = response.data;
         })
         .catch((error) => {
+          console.log("check_value() method");
+          console.log("error = ");
+          console.log(error);
+          console.log("error.response= ");
+          console.log(error.response);
+
           if (error.response.data.detail == "Signature has expired.") {
             this.tokenAvailable = false;
             this.$router.push("/");
