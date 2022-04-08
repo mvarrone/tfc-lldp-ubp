@@ -32,7 +32,7 @@ def get_users_from_db():
     c = conn.cursor()
 
     new_value = c.execute(
-        "SELECT username, fullname, email, hashedpassword, disabled FROM infousers;").fetchall()
+        "SELECT username, fullname, email, hashedpassword, disabled, admin_permissions FROM infousers;").fetchall()
 
     nested_dict = {}
     for _, elem in enumerate(new_value):
@@ -42,6 +42,7 @@ def get_users_from_db():
         nested_dict[elem[0]]["email"] = elem[2]
         nested_dict[elem[0]]["hashed_password"] = elem[3]
         nested_dict[elem[0]]["disabled"] = elem[4]
+        nested_dict[elem[0]]["admin_permissions"] = elem[5]
 
     # print("\n--- nested_dict ---")
     # print(nested_dict)

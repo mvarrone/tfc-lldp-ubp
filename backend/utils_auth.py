@@ -20,7 +20,8 @@ ACCESS_TOKEN_EXPIRE_MINUTES = int(os.getenv('ACCESS_TOKEN_EXPIRE_MINUTES'))
 class Token(BaseModel):
     access_token: str
     token_type: str
-    # exp_arg: str = None
+    # admin_permissions: int
+    # exp_arg: str
 
 
 class TokenData(BaseModel):

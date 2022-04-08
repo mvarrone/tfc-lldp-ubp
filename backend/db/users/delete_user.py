@@ -40,11 +40,12 @@ def delete_user_from_db(user_to_be_deleted):
 
     c = conn.cursor()
 
-    c.execute("DELETE from infousers WHERE username = :username",
-              {
-                  'username': user_to_be_deleted,
-              }
-              )
+    c.execute(
+        "DELETE from infousers WHERE username = :username",
+        {
+            'username': user_to_be_deleted,
+        }
+    )
 
     conn.commit()
     conn.close()

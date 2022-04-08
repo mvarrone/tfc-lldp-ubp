@@ -1,6 +1,11 @@
 <template>
   <div class="logs">
-    <Header />
+    <div v-if="this.admin_value == 1">
+      <Header />
+    </div>
+    <div v-else>
+      <HeaderNoAdmin />
+    </div>
     <br />
     <h1>Logs</h1>
     <br />
@@ -51,12 +56,15 @@
 <script>
 import axios from "axios";
 import Header from "@/components/Todo-Header.vue";
+import HeaderNoAdmin from "@/components/Todo-HeaderNoAdmin.vue";
 export default {
   components: {
     Header,
+    HeaderNoAdmin,
   },
   data() {
     return {
+      admin_value: 0,
       tokenPresent: false,
       tokenAvailable: false,
       info_list: [],
@@ -68,6 +76,7 @@ export default {
       url: process.env.VUE_APP_URL,
       port: process.env.VUE_APP_PORT,
       endpoint_logs: process.env.VUE_APP_LOGS,
+      endpoint_permission_value: process.env.VUE_APP_PERMISSIONS,
     };
   },
   methods: {
@@ -77,24 +86,50 @@ export default {
       this.contenido_modal = error_descr;
       this.titulo_modal = index + " - " + error_type;
     },
+    check_value(token) {
+      const headers = {
+        Authorization: "Bearer " + token,
+      };
+      axios
+        .get(this.url + this.port + this.endpoint_permission_value, { headers })
+        .then((response) => {
+          this.admin_value = response.data;
+        })
+        .catch((error) => {
+          if (error.response.data.detail == "Signature has expired.") {
+            this.tokenAvailable = false;
+            this.$router.push("/");
+          }
+          if (error.response.data.detail == "Not enough segments") {
+            this.tokenPresent = false;
+            this.tokenAvailable = true;
+            this.$router.push("/");
+          }
+          if (error.response.status == 403) {
+            this.$router.push("/dashboard");
+          }
+        });
+    },
   },
   mounted() {
     // let endpoint = "/logs";
-    // const token =
-    //   "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJqb2huZG9lIiwiZXhwIjoxNjQ2Njk4NjgxfQ.knHPGPnKQC8zmkOP8dZrn9_zo6IatBdy3DubBGgzcBQ"; // Token expirado para pruebas
     let token = localStorage.getItem("token");
+
+    this.check_value(token);
+
     if (token) {
       this.tokenPresent = true;
       this.tokenAvailable = true;
     }
+
     const headers = {
       Authorization: "Bearer " + token,
     };
+
     axios
       .get(this.url + this.port + this.endpoint_logs, { headers })
       .then((response) => {
         this.info_list = response.data;
-        // console.log(response.data);
       })
       .catch((error) => {
         // console.log("Logs.vue: Sección axios.catch()");
@@ -107,17 +142,16 @@ export default {
         // console.log("error.response.data.detail = ");
         // console.log(error.response.data.detail);
         if (error.response.data.detail == "Signature has expired.") {
-          // console.log("Token expirado");
-          // alert("Token has expired");
           this.tokenAvailable = false;
           this.$router.push("/");
         }
         if (error.response.data.detail == "Not enough segments") {
-          // console.log("Not enough segments");
-          // alert("Not enough segments");
           this.tokenPresent = false;
           this.tokenAvailable = true;
           this.$router.push("/");
+        }
+        if (error.response.status == 403) {
+          this.$router.push("/dashboard");
         }
       });
   },

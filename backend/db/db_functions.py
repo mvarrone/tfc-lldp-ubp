@@ -108,16 +108,20 @@ def check_db_for_logs(dict_fastapi):
 
 
 def create_db_for_users():
+    print("aca en create_db_for_users")
     conn = db_connection('DB_PATH_USERS')
 
     c = conn.cursor()
 
-    c.execute("""CREATE TABLE infousers (
+    c.execute(
+        """
+        CREATE TABLE infousers (
         username TEXT,
         fullname TEXT,
         email TEXT,
         hashedpassword TEXT,
-        disabled TEXT
+        disabled TEXT,
+        admin_permissions INTEGER
         )""")
 
     conn.commit()
@@ -126,7 +130,6 @@ def create_db_for_users():
 
 
 def check_db_for_users(dict_fastapi):
-    # path = "D:\\Documentos\\Mati\\tfc\\backend\\db\\users\\users.db"
     load_dotenv()
     path = os.getenv('DB_PATH_USERS')
     db_exists = os.path.isfile(path)

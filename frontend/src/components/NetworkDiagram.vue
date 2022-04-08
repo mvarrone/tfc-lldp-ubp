@@ -1,6 +1,11 @@
 <template>
   <div>
-    <Header />
+    <div v-if="this.admin_value == 1">
+      <Header />
+    </div>
+    <div v-else>
+      <HeaderNoAdmin />
+    </div>
     <section v-if="errored">
       <!-- <p>Error</p> -->
       <p>Error: {{ this.msg_error }}</p>
@@ -46,6 +51,7 @@
 import axios from "axios";
 import { Network } from "vue-visjs";
 import Header from "@/components/Todo-Header.vue";
+import HeaderNoAdmin from "@/components/Todo-HeaderNoAdmin.vue";
 // import my_nodes from "@/json/nodes.json"; // Cargar datos desde archivo local
 // import my_edges from "@/json/edges.json"; // Cargar datos desde archivo local
 export default {
@@ -53,9 +59,11 @@ export default {
   components: {
     Network,
     Header,
+    HeaderNoAdmin,
   },
   data: function () {
     return {
+      admin_value: 0,
       // count: 200,
       loading: true,
       errored: false,
@@ -119,18 +127,24 @@ export default {
       url: process.env.VUE_APP_URL,
       port: process.env.VUE_APP_PORT,
       endpoint_diagram: process.env.VUE_APP_DIAGRAM,
+      endpoint_permission_value: process.env.VUE_APP_PERMISSIONS,
     };
   },
   mounted() {
     // let endpoint = "/diagram";
     let token = localStorage.getItem("token");
+
+    this.check_value(token);
+
     if (token) {
       this.tokenPresent = true;
       this.tokenAvailable = true;
     }
+
     const headers = {
       Authorization: "Bearer " + token,
     };
+
     axios
       .get(this.url + this.port + this.endpoint_diagram, { headers })
       .then((response) => {
@@ -170,14 +184,10 @@ export default {
         this.msg_error = error.response.data.detail;
         this.errored = true;
         if (error.response.data.detail == "Signature has expired.") {
-          // console.log("Token expirado");
-          // alert("Token has expired");
           this.tokenAvailable = false;
           this.$router.push("/");
         }
         if (error.response.data.detail == "Not enough segments") {
-          // console.log("Not enough segments");
-          // alert("Not enough segments");
           this.tokenPresent = false;
           this.tokenAvailable = true;
           this.$router.push("/");
@@ -186,6 +196,32 @@ export default {
       .finally(() => {
         this.loading = false;
       });
+  },
+  methods: {
+    check_value(token) {
+      const headers = {
+        Authorization: "Bearer " + token,
+      };
+      axios
+        .get(this.url + this.port + this.endpoint_permission_value, { headers })
+        .then((response) => {
+          this.admin_value = response.data;
+        })
+        .catch((error) => {
+          if (error.response.data.detail == "Signature has expired.") {
+            this.tokenAvailable = false;
+            this.$router.push("/");
+          }
+          if (error.response.data.detail == "Not enough segments") {
+            this.tokenPresent = false;
+            this.tokenAvailable = true;
+            this.$router.push("/");
+          }
+          if (error.response.status == 403) {
+            this.$router.push("/dashboard");
+          }
+        });
+    },
   },
 };
 </script>

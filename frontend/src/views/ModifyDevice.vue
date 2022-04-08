@@ -1,6 +1,11 @@
 <template>
   <div>
-    <Header />
+    <div v-if="this.admin_value == 1">
+      <Header />
+    </div>
+    <div v-else>
+      <HeaderNoAdmin />
+    </div>
     <br />
     <h1>Modify device</h1>
     <!-- <br /> -->
@@ -141,12 +146,15 @@
 <script>
 import axios from "axios";
 import Header from "@/components/Todo-Header.vue";
+import HeaderNoAdmin from "@/components/Todo-HeaderNoAdmin.vue";
 export default {
   components: {
     Header,
+    HeaderNoAdmin,
   },
   data() {
     return {
+      admin_value: 0,
       disabled_value_msg: "Select a hostname",
       states: {
         hostname_list_selected: "",
@@ -171,19 +179,25 @@ export default {
       endpoint_modify_device: process.env.VUE_APP_MODIFY_DEVICE,
       endpoint_device_values_to_modify:
         process.env.VUE_APP_DEVICE_VALUES_TO_MODIFY,
+      endpoint_permission_value: process.env.VUE_APP_PERMISSIONS,
     };
   },
   mounted() {
     // let endpoint = "/hostname_list";
     // console.log("Ejecución desde mounted()");
     let token = localStorage.getItem("token");
+
+    this.check_value(token);
+
     if (token) {
       this.tokenPresent = true;
       this.tokenAvailable = true;
     }
+
     const headers = {
       Authorization: "Bearer " + token,
     };
+
     axios
       .get(this.url + this.port + this.endpoint_hostname_list, { headers })
       .then((response) => {
@@ -195,17 +209,16 @@ export default {
         // console.log("error = ");
         // console.log(error);
         if (error.response.data.detail == "Signature has expired.") {
-          // console.log("Token expirado");
-          // alert("Token has expired");
           this.tokenAvailable = false;
           this.$router.push("/");
         }
         if (error.response.data.detail == "Not enough segments") {
-          // console.log("Not enough segments");
-          // alert("Not enough segments");
           this.tokenPresent = false;
           this.tokenAvailable = true;
           this.$router.push("/");
+        }
+        if (error.response.status == 403) {
+          this.$router.push("/dashboard");
         }
       });
   },
@@ -285,17 +298,16 @@ export default {
           // console.log("error = ");
           // console.log(error);
           if (error.response.data.detail == "Signature has expired.") {
-            // console.log("Token expirado");
-            // alert("Token has expired");
             this.tokenAvailable = false;
             this.$router.push("/");
           }
           if (error.response.data.detail == "Not enough segments") {
-            // console.log("Not enough segments");
-            // alert("Not enough segments");
             this.tokenPresent = false;
             this.tokenAvailable = true;
             this.$router.push("/");
+          }
+          if (error.response.status == 403) {
+            this.$router.push("/dashboard");
           }
         });
     },
@@ -342,17 +354,40 @@ export default {
           // console.log("error = ");
           // console.log(error);
           if (error.response.data.detail == "Signature has expired.") {
-            // console.log("Token expirado");
-            // alert("Token has expired");
             this.tokenAvailable = false;
             this.$router.push("/");
           }
           if (error.response.data.detail == "Not enough segments") {
-            // console.log("Not enough segments");
-            // alert("Not enough segments");
             this.tokenPresent = false;
             this.tokenAvailable = true;
             this.$router.push("/");
+          }
+          if (error.response.status == 403) {
+            this.$router.push("/dashboard");
+          }
+        });
+    },
+    check_value(token) {
+      const headers = {
+        Authorization: "Bearer " + token,
+      };
+      axios
+        .get(this.url + this.port + this.endpoint_permission_value, { headers })
+        .then((response) => {
+          this.admin_value = response.data;
+        })
+        .catch((error) => {
+          if (error.response.data.detail == "Signature has expired.") {
+            this.tokenAvailable = false;
+            this.$router.push("/");
+          }
+          if (error.response.data.detail == "Not enough segments") {
+            this.tokenPresent = false;
+            this.tokenAvailable = true;
+            this.$router.push("/");
+          }
+          if (error.response.status == 403) {
+            this.$router.push("/dashboard");
           }
         });
     },

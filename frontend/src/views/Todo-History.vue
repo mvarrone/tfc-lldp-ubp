@@ -1,6 +1,11 @@
 <template>
   <div class="history">
-    <Header />
+    <div v-if="this.admin_value == 1">
+      <Header />
+    </div>
+    <div v-else>
+      <HeaderNoAdmin />
+    </div>
     <div v-if="!tokenPresent">Token not present</div>
     <div v-if="!tokenAvailable">Token expired</div>
     <div id="app">
@@ -48,18 +53,21 @@
 <script>
 import axios from "axios";
 import Header from "@/components/Todo-Header.vue";
+import HeaderNoAdmin from "@/components/Todo-HeaderNoAdmin.vue";
 import { Splitpanes, Pane } from "splitpanes";
 import "splitpanes/dist/splitpanes.css";
 import { Network } from "vue-visjs";
 export default {
   components: {
     Header,
+    HeaderNoAdmin,
     Splitpanes,
     Pane,
     Network,
   },
   data() {
     return {
+      admin_value: 0,
       empty_response: false,
       id: 0,
       nodes: [],
@@ -119,7 +127,54 @@ export default {
       port: process.env.VUE_APP_PORT,
       endpoint_name_list: process.env.VUE_APP_NAMELIST,
       endpoint_get_diagram_info_by_id: process.env.VUE_APP_DIAGRAMINFO,
+      endpoint_permission_value: process.env.VUE_APP_PERMISSIONS,
     };
+  },
+  mounted() {
+    // let endpoint = "/get_diagram_name_list";
+    let token = localStorage.getItem("token");
+
+    this.check_value(token);
+
+    if (token) {
+      this.tokenPresent = true;
+      this.tokenAvailable = true;
+    }
+
+    const headers = {
+      Authorization: "Bearer " + token,
+    };
+
+    axios
+      .get(this.url + this.port + this.endpoint_name_list, { headers })
+      .then((response) => {
+        if (response.data.length == 0) {
+          this.empty_response = true;
+        } else {
+          this.response_list = response.data;
+          this.empty_response = false;
+        }
+      })
+      .catch((error) => {
+        // console.log("Todo-History.vue: Sección axios.catch()");
+        // console.log("error = ");
+        // console.log(error);
+        // console.log("error.response = ");
+        // console.log(error.response);
+        // console.log("error.response.data = ");
+        // console.log(error.response.data);
+        // console.log("error.response.data.detail = ");
+        // console.log(error.response.data.detail);
+        if (error.response.data.detail == "Signature has expired.") {
+          this.tokenAvailable = false;
+          this.$router.push("/");
+        }
+        if (error.response.data.detail == "Not enough segments") {
+          this.tokenPresent = false;
+          this.tokenAvailable = true;
+          this.$router.push("/");
+        }
+      });
   },
   methods: {
     clickRow(index) {
@@ -127,13 +182,16 @@ export default {
       this.id = index;
       // let endpoint = "/get_diagram_info_by_id/{id}";
       let token = localStorage.getItem("token");
+
       if (token) {
         this.tokenPresent = true;
         this.tokenAvailable = true;
       }
+
       const headers = {
         Authorization: "Bearer " + token,
       };
+
       axios
         .get(
           this.url +
@@ -166,65 +224,40 @@ export default {
           // console.log("error.response.data.detail = ");
           // console.log(error.response.data.detail);
           if (error.response.data.detail == "Signature has expired.") {
-            // console.log("Token expirado");
-            // alert("Token has expired");
             this.tokenAvailable = false;
             this.$router.push("/");
           }
           if (error.response.data.detail == "Not enough segments") {
-            // console.log("Not enough segments");
-            // alert("Not enough segments");
             this.tokenPresent = false;
             this.tokenAvailable = true;
             this.$router.push("/");
           }
         });
     },
-  },
-  mounted() {
-    // let endpoint = "/get_diagram_name_list";
-    let token = localStorage.getItem("token");
-    if (token) {
-      this.tokenPresent = true;
-      this.tokenAvailable = true;
-    }
-    const headers = {
-      Authorization: "Bearer " + token,
-    };
-    axios
-      .get(this.url + this.port + this.endpoint_name_list, { headers })
-      .then((response) => {
-        if (response.data.length == 0) {
-          this.empty_response = true;
-        } else {
-          this.response_list = response.data;
-          this.empty_response = false;
-        }
-      })
-      .catch((error) => {
-        // console.log("Todo-History.vue: Sección axios.catch()");
-        // console.log("error = ");
-        // console.log(error);
-        // console.log("error.response = ");
-        // console.log(error.response);
-        // console.log("error.response.data = ");
-        // console.log(error.response.data);
-        // console.log("error.response.data.detail = ");
-        // console.log(error.response.data.detail);
-        if (error.response.data.detail == "Signature has expired.") {
-          // console.log("Token expirado");
-          // alert("Token has expired");
-          this.tokenAvailable = false;
-          this.$router.push("/");
-        }
-        if (error.response.data.detail == "Not enough segments") {
-          // console.log("Not enough segments");
-          // alert("Not enough segments");
-          this.tokenPresent = false;
-          this.tokenAvailable = true;
-          this.$router.push("/");
-        }
-      });
+    check_value(token) {
+      const headers = {
+        Authorization: "Bearer " + token,
+      };
+      axios
+        .get(this.url + this.port + this.endpoint_permission_value, { headers })
+        .then((response) => {
+          this.admin_value = response.data;
+        })
+        .catch((error) => {
+          if (error.response.data.detail == "Signature has expired.") {
+            this.tokenAvailable = false;
+            this.$router.push("/");
+          }
+          if (error.response.data.detail == "Not enough segments") {
+            this.tokenPresent = false;
+            this.tokenAvailable = true;
+            this.$router.push("/");
+          }
+          if (error.response.status == 403) {
+            this.$router.push("/dashboard");
+          }
+        });
+    },
   },
 };
 </script>

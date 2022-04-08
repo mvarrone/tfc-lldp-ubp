@@ -29,4 +29,9 @@ def api_tags():
         {
             "name": "History",
         },
+        {
+            "name": "Permissions",
+            "description": "Related to Header display"
+        },
+
     ]

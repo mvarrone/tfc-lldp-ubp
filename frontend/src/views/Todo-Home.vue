@@ -154,6 +154,7 @@ export default {
   mounted() {
     // let endpoint = "/";
     localStorage.removeItem("token");
+
     axios
       .get(this.url + this.port + this.endpoint_home)
       .then((response) => {
@@ -208,6 +209,7 @@ export default {
         .then((response) => {
           // console.log(response);
           // console.log(response.data);
+          // console.log(response.data.admin_permissions);
           // console.log(response.request.status);
           if (response.request.status == 200) {
             // console.log("OK");

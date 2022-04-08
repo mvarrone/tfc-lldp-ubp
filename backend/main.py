@@ -35,6 +35,7 @@ ALGORITHM = os.getenv('ALGORITHM')
 ACCESS_TOKEN_EXPIRE_MINUTES = int(os.getenv('ACCESS_TOKEN_EXPIRE_MINUTES'))
 
 fake_users_db, qusers = get_users_from_db()
+
 pwd_context = crypto_context()
 oauth2_scheme = oauth2scheme()
 
@@ -100,6 +101,9 @@ def shutdown_event():
 
 @ app.post("/token", response_model=Token, tags=["Login"])
 async def login_for_access_token(form_data: OAuth2PasswordRequestForm = Depends()) -> dict:
+
+    fake_users_db, _ = get_users_from_db()
+
     user = authenticate_user(
         fake_users_db, form_data.username, form_data.password)
     if not user:
@@ -112,9 +116,11 @@ async def login_for_access_token(form_data: OAuth2PasswordRequestForm = Depends(
     access_token, exp_arg = create_access_token(
         data={"sub": user.username}, expires_delta=access_token_expires
     )
+
     return {
         "access_token": access_token,
         "token_type": "bearer",
+        # "admin_permissions": fake_users_db[user.username]["admin_permissions"],
         # "exp_arg": str(exp_arg)
     }
 
@@ -168,6 +174,15 @@ async def get_device_type_list(request: Request, current_user: User = Depends(ge
     Used when click on Add Tab -->
     File: AddDevice.vue, Section: mounted()
     """
+
+    fake_users_db, _ = get_users_from_db()
+
+    if fake_users_db[current_user.username]["admin_permissions"] == 0:
+        raise HTTPException(
+            status_code=403,
+            detail="No permissions to resource",
+        )
+
     dict_fastapi = get_fastapi_info(request, current_user)
     return bd_show_device_type_list(dict_fastapi)
 
@@ -178,6 +193,15 @@ async def get_logs(request: Request, current_user: User = Depends(get_current_ac
     Used when click on Logs tab -->
     File: Logs.vue, Section: mounted()
     """
+
+    fake_users_db, _ = get_users_from_db()
+
+    if fake_users_db[current_user.username]["admin_permissions"] == 0:
+        raise HTTPException(
+            status_code=403,
+            detail="No permissions to resource",
+        )
+
     dict_fastapi = get_fastapi_info(request, current_user)
     return bd_show_logs(dict_fastapi)
 
@@ -188,6 +212,15 @@ async def add_device(hostname: str, request: Request, post: AddDevice, current_u
     Used when click on Add Button on Add Tab -->
     File: AddDevice.vue, Section: method: add_device_button()
     """
+
+    fake_users_db, _ = get_users_from_db()
+
+    if fake_users_db[current_user.username]["admin_permissions"] == 0:
+        raise HTTPException(
+            status_code=403,
+            detail="No permissions to resource",
+        )
+
     dict_fastapi = get_fastapi_info(request, current_user)
     bd_add_device(hostname, post.dict(), dict_fastapi)
     # print(hostname)
@@ -203,6 +236,15 @@ async def modify_device(hostname: str, request: Request, post: UpdateDevice, cur
     Used when click on Modify Button on Modify Tab -->
     File: ModifyDevice.vue, Section: method: modify_device_button()
     """
+
+    fake_users_db, _ = get_users_from_db()
+
+    if fake_users_db[current_user.username]["admin_permissions"] == 0:
+        raise HTTPException(
+            status_code=403,
+            detail="No permissions to resource",
+        )
+
     dict_fastapi = get_fastapi_info(request, current_user)
     bd_modify_device(hostname, post.dict(), dict_fastapi)
 
@@ -213,6 +255,15 @@ async def delete_device(hostname: str, request: Request, current_user: User = De
     Used when click on Delete Button on Delete Tab -->
     File: DeleteDevice.vue, Section: method: delete_device_button()
     """
+
+    fake_users_db, _ = get_users_from_db()
+
+    if fake_users_db[current_user.username]["admin_permissions"] == 0:
+        raise HTTPException(
+            status_code=403,
+            detail="No permissions to resource",
+        )
+
     dict_fastapi = get_fastapi_info(request, current_user)
     bd_delete_device(hostname, dict_fastapi)
 
@@ -229,6 +280,15 @@ async def get_hostname_list(request: Request, current_user: User = Depends(get_c
     Also, after Modify button on Modify Tab is pressed -->
     File: ModifyDevice.vue, Section: method: update_info_after_modify_button_clicked()
     """
+
+    fake_users_db, _ = get_users_from_db()
+
+    if fake_users_db[current_user.username]["admin_permissions"] == 0:
+        raise HTTPException(
+            status_code=403,
+            detail="No permissions to resource",
+        )
+
     dict_fastapi = get_fastapi_info(request, current_user)
     return bd_show_hostname_list(dict_fastapi)
 
@@ -264,6 +324,15 @@ async def get_device_values_to_modify(hostname: str, request: Request, current_u
     errors when Modify Button is clicked -->
     File: ModifyDevice.vue, Section: method: update_info_after_modify_button_clicked()
     """
+
+    fake_users_db, _ = get_users_from_db()
+
+    if fake_users_db[current_user.username]["admin_permissions"] == 0:
+        raise HTTPException(
+            status_code=403,
+            detail="No permissions to resource",
+        )
+
     value = {
         "hostname": hostname
     }
@@ -310,6 +379,17 @@ async def get_diagram_info_id(id: int, request: Request, current_user: User = De
     dict_fastapi = get_fastapi_info(request, current_user)
     return bd_get_diagram_info_by_id(id, dict_fastapi)
 
+
+@ app.get("/get_permission_admin_value", status_code=200, tags=["Permissions"])
+async def get_permission(current_user: User = Depends(get_current_active_user)):
+    """
+    Used by every endpoint to check if user has admin permissions (admin_permissions = 1)
+    or not (admin_permissions = 0). 
+
+    Then, this value is used to show an appropiate Header: Todo-Header.vue or Todo-HeaderNoAdmin.vue
+    """
+    fake_users_db, _ = get_users_from_db()
+    return fake_users_db[current_user.dict()["username"]]["admin_permissions"]
 
 if __name__ == "__main__":
     uvicorn.run(

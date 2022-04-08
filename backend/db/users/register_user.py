@@ -44,15 +44,17 @@ def add_user_to_db(new_user):
 
     c = conn.cursor()
 
-    c.execute("INSERT INTO infousers VALUES (:username, :full_name, :email, :hashed_password, :disabled)",
-              {
-                  'username': new_user["username"],
-                  'full_name': new_user["full_name"],
-                  'email': new_user["email"],
-                  'hashed_password': new_user["hashed_password"],
-                  'disabled': new_user["disabled"],
-              }
-              )
+    c.execute(
+        "INSERT INTO infousers VALUES (:username, :full_name, :email, :hashed_password, :disabled, :admin_permissions)",
+        {
+            'username': new_user["username"],
+            'full_name': new_user["full_name"],
+            'email': new_user["email"],
+            'hashed_password': new_user["hashed_password"],
+            'disabled': new_user["disabled"],
+            'admin_permissions': new_user["admin_permissions"],
+        }
+    )
 
     conn.commit()
     conn.close()
@@ -72,22 +74,16 @@ new_user = {}
 #     "email": "mativarrone2@gmail.com",
 #     "hashed_password": create_hash("ubp1234"),
 #     "disabled": "False",
+#     "admin_permissions": 1
 # }
 
 # new_user = {
-#     "username": "dtrump",
-#     "full_name": "Donald Trump",
-#     "email": "dtrump@gmail.com",
-#     "hashed_password": create_hash("donald123"),
+#     "username": "johndoe",
+#     "full_name": "John Doe",
+#     "email": "mativarrone2@gmail.com",
+#     "hashed_password": create_hash("secret1"),
 #     "disabled": "False",
-# }
-
-# new_user = {
-#     "username": "admin",
-#     "full_name": "Admin Account",
-#     "email": "thisisadminaccount@gmail.com",
-#     "hashed_password": create_hash("admin123"),
-#     "disabled": "False",
+#     "admin_permissions": 0
 # }
 
 
