@@ -1,16 +1,31 @@
 import os
 import shutil
+import subprocess
+import webbrowser
 
 import requests
 
+BASE_FRONTEND_URL = "https://www.lldp.duckdns.org"
+BASE_BACKEND_URL = "https://www.lldp.duckdns.org:5000"
+BASE_NGINX_PATH = "C:/nginx-1.21.6"
+COMPILED_DIST_PATH = "D://Documentos//Mati//tfc//frontend//dist"
+# NGINX_PROJECT_PATH is used in nginx.conf --> server{ location{ root } }
+NGINX_PROJECT_PATH = "C://nginx-1.21.6//projects//tfc//dist"
 
-def deploy():
-    path1 = "D://Documentos//Mati//tfc//frontend//dist"  # compiled dist folder
-    path2 = "C://nginx-1.21.6//projects//tfc//dist"  # nginx project folder
+
+def build():
+    os.chdir("../frontend")
+    if subprocess.call('yarn build', shell=True) == 0:
+        return "OK"
+
+
+def cut_dist_folder():
+    path1 = COMPILED_DIST_PATH
+    path2 = NGINX_PROJECT_PATH
 
     value_1 = os.path.isdir(path1)
     if not value_1:
-        return "\ndist folder not found at tfc/frontend"
+        return "dist folder not found at tfc/frontend"
 
     value_2 = os.path.isdir(path2)
     if value_2:
@@ -18,15 +33,19 @@ def deploy():
         try:
             shutil.rmtree(mydir)
             shutil.move(path1, path2)
-            print("\nDone\n")
+            # print("\nDone\n")
+            msg = "OK"
         except OSError as e:
             print("Error: %s - %s." % (e.filename, e.strerror))
     else:
         try:
             shutil.move(path1, path2)
-            print("\nDone\n")
+            # print("\nDone\n")
+            msg = "OK"
         except Exception as e:
-            print(e)
+            # print(e)
+            msg = e
+    return msg
 
 
 def write_info(path, text):
@@ -34,14 +53,22 @@ def write_info(path, text):
         f.write(text)
 
 
-def get_api_json():
-    base_url = "https://www.lldp.duckdns.org:5000"
-    full_url = base_url + "/openapi.json"
+def create_api_docs_in_json_file(url):
+    os.chdir("../backend")
 
-    payload = {}
-    headers = {}
+    full_url = url + "/openapi.json"
 
-    response = requests.request("GET", full_url, headers=headers, data=payload)
+    payload = headers = {}
+
+    try:
+        response = requests.request(
+            "GET", full_url, headers=headers, data=payload)
+    except Exception as e:
+        return {
+            "error": True,
+            "info": "FAIL\n\nError:\n\n" + str(e.args) + "\n",
+            "status_code": 500
+        }
 
     if response.status_code == 200:
         if not os.path.exists("postman"):
@@ -52,7 +79,19 @@ def get_api_json():
 
         write_info('postman/openapi.json', response.text)
 
-        postman_text = """# How to import API documentation into Postman
+        return {
+            "info": "OK",
+            "status_code": response.status_code,
+        }
+
+    return {
+        "info": "Bad status code on response: " + str(response.status_code),
+        "status_code": response.status_code
+    }
+
+
+def create_README_file(url):
+    postman_text = """# How to import API documentation into Postman
 
 1. Open Postman
 2. Go to "APIs", select "New", inside "Advanced" section select "API" and then "Import" tab
@@ -64,7 +103,7 @@ def get_api_json():
 8. Set baseUrl:
     - VARIABLE: baseUrl
     - INITIAL VALUE: /
-    - CURRENT VALUE: """ + base_url + """
+    - CURRENT VALUE: """ + url + """
     - Be sure this field is checked
 9. Click on Save Button (upper right located)
 10. Now, you can test every endpoint
@@ -129,14 +168,48 @@ def get_api_json():
     Note: This example access token is no longer valid when uploaded to GitHub.
 
 """
+    write_info('postman/README.md', postman_text)
+    return "OK"
 
-        write_info('postman/README.md', postman_text)
+# >>> proc = subprocess.Popen('ls', stdout=subprocess.PIPE)
+# >>> output = proc.stdout.read()
+# >>> print output
 
-        return "\nAPI docs copied to postman/openapi.json and README.md created\n"
+
+def check_nginx_status(base_nginx_path):
+    proc = subprocess.Popen(
+        'tasklist /fi "imagename eq nginx.exe"', stdout=subprocess.PIPE)
+    output = str(proc.stdout.read())
+
+    if "nginx.exe" in output:
+        return "OK"
     else:
-        return "\nStatus code: " + str(response.status_code) + "\n"
+        os.chdir(base_nginx_path)
+        if subprocess.call('start nginx.exe', shell=True) == 0:
+            return "OK, now is active"
+
+
+def open_browser(url):
+    if webbrowser.open(url, new=2):
+        return "OK, opening browser tab ..."
 
 
 if __name__ == "__main__":
-    print(deploy())
-    print(get_api_json())
+    print("\n===== TRYING TO DEPLOY =====\n")
+    build_response = build()
+    print("\n===== RESULTS =====")
+    print("\n1. Build:", build_response)
+    print("2. Cut:", cut_dist_folder())
+    response = create_api_docs_in_json_file(BASE_BACKEND_URL)
+    print("3. Create backend/postman/openapi.json:", response["info"])
+
+    if response["status_code"] == 200:
+        print(
+            "4. Create backend/postman/README.md:",
+            create_README_file(BASE_BACKEND_URL))
+    else:
+        print("4. Create backend/postman/README.md:", "Not executed")
+    print("5. nginx:", check_nginx_status(BASE_NGINX_PATH))
+    print("6. Browser:", open_browser(BASE_FRONTEND_URL), "\n")
+
+# push code to GitHub
